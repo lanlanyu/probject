@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>帮助中心</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/reset_media.css" />
+		<link rel="stylesheet" type="text/css" href="css/helpall.css"/>
+		<style type="text/css">
+		    body{
+		    	 height: 100%;
+		    }
+			#wrap {
+				width: 100%;
+				height: 100%;
+				/*position: absolute;*/
+				background: rgb(245, 248, 250);
+				z-index: 1;
+			}
+			
+			.frame {
+				/*w1200 h1237*/
+				position: relative;
+				margin: 30px auto 0;
+				
+				max-width: 1000px;
+				width: 100%;
+				/*min-height: 4754px;*/
+				min-height: 1266px;
+				height: 100%;
+				overflow-x: hidden;
+			}
+			
+			.bar {
+				max-width: 1200px;
+				width: 100%;
+				min-height: 11px;
+				background: rgb(240, 241, 242);
+			}
+			
+			#navl {
+				/*w250 h806*/
+				position: absolute;
+				margin-top: 11px;
+				width: 20.8%;
+				height: 806px;
+				background: white;
+			}
+			
+			.bzzx1 {
+				/*w220 h100*/
+				position: absolute;
+				margin-top: 11px;
+				margin-left: 4.4%;
+				width: 88%;
+				height: 100px;
+				background: rgb(235, 235, 235);
+				font: "微软雅黑";
+				font-size: 30px;
+				color: rgb(153, 153, 153);
+				text-align: center;
+				line-height: 100px;
+				overflow: hidden;
+			}
+			
+			.navh-box {
+				/*w240 h676*/
+				position: absolute;
+				margin-top: 130px;
+				width: 96%;
+				min-height: 676px;
+			}
+			
+			.navh-box div {
+				min-height: 167px;
+			}
+			
+			.hp {
+				width: 83.33%;
+				min-height: 40px;
+				padding-left: 16.67%;
+				background: rgb(235, 235, 235);
+				text-align: left;
+				font: "微软雅黑";
+				font-size: 16px;
+				color: rgb(51, 51, 51);
+				line-height: 40px;
+				overflow: hidden;
+			}
+			
+			.ul1, .ul2, .ul3, .ul4{
+				margin-top: 20px;
+				margin-left: 25%;
+				/*height: 126px;*/
+				font: "微软雅黑";
+				font-size: 12px;
+				color: rgb(235, 235, 235);
+				line-height: 30px;
+				text-align: left;
+				overflow: hidden;
+			}
+			
+			.main {
+				position: absolute;
+				margin-top: 0;
+				margin-left: 22.4%;
+				max-width: 932px;
+				width: 77.6%;
+				background: white;
+				
+				/*height: 100%;*/
+			}
+			#navl a{
+				color: black;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div id="wrap">
+			<!--顶部-->
+			<div class="header" id="top">
+				<div class="header_one clear">
+					<div class="header_one_left left clear">
+						<div class="header_one_left_one">
+							欢迎来到某某夺宝!
+						</div>
+						<div class="header_one_left_two">
+							<div><span id="Login">
+									登录
+								</span>
+								<span id="Register">
+									注册
+								</span>
+							</div>
+							<div style="display: none;">
+								<span>136****8592</span>
+							</div>
+						</div>
+					</div>
+					<div class="header_one_right right clear">
+						<ul>
+							<li>客服</li>
+							<li>APP下载</li>
+							<li>充值</li>
+							<li>我的夺宝</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="toop">
+				<div class="top clear">
+					<div class="top_logo left">
+						<img src="img/logo.png"/>
+					</div>
+					<div class="nav left clear">
+						<ul>
+							<li><a href="index.html">首页</a></li>
+							<li><a href="all_shangPin.html">精选商品</a></li>
+							<li><a href="resultsReveaied.html">结果揭晓</a></li>
+							<li><a href="###">晒单分享</a></li>
+							<li><a href="help_centre.html">新手指南</a></li>
+						</ul>
+					</div>
+					<div class="top_right right clear">
+						<div class="shopcar clear">
+							<span>
+								
+							</span>
+							<div class="car left">
+								购物车
+							</div>
+						</div>
+					</div>
+					<div class="search right clear">
+						<div class="search_text left clear">
+							<input type="text" width="100" name="" id="Ser" class="left" value=""  placeholder="搜索"/>
+							<span class="search_car left">
+								汽车
+							</span>
+							<span class="search_apple left">苹果</span>
+						</div>
+						<div class="search_btn left">
+							<img src="img/search.png"/>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="frame">
+					<!--大框架-->
+					<div class="bar"></div>
+					<!--灰色横条-->
+					<div id="navl">
+						<!--左导航-->
+						<div class="bzzx1">
+							帮助中心
+						</div>
+						<div class="navh-box">
+							<!--包住四个sections的框架-->
+							<div>
+								<!--新手指南-->
+								<p class="hp">新手指南</p>
+								<ul class="ul1">
+									<li>
+										<a href="javascript:void(0);">夺宝规则与流程</a>
+									</li>
+									<li>
+										<a href="javascript:void(0);">常见问题</a>
+									</li>
+									<li>
+										<a href="javascript:void(0);">服务协议</a>
+									</li>
+								</ul>
+							</div>
+	
+							<div>
+								<!--夺宝保障-->
+								<p class="hp">夺宝保障</p>
+								<ul class="ul2">
+									<li>
+										<a href="javascript:void(0);">某某夺宝保障体系</a>
+									</li>
+									<li>
+										<a href="javascript:void(0);">安全支付</a>
+									</li>
+									<li>
+										<a href="javascript:void(0);">隐私声明</a>
+									</li>
+								</ul>
+							</div>
+							<div>
+								<p class="hp">商品配送</p>
+								<ul class="ul3">
+									<li>
+										<a href="javascript:void(0);">配送费用</a>
+									</li>
+									<li>
+										<a href="javascript:void(0);">验货与签收</a>
+									</li>
+									<li>
+										<a href="javascript:void(0);">长时间未收到商品</a>
+									</li>
+								</ul>
+							</div>
+							<div>
+								<p class="hp">关于我们</p>
+								<ul class="ul4">
+									<li>
+										<a href="javascript:void(0);">关于点盛</a>
+									</li>
+									<li>
+										<a href="javascript:void(0);">客服中心</a>
+									</li>
+									<li>
+										<a href="javascript:void(0);">建议反馈</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="main">
+						<div id="helpIntro">
+							<div class="h-ibar">某某夺宝介绍</div>
+							<div class="h-detail1">
+								
+								<div class="h-box1" style="min-height: 35px; padding-top: 35px; padding-bottom: 35px; text-indent:2em">“某某夺宝平台”以“众筹”模式为各类商品的销售提供了网络空间。在本平台，商品被平分成若干等份，支持者可以使用夺宝币支持一份或多份，当等份全部售完后，由系统根据平台规则计算出最终获得商品的支持者。
+								</div>
+							</div>
+							<div class="detail2">
+								<div class="h-ibar">夺宝操作步骤<span><a href="###">马上去夺宝 > </a></span></div>
+								<div class="h-boxbz" style="min-height: 391px; padding-top: 21px; padding-bottom: 18px;">
+									<div class="h-tu1">
+										<div class="h-circle" style="margin-left:0;"></div>
+										<div class="h-circle"></div>
+										<div class="h-circle"></div>
+										<div class="h-circle"></div>
+										<div class="h-jiantou1">
+											<div class="h-arrow"><img src="img/h-jiantou1.png" /></div>
+											<div class="h-arrow"><img src="img/h-jiantou1.png" /></div>
+											<div class="h-arrow"><img src="img/h-jiantou1.png" /></div>
+										</div>
+	
+									</div>
+									<div class="h-zi1">
+										<div style="margin-left:0">注册和登录</div>
+										<div>充值获得夺宝币</div>
+										<div>选购商品</div>
+										<div>用夺宝币支付</div>
+									</div>
+									<div class="h-tu2">
+										<div class="h-circle" style="margin-left:0; border: 1px hidden;"></div>
+										<div class="h-circle"></div>
+										<div class="h-circle"></div>
+										<div class="h-circle"></div>
+										<div class="h-jiantou2">
+											<div class="h-arrow"><img src="img/h-jiantou2.png" style="display: none;" /></div>
+											<div class="h-arrow"><img src="img/h-jiantou2.png" /></div>
+											<div class="h-arrow"><img src="img/h-jiantou2.png" /></div>
+										</div>
+									</div>
+									<div class="h-zi2">
+										<div style="margin-left:0; vertical-align:top;"></div>
+										<div>等待结果揭晓</div>
+										<div>中奖后等待奖品发货</div>
+										<div>收货并晒单分享</div>
+									</div>
+								</div>
+							</div>
+							<div class="detail3">
+								<div class="h-ibar">幸运号码计算规则<span><a href="###">观看结果揭晓 > </a></span></div>
+								<div class="h-box1" style="min-height: 138px; padding-top: 28px; padding-bottom: 27px;">
+									<p>1、 商品的最后一个号码分配完毕后，将公示截止该时间点本站全部商品的最后50个参与时间；</p>
+									<p>2、 将这50个时间的数值进行求和（得出数值A）（每个时间按时、分、秒、毫秒的顺序组合，如20:15:25.362则 为201525362）；
+									</p>
+									<p>3、 （数值A+数值B）除以该商品总需人次得到的余数 + 原始数 10000001，得到最终幸运号码，拥有该幸运号码者，直接获得该商品。</p>
+								</div>
+							</div>
+							<div class="detail4">
+								<div class="h-ibar">晒单规则<span><a href="###">看看别人晒单 > </a></span></div>
+								<div class="h-box1" style="min-height: 143px; padding-top: 28px; ">
+									<p>如果您获得了商品，可以通过晒单和网友们分享喜悦，帮助大家更充分地了解某某夺宝的乐趣。晒单的时候，我们提醒您注意以下几点：</p>
+									<p>1、详细的内容，是晒单的精华，因此，建议您的晒单不少于50字，并且配上3张以上不同的照片；</p>
+									<p>2、真实，是晒单的灵魂，因此，您可以将快递单号也晒上来。（建议您马赛克处理下快递单上的个人隐私部分）</p>
+									<p>3、一般大家都喜欢沾运气，因此，如果您能够出境和商品合个影儿什么的，给大家一起膜拜就再好不过了！</p>
+									<p>4、如果同一类商品多次获得，请勿简单的复制粘贴之前的晒单内容。</p>
+								</div>
+							</div>
+						</div>
+						<div id="helpFAQ">
+							<div class="h-ibar">常见问题</div>
+							<div class="h-box2">
+								<span>1、 怎样参加某某夺宝？</span>
+								<div>
+									<p>在某某网站用手机号注册、登录和充值，就可以参加某某夺宝了。
+									</p>
+								</div><br />
+	
+								<span>2、某某夺宝是怎么计算幸运号码的？</span>
+								<p>商品的最后一个号码分配完毕后，将公示截止该时间点本站全部商品的最后50个参与时间； 将这50个时间的数值进行求和（得出数值A）（每个时间按时、分、秒、毫秒的顺序组合，如20:15:25.362则为 201525362）； （数值A+数值B）除以该商品总需人次得到的余数 + 原始数 10000001，得到最终幸运号码，拥有该幸运号码者， 直接获得该商品。
+								</p><br />
+	
+								<span>3、怎样查看是否成为幸运用户？</span>
+								<p>用户个人中心有您的夺宝记录，点击对应的记录，即可知道该期夺宝的获得者；如果您成为幸运用户，将会有短信 等方式的通知。
+								</p><br />
+	
+								<span>4、如何领取幸运商品？</span>
+								<p>在您成为幸运用户后会收到短信通知，收到通知后，请到个人中心填写真实的收货地址，完善或确认您的个人信息，以便我们为您派发获得的商品。
+								</p><br />
+	
+								<span>5、商品是正品吗？怎么保证？</span>
+								<p>某某夺宝所有商品均由广州点盛信息科技有限公司确认的第三方商家提供及发货，100%正品，可享受厂家所提供 的全国联保服务。
+								</p><br />
+	
+								<span>6、我收到的商品可以换货或者退货吗？</span>
+								<p>非质量问题，不在三包范围内，不给予退换货请尽量亲自签收并当面拆箱验货，如果发现运输途中造成了商品的损 坏，请不要签收，可以拒签退回。
+								</p><br />
+	
+								<span>7、如果一件商品很久都没达到总需人次怎么办？</span>
+								<p>若某件商品的夺宝号码从开始分配之日起90天未分配完毕，则广州点盛信息科技有限公司有权取消该件商品的夺 宝活动，并向用户退还夺宝币，所退还夺宝币将在3个工作日内退还至用户账户中。
+								</p><br />
+	
+								<span>8、参与某某夺宝需要注意什么？</span>
+								<p>为了确保在您成为幸运用户后第一时间收到通知，请务必正确填写真实有效的联系电话和收货地址。
+								</p><br />
+	
+								<span>9、网上支付未及时到帐怎么办？</span>
+								<p>由于网速或者支付接口等问题，支付数据没有及时传送到支付系统造成的； 如果支付过程问题遇到问题，请与我们联系。
+								</p><br />
+	
+								<span>10、如何进行夺宝币充值？</span>
+								<p>首页和个人中心页面可以找到入口进行充值；需要注意的是，充值之后获得的是夺宝币，可以直接用于参与夺宝。
+								</p><br />
+	
+								<span>11、夺宝币是否可以提现？</span>
+								<p>很抱歉，夺宝币无法提现。
+								</p><br />
+							</div>
+							<div class="kefu">
+								以上答案没有我想要的
+								<button class="btn" type="button">寻求客服帮忙</button>
+							</div>
+						</div>
+						<div id="agreement">
+							<div class="h-ibar">服务协议</div>
+							<div class="h-box3">
+								<p>欢迎您访问并使用充满互动乐趣的购物网站-
+									<a href="###">某某夺宝</a>，作为为用户提供全新、有趣购物模式的互联网公司，
+									<a href="###">某某夺宝</a>通过在线网站为您提供各项相关服务。当使用
+									<a href="###">某某夺宝</a>的各项具体服务时，您和
+									<a href="###">某某夺宝</a>都将受到本服务协议所产生的制约，
+									<a href="###">某某夺宝</a>会不断推出新的服务，因此所有服务都将受此服务条款的制约。请您在注册前务必认真阅读此服务协议的内容并确认，如有任何疑问，应向
+									<a href="###">某某夺宝</a>咨询。一旦您确认本服务协议后，本服务协议即在用户和
+									<a href="###">某某夺宝</a>之间产生法律效力。您在注册过程中点击“同意以下条款提交注册信息”按钮即表示您完全接受本协议中的全部条款。随后按照页面给予的提示完成全部的注册步骤。
+								</p><br />
+	
+								<p>
+									<a href="###">某某夺宝</a>将可能不定期的修改本服务协议的有关条款，并保留在必要时对此协议中的所有条款进行随时修改的权利。一旦协议内容有所修改，
+									<a href="###">某某夺宝</a>将会在网站重要页面或社区的醒目位置第一时间给予通知。如果您继续使用
+									<a href="###">某某夺宝</a>的服务，则视为您受协议的改动内容。如果不同意本站对协议内容所做的修改，
+									<a href="###">某某夺宝</a>会及时取消您的服务使用权限。本站保留随时修改或中断服务而不需告知用户的权利。本站行使修改或中断服务的权利，不需对用户或第三方负责。
+								</p>
+	
+								<br /><span>一、用户注册</span>
+								<p>1、用户注册是指用户登录
+									<a href="###">某某夺宝</a>，按要求填写相关信息并确认同意本服务协议的过程。
+									<p/>
+									<p>2、
+										<a href="###">某某夺宝</a>用户必须是具有完全民事行为能力的自然人，或者是具有合法经营资格的实体组织。无民事行为能力人、限制民事行为能力人以及无经营或特定经营资格的组织不得注册为
+										<a href="###">某某夺宝</a>用户或超过其民事权利或行为能力范围与
+										<a href="###">某某夺宝</a>进行交易，如与
+										<a href="###">某某夺宝</a>进行交易的，则服务协议自始无效，
+										<a href="###">某某夺宝</a>有权立即停止与该用户的交易、注销该用户账户，并有权要求其承担相应法律责任。
+									</p>
+	
+									<br /><span>二、用户的帐号，密码和安全性</span>
+									<p>用户一旦注册成功，成为本站的合法用户。用户将对用户名和密码安全负全部责任。此外，每个用户都要对以其用户名进行的所有活动和事件负全责。用户若发现任何非法使用用户帐号或存在安全漏洞的情况，请立即通告本站。
+									</p>
+	
+									<br /><span>三、<a href="###">某某夺宝</a>原则</span>
+									<p>1、释义
+										<ul style="text-indent:3.5em;">
+											<li>夺宝号：指
+												<a href="###">某某夺宝</a>用户成功参与
+												<a href="###">某某夺宝</a>之后获得的随机分配号码。</li>
+											<li>幸运号：指某件商品所有编码售出后，
+												<a href="###">某某夺宝</a>根据规则计算出的一个编码，持有该编码的用户即可获得该商品。</li>
+										</ul>
+									</p>
+									<p>2、
+										<a href="###">某某夺宝</a>承诺遵循以下的原则运营网站，确保所有用户在
+										<a href="###">某某夺宝</a>网中享受同等的权利与义务。
+										<ul style="text-indent:3.5em;">
+											<li>平等原则：用户和
+												<a href="###">某某夺宝</a>在交易过程中具有同等的法律地位。</li>
+											<li>自由原则：用户享有自愿向
+												<a href="###">某某夺宝</a>参与购买商品的权利，任何人不得非法干预。</li>
+											<li>公平原则：用户和
+												<a href="###">某某夺宝</a>行使权利、履行义务应当遵循公平原则。</li>
+											<li>诚实信用原则：用户和
+												<a href="###">某某夺宝</a>行使权利、履行义务应当遵循诚实信用原则。</li>
+											<li>履行义务原则：用户向
+												<a href="###">某某夺宝</a>参与商品分享购买时，</li>
+										</ul>
+									</p>
+									<p>用户和
+										<a href="###">某某夺宝</a>皆有有义务根据本服务协议的约定完成该等交易（法律或本协议禁止的交易除外）。</p>
+									<p>3、用户知悉，除本协议另有约定外，用户无论是否获得商品，参与
+										<a href="###">某某夺宝</a>的资金均用于帮助他人，不能退回；用户完全了解参与
+										<a href="###">某某夺宝</a>存在的风险，
+										<a href="###">某某夺宝</a>网无法保证用户参与
+										<a href="###">某某夺宝</a>一定会获得商品。
+									</p>
+	
+									<br /><span>四、用户的权利和义务</span>
+									<p>1、用户有权拥有其在
+										<a href="###">某某夺宝</a>的用户名及密码，并用该用户名和密码登录
+										<a href="###">某某夺宝</a>参与商品购买。用户不得以任何形式转让或授权他人使用自己的
+										<a href="###">某某夺宝</a>用户名。
+										<p>
+											2、用户有权根据本协议的规定以及
+											<a href="###">某某夺宝</a>网站上发布的相关规则在
+											<a href="###">某某夺宝</a>上查询商品信息、发表使用体验、参与商品讨论、邀请关注好友、上传商品图片、参加
+											<a href="###">某某夺宝</a>的有关活动，以及享受
+											<a href="###">某某夺宝</a>提供的其它信息服务。
+										</p>
+										<p>
+											3、用户有义务在注册时提供自己的真实资料，并保证诸如电子邮件地址、联系电话、联系地址、邮政编码等内容的有效性及真实性，保证
+											<a href="###">某某夺宝</a>可以通过上述联系方式与用户本人进行联系。同时，用户也有义务在相关资料发生变更时及时更新有关注册资料。用户保证不以他人资料在
+											<a href="###">某某夺宝</a>进行注册和参与商品分享购买。
+										</p>
+										<p>
+											4、用户应当保证在
+											<a href="###">某某夺宝</a>参与商品分享购买时遵守诚实信用原则，不扰乱网上交易的正常秩序。
+										</p>
+										<p>
+											5、用户享有言论自由权利；并拥有适度修改、删除自己发表的文章的权利。用户不得在
+											<a href="###">某某夺宝</a>发表包含以下内容的言论：</p>
+										<ul style="text-indent:4.5em;">
+											<li>1) 反对宪法所确定的基本原则，煽动、抗拒、破坏宪法和法律、行政法规实施的；</li>
+											<li>2) 煽动颠覆国家政权，推翻社会主义制度，煽动、分裂国家，破坏国家统一的；</li>
+											<li>3) 损害国家荣誉和利益的；</li>
+											<li>4) 煽动民族仇恨、民族歧视，破坏民族团结的；</li>
+											<li>5) 任何包含对种族、性别、宗教、地域内容等歧视的；</li>
+											<li>6) 捏造或者歪曲事实，散布谣言，扰乱社会秩序的；</li>
+											<li>7) 宣扬封建迷信、邪教、淫秽、色情、赌博、暴力、凶杀、恐怖、教唆犯罪的；</li>
+											<li>8) 公然侮辱他人或者捏造事实诽谤他人的，或者进行其他恶意攻击的；</li>
+											<li>9) 损害国家机关信誉的；</li>
+											<li>10) 其他违反宪法和法律行政法规的。</li>
+										</ul>
+									</p>
+									<p>6、用户在发表使用体验、讨论图片等。</p>
+									<p>7、未经
+										<a href="###">某某夺宝</a>同意，禁止用户在网站发布任何形式的广告。</p>
+	
+									<br /><span>五、<a href="###">某某夺宝</a>的权利和义务</span>
+									<p>1、
+										<a href="###">某某夺宝</a>购有义务在现有技术上维护整个网上交易平台的正常运行，并努力提升和改进技术，使用户网上交易活动得以顺利进行；</p>
+									<p>2、对用户在注册和使用
+										<a href="###">某某夺宝</a>网上交易平台中所遇到的与交易或注册有关的问题及反映的情况，
+										<a href="###">某某夺宝</a>应及时作出回复；</p>
+									<p>3、对于用户在
+										<a href="###">某某夺宝</a>网站上作出下列行为的，
+										<a href="###">某某夺宝</a>有权作出删除相关信息、终止提供服务等处理，而无须征得用户的同意：</p>
+									<ul style="text-indent:4.5em;">
+										<li>1)
+											<a href="###">某某夺宝</a>有权对用户的注册信息及购买行为进行查阅，发现注册信息或购买行为中存在任何问题的，有权向用户发出询问及要求改正或者作出删除等处理；</li>
+										<li>2) 用户违反本协议规定或有违反法律法规和地方规章的行为的，
+											<a href="###">某某夺宝</a>有权停止传输并删除其信息，禁止用户发言，注销用户账户并按照相关法律规定向相关主管部门进行披露。</li>
+										<li>3) 对于用户在
+											<a href="###">某某夺宝</a>进行的下列行为，
+											<a href="###">某某夺宝</a>有权对用户采取删除其信息、禁止用户发言、注销用户账户等限制性措施：包括发布或以电子邮件或以其他方式传送存在恶意、虚假和侵犯他人人身财产权利内容的信息，进行与分享购物无关或不是以分享购物为目的的活动，恶意注册、签到、评论等方式试图扰乱正常购物秩序，将有关干扰、破坏或限制任何计算机软件、硬件或通讯设备功能的软件病毒或其他计算机代码、档案和程序之资料，加以上载、发布、发送电子邮件或以其他方式传送，干扰或破
+											<a href="###">某某夺宝</a>网站和服务或与
+											<a href="###">某某夺宝</a>网站和服务相连的服务器和网络，或发布其他违反公共利益或可能严重损害
+											<a href="###">某某夺宝</a>和其它用户合法利益的信息。</li>
+									</ul>
+								</p>
+								<p>4、用户在此免费授予
+									<a href="###">某某夺宝</a>永久性的独家使用权(并有权对该权利进行再授权)，使
+									<a href="###">某某夺宝</a>有权在全球范围内(全部或部分地)使用、复制、修订、改写、发布、翻译和展示用户公示于
+									<a href="###">某某夺宝</a>网站的各类信息，或制作其派生作品，和或以现在已知或日后开发的任何形式、媒体或技术，将上述信息纳入其它作品内。</p>
+								<p>5、对于
+									<a href="###">某某夺宝</a>网络平台已上架商品，
+									<a href="###">某某夺宝</a>有权根据市场变动修改商品价格，而无需提前通知客户。</p>
+								<p>6、
+									<a href="###">某某夺宝</a>分享购物模式，秉着双方自愿原则，分享购物存在风险，
+									<a href="###">某某夺宝</a>不对抽取的“幸运编号”结果承担责任，望所有用户谨慎参与。</p>
+								<p>7、90天未达到“总需参与人次”的商品，用户可通过客服申请退款，所退款项将在3个工作日内，退还至
+									<a href="###">某某夺宝</a>账户中。</p>
+								<br /><span>六、配送及费用</span>
+								<p>
+									<a href="###">某某夺宝</a>将会把产品送到您所指定的送货地址。全国免费配送。</p>
+								<p>请清楚准确地填写您的真实姓名、送货地址及联系方式。因如下情况造成配送延迟或无法配送等，本站将不承担责任：</p>
+								<p>1、客户提供错误信息和不详细的地址；</p>
+								<p>2、货物送达无人签收，由此造成的重复配送所产生的费用及相关的后果。</p>
+								<p>3、不可抗力，例如：自然灾害、交通戒严、突发战争等。</p>
+								<br /><span>七、商品缺货规则</span>
+								<p>由于市场变化及各种以合理商业努力难以控制的因素的影响，
+									<a href="###">某某夺宝</a>网无法承诺用户所获得的商品都会有货；用户获得的商品或服务如果发生缺货，协议双方均无权取消该交易，
+									<a href="###">某某夺宝</a>网将通过有效方式通知用户进行换货，用户可选择换购本商城同等价位的商品（一件或多件），或选择补差价换购高价位商品。</p>
+								<p>
+									<a href="###">某某夺宝</a>可对即将上市的商品或服务进行预售登记，
+									<a href="###">某某夺宝</a>网会在商品或者服务正式上市之后尽最大努力在最快时间内给商品获得者安排发货，预售登记并不做交易处理，不构成要约。
+								</p>
+								<br /><span>八、责任限制</span>
+								<p>1、用户理解并同意，在使用
+									<a href="###">某某夺宝</a>网服务的过程中，可能会遇到不可抗力等风险因素使
+									<a href="###">某某夺宝</a>网服务发生中断。不可抗力是指不能预见、不能克服并不能避免且对一方或双方造成重大影响的客观事件，包括但不限于自然灾害如洪水、地震、瘟疫流行和风暴等以及社会事件如战争、动乱、政府行为等。出现上述情况时，
+									<a href="###">某某夺宝</a>网将努力在第一时间与相关单位配合，及时进行修复，但是由此给用户造成的损失，
+									<a href="###">某某夺宝</a>网将在法律允许的范围内免责。</p>
+								<p>2、用户理解并同意，
+									<a href="###">某某夺宝</a>网不能随时预见和防范法律、技术以及其他不可控的风险，对以下情形之一导致的服务中断或受阻，
+									<a href="###">某某夺宝</a>网不承担责任：
+								</p>
+								<ul style="text-indent:4.5em;">
+									<li>1）大规模病毒、木马或其他恶意程序、黑客攻击的破坏；</li>
+									<li>2）用户或
+										<a href="###">某某夺宝</a>网的电脑软件、系统、硬件和通信线路出现故障；</li>
+									<li>3）用户操作不当；</li>
+									<li>4）用户通过非
+										<a href="###">某某夺宝</a>网授权的方式使用服务；</li>
+									<li>5）政府管制等原因可能导致的服务中断、数据丢失以及其他的损失和风险。</li>
+									<li>6）其他
+										<a href="###">某某夺宝</a>网无法控制或合理预见的情形。</li>
+								</ul>
+								</p>
+								<p>3、在法律法规所允许的限度内，因使用
+									<a href="###">某某夺宝</a>服务而引起的任何损害或经济损失，
+									<a href="###">某某夺宝</a>承担的全部责任均不超过用户所购买的与该索赔有关的商品价格。这些责任限制条款将在法律所允许的最大限度内适用，并在用户资格被撤销或终止后仍继续有效。
+								</p>
+								<br /><span>九、网络服务内容的所有权</span>
+								<p>本站定义的网络服务内容包括：文字、软件、声音、图片、录象、图表、广告中的全部内容；电子邮件的全部内容；本站为用户提供的其他信息。所有这些内容受版权、商标、标签和其它财产所有权法律的保护。所以，用户只能在本站和广告商授权下才能使用这些内容，而不能擅自复制、再造这些内容、或创造与内容有关的派生产品。 本站所有的文章版权归原文作者和本站共同所有，任何人需要转载本站的文章，必须征得原文作者或本站授权。
+								</p>
+								<br /><span>十、用户隐私制度</span>
+								<p>我们不会向任何第三方提供，出售，出租，分享和交易用户的个人信息。当在以下情况下，用户的个人信息将部分或全部被善意披露：</p>
+								<p>1、经用户同意，向第三方披露；</p>
+								<p>2、如用户是合资格的知识产权投诉人并已提起投诉，应被投诉人要求，向被投诉人披露，以便双方处理可能的权利纠纷；</p>
+								<p>3、根据法律的有关规定，或者行政或司法机构的要求，向第三方或者行政、司法机构披露；</p>
+								<p>4、如果用户出现违反中国有关法律或者网站政策的情况，需要向第三方披露；</p>
+								<p>5、为提供你所要求的产品和服务，而必须和第三方分享用户的个人信息；</p>
+								<p>6、其它本站根据法律或者网站政策认为合适的披露。</p>
+								</p>
+								<br /><span>十一、法律管辖和适用</span>
+								<p>1、本协议的订立、执行和解释及争议的解决均应适用中国法律。
+									<p>2、如发生本站服务条款与中国法律相抵触时，则这些条款将完全按法律规定重新解释，而其它合法条款则依旧保持对用户产生法律效力和影响。</p>
+									<p>3、本协议的规定是可分割的，如本协议任何规定被裁定为无效或不可执行，该规定可被删除而其余条款应予以执行。</p>
+									<p>4、如双方就本协议内容或其执行发生任何争议，双方应尽力友好协商解决；协商不成时，任何一方均可向本站所在地的人民法院提起诉讼。</p><br />
+	
+							</div>
+						</div>
+						<div id="baozhangtixi">
+							<div class="h-ibar"><p>某某夺宝保障体系</p></div>
+							<div class="h-box4">
+								<span>公平保障</span>
+								<p>某某夺宝作为一个平台，保证所有参与夺宝的用户，都享受同样的权利与义务；参与整个过程完全透明，夺宝号码系统随机分配，保证绝对公平性。</p>
+								<span>公正保障</span>
+								<p>某某夺宝幸运号码计算公式公正公开，杜绝系统作弊和人为控制中奖号码行为，真正保证开奖结果的随机性，绝对公正性。</p>
+								<span>公开保障</span>
+								<p>参与整个过程是完全透明的，您还可以随时查看每件商品参与人数，参与次数，参与名单及中奖信息等记录。</p>
+								<span>权益保障</span>
+								<p>某某夺宝作为标志性云购网站，成功参与夺宝后用户可在个人中心查看夺宝记录，让您放心参与，真实保证用户权益。</p>
+								<span>正品保证</span>
+								<p>某某夺宝精心挑选优质服务品牌商家，保证全场商品100%品牌正品。</p>
+								<span>免费承诺</span>
+								<p>某某夺宝承诺全场所有商品全国免费快递。</p>
+								<span>快速发货</span>
+								<p>揭晓的商品并确认收货地址后，在不缺货的情况下，24小时内快速发货。</p>
+							</div>
+						</div>
+						<div id="safepay">
+							<div class="h-ibar">安全支付</div>
+							<div class="h-box5">
+								<p>某某夺宝使用在本平台充值获得的“夺宝币”作为支付方式。</p>
+	       						<p>用户注册并登录后，使用第三方应用Paypal来为自己账户充值，使用“夺宝币”不仅减少每次用银行卡支付的繁琐流程，同时保护了您银行账户信息的安全，充分保证您在线支付的安全性。</p>
+							</div>
+						</div>
+						<div id="privacy">
+							<div class="h-ibar">隐私声明</div>
+							<div class="h-box6">
+								<p style="margin-bottom: 45px;">
+									欢迎您访问并使用充满互动乐趣的购物网站-<a href="###">某某夺宝</a><a href="###">(www.yyyt.com)</a>！我们以本隐私申明声明对访问者隐私保护的许诺。在未经您同意之下，我们绝不会将您的个人数据提供予任何与本网站服务无关的第三人。如您访问本网站，那么您便接受了本隐私声明。以下文字公开我站<a href="###">（www.yyyt.com）</a> 对信息收集和使用的情况。本站的隐私声明会不断改进，随着我站服务的增加，我们会随时更新我们的隐私申明。欢迎您随时查看本申明，并可向<a href="###">support@eyougame.com</a> 反馈您的意见。
+								</p>
+								<span>一、未成年人的特别注意事项</span>
+								<p style="margin-bottom: 45px;">
+									如果您未满18周岁，您无权使用本站服务，因此我们希望您不要向我们提供任何个人信息。如果您未满18周岁，您只能在父母或监护人的陪同下才可以使用本站服务。
+								</p>
+								<span>二、用户名和密码</span>
+								<p style="margin-bottom: 45px;">
+									当您在注册为本站用户时，您需要根据提示填写用户名和密码，并按步骤提示完成手机的验证。您只能通过已验证手机及其密码来使用您的账户。如果您泄漏或忘了密码，您可能会丢失您的个人识别信息，并可能导致对您不利的司法行为。因此无论任何原因使您的密码安全受到危及时，您应该立即通过<a href="###">support@eyougame.com</a>和我们取得联系。
+								</p>
+								<span>三、完善信息</span>
+								<p style="margin-bottom: 45px;">
+									在您注册成为本站用户后或参与购物并获得商品后，您需要在“我的夺宝”里完善您个人信息，根据填写要求提供您的真实姓名，地址，与电子邮件地址。您还有权选择填写更多信息，包括昵称、备用手机、生日等。我们使用注册信息来保护用户账户安全，在您在账户利益受到危害的情况下。同时我们使用注册信息来获得用户统计资料，以便为用户提供更多更新的服务。我们会通过电子邮件或手机短信方式通知您有关新的服务。
+								</p>
+								<span>四、什么是Cookies？</span>
+								<p>
+									Cookies是一种能够让网站服务器把少量数据储存到客户端的硬盘或内存，或是从客户端的硬盘读取数据的一种技术。Cookies是当你浏览某网站时，由Web服务器置于你硬盘上的一个非常小的文本文件，它可以记录你的用户ID、密码、浏览过的网页、停留的时间等信息。
+								</p>
+								<p>
+									当你再次来到该网站时，网站通过读取Cookies，得知你的相关信息，就可以做出相应的动作，如在页面显示欢迎你的标语，或者让你不用输入ID、密码就直接登录等等。从本质上讲，它可以看作是你的身份证。但Cookies不能作为代码执行，也不会传送病毒，且为你所专有，并只能由提供它的服务器来读取。
+								</p>
+								<p style="margin-bottom: 45px;">
+									本站为您提供Cookies使用功能，以便为您提供周到的个性服务，使您再次访问时更加快捷、方便。当然，您也可以有权选择关闭此服务，本站将为您停止Cookies为您的服务。
+								</p>
+								<span>五、信息披露</span>
+								<p>我们不会向任何第三方提供，出售，出租，分享和交易用户的个人信息。当在以下情况下，用户的个人信息将部分或全部被善意披露：</p>
+								<p>1、经用户同意，向第三方披露；</p>
+								<p>2、如用户是合资格的知识产权投诉人并已提起投诉，应被投诉人要求，向被投诉人披露，以便双方处理可能的权利纠纷；</p>
+								<p>3、根据法律的有关规定，或者行政或司法机构的要求，向第三方或者行政、司法机构披露；</p>
+								<p>4、如果用户出现违反中国有关法律或者网站政策的情况，需要向第三方披露；</p>
+								<p>5、为提供你所要求的产品和服务，而必须和第三方分享用户的个人信息；</p>
+								<p style="margin-bottom: 45px;">6、其它本站根据法律或者网站政策认为合适的披露。</p>
+								<span>六、安全</span>
+								<p style="margin-bottom: 45px;">
+									我们网站有相应的安全措施来确保我们掌握的信息不丢失，不被滥用和变造。这些安全措施包括向其它服务器备份数据和对用户密码加密。尽管我们有这些安全措施，但请注意在因特网上不存在“完善的安全措施”。
+								</p>
+								<span>七、查阅和修改个人信息</span>
+								<p style="margin-bottom: 45px;">
+									您使用某某夺宝服务时，您可以随时查阅并随时修改您的个人信息。同时，在您登录后我们会提供登录日志功能，我们会将您每次登陆的IP地址公布供您查看，以便保证您账号的安全性。因此提供查看IP地址仅仅只是为了安全的必要。
+								</p>
+								<span>八、邮件/短信服务</span>
+								<p style="margin-bottom: 45px;">
+									注册成为某某夺宝用户后，您将会收到以电子邮件或短信的形式为您发送的最新活动与通知。为此，我们保留为用户发送最新活动与通知等告知服务的权利。当您注册成为某某夺宝用户后即表明您已同意接受此项服务。如您不想接受来自某某夺宝的邮件、短信与通知，您可向某某夺宝客服提出退阅申请，并注明您的电子邮件地址、手机号等相关接受平台信息，某某夺宝将在收到您的申请后为您及时办理。
+								</p>
+							</div>
+						</div>
+						<div id="delivery">
+							<div class="h-ibar">配送费用</div>
+							<div class="h-box7">
+								<p>
+									在您获得商品后，某某夺宝将在第一时间内免费为你寄出，一般采用签约快递，均为服务好，覆盖网点非常广泛的全国性快递公司，以最大限度保证商品安全。
+								</p><br />
+								<p>
+									若遇商品暂时缺货或者是有其他方面的问题，某某夺宝客服中心将会及时与您沟通处理。
+								</p>
+							</div>
+						</div>
+						<div id="checkgood">
+							<div class="h-ibar">验货与签收</div>
+							<div class="h-box8">
+								<p>
+									 1、您在签收商品时请慎重，请尽量不要让人代签，并务必先仔细检查商品（外包装是否被开封、商品是否破损、配件是否缺失、功能是否正常），确保无误后再签收，以免产生不必要的纠纷。若有任何疑问，请及时拨打客服电话反馈信息。若因用户未仔细检查商品即签收后产生的纠纷，某某夺宝概不负责，仅承担协调处理的义务。
+								</p>
+								<p>
+									2、若因您的地址填写错误、联系方式填写有误等情况造成商品无法完成投递或被退回，所产生的额外费用及后果由用户负责。
+								</p>
+								<p>
+									3、如因不可抗拒的自然原因（地震、洪水等等）所造成的商品配送延迟，某某夺宝不承担责任。
+								<p>
+									4、若你获得的商品物流显示已签收，三天内没有提出异议，系统确认已收货。
+								</p>
+								<p>
+	       							温馨提醒：<br />
+	       							若您或您的委托人已签收，则说明订单商品正确无误且不存在影响使用的因素，某某夺宝有权不受理因包装或商品破损、商品错漏发、商品表面质量问题、商品附带品及赠品少发为由的换货申请。
+	       						</p>
+							</div>
+						</div>
+						<div id="toolong">
+							<div class="h-ibar">长时间未收到商品</div>
+							<div class="h-box9">
+								<p>长时间未收到商品可能出现的原因及解决方法：</p><br />
+								<p>1、请您确保您的收货地址、邮编、电话等各项信息的准确性，以便商品及时、准确地发出。</p><br />
+								<p>2、当您的商品送达目的地之后，如快递人员在快件保管期（一般3-7天）未能联系到您，快件将退回，我们会联系您进行二次配送，由此产生的费用将由您自行承担。</p><br />
+								<p>3、若商品在快递过程中遭遇损坏或丢失，我们将会联系快递公司进行索赔并重新联系您进行免费二次配送。</p><br />
+								<p>4、若由于某某夺宝网站系统信息出错或未及时为您发货，我们将会尽快联系您说明未发货原因并马上为您发货，同时给予您<a> 2 个夺宝币</a>以作补偿。</p>
+							</div>
+						</div>
+						<div id="about">
+							<div class="h-ibar">关于点盛信息科技有限公司</div>
+							<div class="h-logo">
+								<img src="img/logoinabout.png"/>
+							</div>
+							<div class="h-box10">
+								<p>广州点盛信息科技有限公司于2013年成立，总部Eyougame设立于新加坡，现位于广州天河区黄埔大道120号高志大厦，是一家专注于手机游戏海外发行的互联网公司，并于2014年和2015年分别在马来西亚和台湾成立了分公司。公司成立至今，已发行多款精品游戏。游戏市场已覆盖中国港澳台和新加坡、泰国、马来西亚及越南等东南亚地区，随着公司全球化发展战略的推行，将逐步开拓北美和日韩市场，从而最终实现做全球领先的手游海外发行商的愿景。</p>
+								<p>联系我们</p>
+								<p>公司主页： http://www.Eyougame.com</p>
+								<p>电 话： 020 - 38895092</p>
+								<p>邮 箱： support@eyougame.com</p>
+								<p>地 址： 广州天河区黄埔大道120号高志大厦18楼A</p>
+								<p>邮 编： 510000</p>
+							</div>
+						</div>
+						<div id="kefuzx">
+							<div class="h-ibar">客服中心</div>
+							<div class="h-box11">
+								<p>客服电话： 020 - 38895092</p>
+								<p>邮 箱： support@eyougame.com</p>
+								<p>Facebook：https://www.facebook.com/eyou.game</p>
+								<p>微信公众号：Eyougame</p>
+							</div>
+						</div>
+						<div id="suggest">
+							<div class="h-ibar">建议反馈<span>（建议被采纳可获赠相应的礼品哦！）</span></div>
+							<div class="h-box12">
+								<p>
+									很高兴您能提供更好的建议与意见使我们不断完善与进步，我们收到信息以后会尽快回复您，你可以通过以下
+	方式向我们提出意见和建议：
+								</p>
+								<div class="theme">
+									<span>主题</span>
+									<select name="">
+										<option value="help1">注册与登录</option>
+										<option value="help2">充值与支付</option>
+										<option value="help3">商品购买</option>
+										<option value="help4">商品配送</option>
+										<option value="help5">网站体验</option>
+										<option value="help6" selected="selected">其他建议与反馈</option>
+									</select>
+								</div>
+								<div class="context">
+									<span>具体内容</span>
+									<textarea class="h-textarea" placeholder="请在此填写详细的意见与建议" onblur="txtArea(this)"></textarea>
+									<div class="h-ht1">*请填写您的意见或建议</div>
+								</div>
+								<div class="yanzm">
+								<span>验证码</span>
+									<input type="text" id ="Txtidcode" class ="txtVerification">
+									<span id="idcode" style="overflow: hidden;"></span>
+									<div class="h-ht2">*请填写正确的验证码（注意区分大小写）</div>
+								</div>
+								<form action="">
+									<input type="button" id="btn" value="发送" />
+								</form>
+							</div>
+						</div>
+						
+					</div> <!--main末-->
+				</div>
+					<!--底部-->
+			<div class="FOOT">
+				<div class="foot">
+					<div class="foot_top">
+						<ul class="clear">
+							<li class="left clear">
+								<img src="img/11.png" class="left"/>
+								<div>
+									<p>品质保障</p>
+									<p>精选优质商品</p>
+								</div>
+							</li>
+							<li class="left clear">
+								<img src="img/22.png" class="left"/>
+								<div>
+									<p>公平公正</p>
+									<p>结果公开透明</p>
+								</div>
+							</li>
+							<li class="left clear">
+								<img src="img/33.png" class="left"/>
+								<div>
+									<p>免费配送</p>
+									<p>快速包邮到家</p>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="foot_mid clear">
+						<div>
+							<p><a href="###">新书指南</a></p>
+							<ul>
+								<li><a href="###">夺宝规则</a></li>
+								<li><a href="###">常见问题</a></li>
+								<li><a href="###">服务协议</a></li>
+							</ul>
+						</div>
+						<div>
+							<p><a href="###">夺宝保障</a></p>
+							<ul>
+								<li><a href="###">某某夺宝保障体系</a></li>
+								<li><a href="###">安全支付</a></li>
+								<li><a href="###">隐私声明</a></li>
+							</ul>
+						</div>
+						<div>
+							<p><a href="###">商品配送</a></p>
+							<ul>
+								<li><a href="###">配送费用</a></li>
+								<li><a href="###">验货与签收</a></li>
+								<li><a href="###">长时间未到商品</a></li>
+							</ul>
+						</div>
+						<div>
+							<p><a href="###">关于我们</a></p>
+							<ul>
+								<li><a href="###">关于点盛</a></li>
+								<li><a href="###">客服中心</a></li>
+								<li><a href="###">建议反馈</a></li>
+							</ul>
+						</div>
+						<div>
+							<p><img src=""/></p>
+							<span id="">
+								下载APP
+							</span>
+						</div>
+					</div>
+					<div class="foot_bottom clear">
+						<img src="img/logo.png"/>
+						<div class="left">
+							<p>广州点盛科技有限公司运营及版权所有 © 1997-2016 ICP证浙B2-20160106</p>
+							<ul class="clear">
+								<li><a href="###">关于点盛</a></li>
+								<li><a href="###">隐私政策</a></li>
+								<li><a href="###">服务条款</a></li>
+								<li><a href="###">联系我们</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			
+		</div>
+				<div id="denglu" class="clear">
+			<div class="dengluzhuce">
+				
+				<div class="dengluzhuce_top clear">
+					<span id="colorColor">登录</span>
+					<span>注册</span>
+					<img src="img/close.png"/>
+				</div>
+				<div class="dengluzhuce_content">
+					<span class="jiaojiao"></span>
+					<form action="">
+					<div class="denglu">
+						<div class="denglu_name clear">
+							<span class="left">
+								<img src="img/guoqi.png"/>
+							</span>
+							<input type="text" name="" class="left" id="username" onfocusout="fnOnfocuout(this)" placeholder="手机号"/>
+							<span class="left"></span>
+						</div>
+						<p class="denglu_name_eorr"></p>
+						<div class="denglu_pws clear">
+							<input type="password" class="left" name="" id="psw" onfocusout="fnOnfocuout1(this)"  placeholder="密码"/>
+							<span class="right"></span>
+						</div>
+						<p class="denglu_pws_eorr"></p>
+					</div>
+					<div class="denglu_queding">
+						登录
+					</div>
+					</form>
+					<div class="ziyuwang clear">
+						<div class="ziyuwang_left left"><label><input type="checkbox" name="zidongdenglu" id="zidongdenglu" value="" />自动登录</label></div>
+						<div class="ziyuwang_right right"><a href="forback_psw1.html">忘记密码</a></div>
+					</div>
+					<div class="denglu_other clear">
+						<p class="left">其他登录方式：</p>
+						<span class="left"></span>
+					</div>
+				</div>
+				<div class="zhuce">
+					<span class="zhuce_xian"></span>
+					<form action="" method="post">
+						<div class="denglu">
+						<div class="denglu_name clear">
+							<span class="left">
+								<img src="img/guoqi.png"/>
+							</span>
+							<input type="text" name="" class="left" id="username_zhuce" onfocusout="fnOnfocuout4(this)" placeholder="手机号"/>
+							<span class="left"></span>
+						</div>
+						<p class="denglu_name_eorr"></p>
+						<div class="denglu_pws clear">
+							<input type="password" class="left" name="" id="psw_zhuce" onfocusout="fnOnfocuout5(this)"  placeholder="密码"/>
+							<span class="right"></span>
+						</div>
+						<p class="denglu_pws_eorr"></p>
+					</div>
+					<div class="yanzhengma clear">
+						<div class="left"><input type="text" class="left" onfocusout="fnOnfocuout3(this)" placeholder="验证码"/><span class="right"></span></div>
+						<div class="left">获取验证码</div>
+					</div>
+					<p class="yanzhengma_yanzheng"></p>
+					<div class="zhuce_queding">
+						注册
+					</div>
+					<div class="xieyi"><label><input type="checkbox" />我已阅读并同意<a href="###">《用户服务协议》</a></label></div>
+					</form>
+				</div>
+			</div>
+			
+		</div>
+		<div id="zhuce_success">
+			<div>
+				<img src="img/close.png"/>
+				<p>注册成功！</p>
+				<p>去登录</p>
+			</div>
+		</div>
+	
+	</body>
+	<script src="js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/jquery.idcode.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/show.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/request.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/check.js" type="text/javascript" charset="utf-8"></script>
+</html>

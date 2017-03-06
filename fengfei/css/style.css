@@ -1,0 +1,360 @@
+/*顶部*/
+#wrap{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+.header{
+	width: 100%;
+	background: #283647;
+	max-height: 25px;
+	height: 100%;
+		
+}
+.header_one{
+	padding:5px 0 10px 0;
+	margin: auto;
+	width: 62.5%;
+}
+.header_one_left{
+	max-width:220px ;
+	width: 100%;
+}
+.header_one_left_one{
+	float: left;
+	display: inline-block;
+	color: #a9afb5;
+	font-weight: bolder;
+}
+.header_one_left_two{
+	float: left;
+	margin-left: 6%;
+}
+#Login,#Register,.header_one_right li{
+	cursor: pointer;
+	color:white;
+	font-weight: bolder;
+}
+.header_one_right{
+	width: 100%;
+	max-width: 218px;
+}
+.header_one_right li{
+	margin-left: 6%;
+	float:right
+}
+
+/*  底部*/
+.foot{
+	width: 100%;
+	max-width: 1050px;
+	margin: auto;
+	background: #232f3e;
+	padding:10px 75px ;
+}
+.foot_top ul{
+	border-bottom: #4f5965 1px solid;
+}
+.foot_top li{
+	padding: 3% 7%;
+	width: 15%;
+}
+.foot_top li:nth-child(2){
+	margin: 0 6%;
+}
+.foot_top p{
+	text-align: center;
+	color: white;
+}
+.foot_top p:nth-child(1){
+	font-size: 20px;
+	margin-top: 3%;
+}
+.foot_top p:nth-child(2){
+	color: #a7acb2;
+}
+.foot_mid{
+	padding: 1% 2%;
+}
+.foot_mid div{
+	float: left;
+	margin-right: 12.5%;
+}
+
+.foot_mid div p{
+	font-size: 18px;
+	margin-bottom: 15%;
+}
+.foot_mid div p a{
+	color: white;
+}
+.foot_mid div a{
+	color: #a7acb2;
+}
+.foot_mid li{
+	margin-bottom: 4%;
+}
+.foot_mid div:last-child{
+	padding: 0.5%;
+	background: white;
+	margin-right: 0;
+	text-align: center;
+}
+.foot_mid div:last-child p{
+	height: 70px;
+	width: 70px;
+	margin: 0;
+	background: black;
+}
+.foot_bottom{
+	margin-left: 17%;
+}
+.foot_bottom div{
+	margin-left: 2%;
+}
+.foot_bottom img{
+	float: left;
+	max-width: 220px;
+	max-height: 100px;
+	width: 100%;
+	height: 100%;
+}
+.foot_bottom p{
+	margin-top: 8%;
+	font-size: 12px;
+	color: #a7acb2;
+}
+.foot_bottom ul{
+	margin-top: 2%;
+}
+.foot_bottom li{
+	float: left;
+	margin-right: 5%;
+}
+.foot_bottom a{
+	color: #a7acb2;
+}
+.denglu_name{
+	margin-top: 40px;
+}
+.denglu_name,.denglu_pws,.denglu_id{
+	border-radius: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid #EBEBEB;
+	width: 340px;
+	height: 40px;
+}
+.denglu_name img{vertical-align: middle;}
+.denglu_name span:nth-child(1){
+	cursor: pointer;
+	height: 40px;
+	width: 40px;
+	display: block;
+	background: #f3f3f3;
+	text-align: center;
+	line-height: 40px;
+}
+.denglu_name input{
+	padding-left:10px ;
+	width: 265px;
+	border: 0;
+	display: inline-block;
+	height:40px; 
+	font-size: 14px;
+}
+.denglu_name span:nth-child(3){
+	cursor: pointer;
+	height: 40px;
+	width: 24px;
+	display: inline-block;
+	background: url(../imgs/img1.png) -2px -158px;
+}
+.denglu_pws input,.denglu_id input{
+	width: 275px;
+	border: 0;
+	display: inline-block;
+	height:40px; 
+	padding-left: 10px;
+	font-size: 14px;
+}
+.denglu_pws span,.yanzhengma span,.yanzhengma1 span,.denglu_id span{
+	cursor: pointer;
+	height: 40px;
+	width: 24px;
+	display: inline-block;
+	background: url(../imgs/img1.png) -2px -158px;
+
+}
+.denglu_id_eorr,.denglu_pws_eorr,.denglu_name_eorr,.yanzhengma_yanzheng,.new_psw_again_check,.new_psw_check{
+	color: red;
+	width: 340px;
+	margin: auto;
+	height: 28px;
+	line-height: 28px;
+	font-size: 14px;
+}
+.denglu_queding,.zhuce_queding,.yanzheng_queding,.yw_xiugai{
+	cursor: pointer;
+	margin:8px auto 0;
+	line-height: 45px;
+	text-align: center;
+	width: 340px;
+	height: 45px;
+	border-radius:5px ;
+	color: #ffd9ad;
+	font-weight: bolder;
+	background:#ffad33 ;
+	font-size: 16px;
+}
+.denglu_queding:hover,.zhuce_queding:hover,.yanzheng_queding:hover,.xiugai_quding:hover{
+	color: white;
+}
+.yanzhengma,.yanzhengma1{
+	width: 340px;
+	margin: auto;
+}
+.yanzhengma div:nth-child(1),.yanzhengma1 div:nth-child(1){
+	border: 1px #e6e6e6 solid;
+	padding-left:20px ;
+	border-radius: 5px;
+	height: 40px;
+	width: 180px;
+}
+.yanzhengma div:nth-child(1) input,.yanzhengma1 div:nth-child(1) input{
+	display: inline-block;
+	height: 40px;
+	width: 155px;
+	border: 0;
+	font-size:14px ;
+}
+.yanzhengma div:nth-child(2),.yanzhengma1 div:nth-child(2){
+	cursor: pointer;
+	background: #ffad33;
+	color: white;
+	margin-left: 6px;
+	text-align: center;
+	line-height: 40px;
+	width: 130px;
+	height: 40px;
+	border: 1px #e6e6e6 solid;
+	border-radius: 5px;
+	font-size: 14px;
+}
+#denglu{
+	display: none;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background:rgba(0,0,0,0.6);
+	z-index: 99;
+}
+.dengluzhuce{overflow: hidden;}
+.jiaojiao{
+	display: inline-block;
+	left: 38%;
+	top:13%;
+	border-top:2px solid #ebebeb;
+	border-left: 2px solid #ebebeb;
+	width: 20px;
+	height: 20px;
+	background: white;
+	position: absolute;
+	transform:rotate(45deg);
+	-ms-transform:rotate(45deg); 	/* IE 9 */
+	-moz-transform:rotate(45deg); 	/* Firefox */
+	-webkit-transform:rotate(45deg); /* Safari 和 Chrome */
+	-o-transform:rotate(45deg);
+}
+.zhuce{
+	display: none;
+}
+.zhuce_xian{
+	display: inline-block;
+	left: 57%;
+	top:13%;
+	border-top:2px solid #ebebeb;
+	border-left: 2px solid #ebebeb;
+	width: 20px;
+	height: 20px;
+	background: white;
+	position: absolute;
+	transform:rotate(45deg);
+	-ms-transform:rotate(45deg); 	/* IE 9 */
+	-moz-transform:rotate(45deg); 	/* Firefox */
+	-webkit-transform:rotate(45deg); /* Safari 和 Chrome */
+	-o-transform:rotate(45deg);
+}
+.dengluzhuce{
+	border-radius:5px ;
+	max-width: 420px;
+	max-height: 400px;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	left: 37%;
+	right: 50%;
+	top:29%;
+	bottom: 50%;
+	background: white;
+}
+.dengluzhuce_1{
+	color: #2f5570;
+}
+.dengluzhuce_top{
+	border-bottom:2px  solid #f0f0f0;
+	position: relative;
+	text-align: center;
+}
+
+.dengluzhuce_top img{
+	cursor: pointer;
+	right: 0;
+	top: 0;
+	position: absolute;
+	background: #f0f0f0;
+}
+.dengluzhuce_top span{
+	cursor: pointer;
+	display: inline-block;
+	padding: 20px;
+	font-size: 18px;
+	color: #999999;
+}
+#colorColor {
+	color: #2f5570;
+}
+.ziyuwang{
+	width: 340px;
+	margin:8px auto 0;
+}
+.ziyuwang_left label{
+	cursor: pointer;
+}
+.noremember{color: #000000;}
+.xieyi{
+	
+	text-align: center;
+	width: 340px;
+	margin:10px auto 0;
+}
+.xieyi a{
+	color: #42a1f2;
+}
+.denglu_other{
+	width: 340px;
+	height: 30px;
+	margin: 18px auto 0;
+	line-height: 30px;
+}
+.denglu_other p{
+	display: inline-block;
+}
+.denglu_other span{
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	background: url(../imgs/img1.png) 0 -215px;
+	cursor: pointer;
+	
+}

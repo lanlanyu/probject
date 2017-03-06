@@ -1,0 +1,377 @@
+body {
+	width: 100%;
+	height: 100%;
+	background: rgb(245, 248, 250);
+}
+
+#wrap {
+	width: 80%;
+	background: blanchedalmond;
+	/*background:black;*/
+	margin: auto;
+	margin-bottom: 2%;
+}
+
+.toop {
+	border-bottom: 5px solid darkgrey;
+}
+
+#nUser {
+	border-top: 10px solid lightgray;
+	margin-top: 30px;
+	line-height: 29px;
+	padding: 4.5%;
+	color: darkgray;
+	/*margin-bottom: 20px;*/
+	background: white;
+}
+
+#nUserimg {
+	margin-left: 14.17%;
+	padding: 0.5%;
+	width: 19.68%;
+	background: black;
+	height: 150px;
+}
+
+#nUserImg {
+	padding: 2.5%;
+	width: 95%;
+	height: 95%;
+	
+	background: width;
+}
+
+#nUsername {
+	margin-left: 3.3%;
+	line-height: 32px;
+}
+
+h2 {
+	margin-bottom: 18%;
+	color: black;
+}
+
+.nRecordHeader {
+	width: 100%;
+	line-height: 45px;
+	font-size: 1.1rem;
+	color: darkgray;
+	background: white;
+	position: absolute;
+	top: -50px;
+}
+
+#wrap .nRecordHeader span:nth-child(1) {
+	margin-left: 25%;
+}
+
+#wrap .nRecordHeader span {
+	padding: 10px;
+	/*left: 15%;*/
+	font-size: 20px;
+	/*position: absolute;*/
+	margin-left: 7%;
+}
+
+.nArrow {
+	position: absolute;
+	transform: rotate(45deg);
+	width: 10px;
+	height: 10px;
+	/*background: rgb(252, 252, 252);*/
+	background: rgb(252, 252, 252);
+	top: -5px;
+	left: 30%;
+	border-left: 1px solid lightgrey;
+	border-top: 1px solid lightgrey;
+	z-index: 2;
+}
+
+.nRecord {
+	width: 73.67%;
+	margin: auto;
+	background: rgb(252, 252, 252);
+	/*color: darkgray;*/
+	/*color: red;*/
+	border: 1px solid lightgrey;
+	position: relative;
+	z-index: 0;
+}
+
+.nObtain {
+	/*background: rgb(235,235,235);*/
+	background: rgb(252, 252, 252);
+	padding: 32px;
+	/*z-index: 0;*/
+}
+
+.nObtain select {
+	border: none;
+	background: rgb(252, 252, 252);
+	color: darkgray;
+	font-size: 1.1rem;
+}
+
+.nNum {
+	width: 100%;
+	margin: auto;
+	background: rgb(235, 235, 235);
+}
+
+.nNum span:nth-of-type(1) {
+	margin-left: 40.28%;
+}
+
+.nNum span {
+	margin-left: 7%;
+	line-height: 40px;
+	font-size: 15px;
+}
+
+.nRecord .ngoods-img {
+	width: 14.29%;
+	background: red;
+}
+.nRecord .ngoods-img img{
+	width: 100%;
+	height: 100%;
+}
+
+.nRecord .ngoods-information {
+	font-size: 12px;
+	line-height: 25px;
+	margin-left: 3%;
+	width: 22%;
+}
+
+.nRecord .ngoods-information span {
+	margin-left: 0;
+	font-size: 12px;
+}
+
+.nRecord .nState {
+	width: 38%;
+}
+
+.nRecord .nState span:nth-child(1) {
+	margin-left: 3%;
+}
+
+.nRecord .nState span {
+	line-height: 120px;
+	margin-left: 10%;
+}
+
+.nRecord .njionA {
+	padding: 4% 0 2% 4%;
+	line-height: 30px;
+	width: 18%;
+}
+
+.nRecord .njionA a {
+	line-height: 10px;
+	font-size: 14px;
+}
+
+.nRecord .njionA a:nth-child(1) {
+	background: orange;
+	color: white;
+	padding: 5%;
+	padding-left: 15%;
+	padding-right: 15%;
+	border-radius: 10px;
+}
+
+.nRecord .njionA a:nth-child(3) {
+	padding: 5%;
+	color: black;
+}
+
+.nRecord .ntime {
+	margin-left: 0;
+}
+
+.nRecord .nState span {
+	font-size: 16px;
+	margin-left: 15%;
+}
+#ul2{
+	margin-left: 46%;
+	font-size: 20px;
+	line-height: 20px;
+	margin-bottom: 20px;
+	
+}
+
+.nshareHead{
+	line-height: 35px;
+	background: lightgray;
+	margin-left: 0.5%;
+}
+.nshareHead span:nth-of-type(1){
+	font-size: 16px;
+	margin-left: 5%;
+	margin-right: 60%;
+}
+.nshareHead span:nth-of-type(3){
+	font-size: 12px;
+	margin-right: 50%;
+}
+
+#ul4{
+	margin-left:33%;
+	font-size: 20px;
+}
+#ul5 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 100%;
+}
+#ul5 li{
+	text-align: center;
+	line-height: 20px;
+	margin-bottom: 20px;
+	font-size: 12px;
+	display: inline-block;
+	color: lightgray;
+	vertical-align: middle;
+	
+	width: 16%;
+	margin-top: 40px;
+	
+}
+#ul5 img{
+	 width: 100%;
+	 height: 100%;
+	}
+#ul6{
+	margin-left:40% ;
+	font-size: 20px;
+}
+
+
+
+/*媒体查询*/
+
+@media only screen and (min-width: 1321px) {
+	.nRecord .nState span {
+		margin-left: 18%;
+	}
+	.nRecord .nState span:nth-child(1) {
+		margin-left: 4%;
+	}
+	#wrap .nRecordHeader span:nth-child(1) {
+		margin-left: 20.49%;
+	}
+	#wrap .nRecordHeader span {
+		padding: 10px;
+		margin-left: 11%;
+	}
+	#wrap {
+		max-width: 1400px;
+	}
+	.nshareHead span:nth-of-type(1){
+		margin-right: 72%;
+	}
+
+
+
+}
+
+@media only screen and (min-width: 1020px) and (max-width: 1320px) {
+	.header_one,
+	.top {
+		max-width: 1000px;
+		width: 100%;
+	}
+	.search {
+		margin-top: 3.25%;
+	}
+	.foot {
+		max-width: 1000px;
+	}
+	.nRecord .nState span {
+		font-size: 13px;
+		margin-left: 15%;
+	}
+	.nRecord .nState span:nth-child(1) {
+		font-size: 13px;
+		margin-left: 7%;
+	}
+	 .nRecord .njionA a {
+		font-size: 13px;
+	}
+	.nNum span {
+		margin-left: 6%;
+		font-size: 13px;
+	}
+	#wrap .nRecordHeader span:nth-child(1) {
+		margin-left:20.49%;
+	}
+	#wrap .nRecordHeader span {
+		padding: 10px;
+		margin-left: 10%;
+		font-size: 16px;
+	}
+		.nshareHead span:nth-of-type(1){
+		margin-right: 65%;
+	}
+    
+}
+
+@media only screen and (max-width:1019px) {
+	.header_one,
+	.top {
+		max-width: 800px;
+		width: 100%;
+	}
+	.top_logo img {
+		width: 150px;
+	}
+	.toop .nav li a {
+		font-size: 12px;
+		/*color: red;*/
+	}
+	.top_right .shopcar {
+		/*margin-top: 20%;*/
+	}
+	.search {
+		display: none;
+	}
+	.foot {
+		width: 800px;
+	}
+	.foot_mid div {
+		margin-right: 10%;
+	}
+	#wrap {
+		min-width: 700px;
+	}
+	.nRecord .nState span {
+		font-size: 12px;
+		margin-left: 7%;
+	}
+	.nRecord .njionA a {
+		font-size: 12px;
+	}
+	.nNum span {
+		font-size: 12px;
+	}
+	.nNum span {
+		margin-left: 5%;
+	}
+	#wrap .nRecordHeader span:nth-child(1) {
+		margin-left:25.49%;
+	}
+	#wrap .nRecordHeader span {
+		padding: 10px;
+		margin-left: 2%;
+		font-size: 14px;
+	}
+	.nRecordHeader{
+		line-height: 20px;
+		top: -30px;
+	}     
+    
+}

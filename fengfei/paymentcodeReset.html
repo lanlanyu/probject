@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/reset(1).css" />
+		<link rel="stylesheet" type="text/css" href="css/PayBackPassword.css"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+	</head>
+	<style type="text/css">
+		#content {
+			padding-bottom: 106px;
+		}
+		
+		.section1 ul li:nth-child(2) {
+			color: #000;
+		}
+		
+		.section2 {
+			margin-top: 45px;
+			text-align: center;
+			color: #999;
+			margin-bottom: 30px;
+		}
+		
+		.section2 span {
+			color: black;
+			font-size: 16px;
+		}
+		
+		.change_psw {
+			width: 350px;
+			margin-left: auto;
+			margin-right: auto;
+			height: 40px;
+			line-height: 40px;
+			font-size: 14px;
+		}
+		
+		.alieditContainer,
+		.alieditContainer1 {
+			position: relative;
+		}
+		
+		.i-text,
+		.ui-input {
+			position: absolute;
+			color: #fff;
+			opacity: 0.2;
+			width: 246px;
+			height: 38px;
+			font-size: 12px;
+			left: 0;
+			-webkit-user-select: initial;
+			/*取消禁用选择页面元素*/
+			z-index: 9;
+			padding: 0;
+			border: 0;
+		}
+		
+		.sixDigitPassword {
+			width: 246px;
+			height: 24px;
+			cursor: text;
+			background: #fff;
+			outline: none;
+			position: relative;
+			padding: 7px 0;
+			border: 1px solid #ddd;
+			border-radius: 5px;
+		}
+		
+		.sixDigitPassword i {
+			width: 40px;
+			height: 16px;
+			float: left;
+			display: block;
+			padding: 4px 0;
+			border-left: 1px solid #cccccc;
+		}
+		
+		.sixDigitPassword i:first-child {
+			border-left: 0;
+		}
+		
+		.active {
+			background-image: url(imgs/password-blink.gif);
+			background-repeat: no-repeat;
+			background-position: center center;
+		}
+		
+		.sixDigitPassword b {
+			display: block;
+			margin: 3px auto;
+			width: 10px;
+			height: 10px;
+			overflow: hidden;
+			display: none;
+			background: #000;
+			border-radius: 100%;
+		}
+		
+		.yw_check,
+		.yw_again_check {
+			color: red;
+			width: 350px;
+			margin: auto;
+			height: 28px;
+			line-height: 28px;
+			font-size: 14px;
+		}
+	</style>
+
+	<body>
+		<div id="wrap">
+			<!--header-->
+			<div id="header" class="clear">
+				<img src="imgs/00  共用/icon_Logo.png" />
+				<span>找回支付密码</span>
+				<ul class="clear right">
+					<li class="left" id="Login">
+						<a href="#">登录</a>
+					</li>
+					<li class="left" id="Register">
+						<a href="#">注册</a>
+					</li>
+					<li class="left">
+						<a href="#">客服中心</a>
+					</li>
+				</ul>
+			</div>
+			<!--content-->
+			<div id="content">
+				<div class="section1">
+					<img src="imgs/00  共用/icon_密码步骤2.png" />
+					<ul class="clear">
+						<li class="left">手机号和身份证验证</li>
+						<li class="left">支付密码重置</li>
+						<li class="left">修改成功</li>
+					</ul>
+				</div>
+				<div class="section2">
+					当前号码: <span>136****8592</span>
+				</div>
+				<div class="section3">
+					<form action="" method="post">
+						<div class="clear change_psw">
+							<p class="left">新的支付密码</p>
+							<div class="alieditContainer right" data-busy="0">
+								<input minlength="6" maxlength="6" tabindex="1" name="payPassword_rsainput" class="i-text" oncontextmenu="return false" onpaste="return false" oncopy="return false" oncut="return false" autocomplete="off" type="password" onfocusout="pay_psw1(this)">
+								<div class="sixDigitPassword" tabindex="0">
+									<i><b></b></i>
+									<i><b></b></i>
+									<i><b></b></i>
+									<i><b></b></i>
+									<i><b></b></i>
+									<i><b></b></i>
+								</div>
+							</div>
+						</div>
+						<p class="yw_check"></p>
+						<div class="clear change_psw">
+							<p class="left">再次输入密码</p>
+							<div class="alieditContainer1 right" data-busy="0">
+								<input minlength="6" maxlength="6" tabindex="1" name="payPassword_rsainput1" class="ui-input" oncontextmenu="return false" onpaste="return false" oncopy="return false" oncut="return false" autocomplete="off" type="password" onfocusout="pay_psw2(this)">
+								<div class="sixDigitPassword" tabindex="0">
+									<i><b></b></i>
+									<i><b></b></i>
+									<i><b></b></i>
+									<i><b></b></i>
+									<i><b></b></i>
+									<i><b></b></i>
+									<span class="guangbiao1" style="left:0px;"></span>
+								</div>
+							</div>
+						</div>
+						<p class="yw_again_check"></p>
+						<div class="yw_xiugai">确认修改</div>
+					</form>
+				</div>
+			</div>
+			<!--footer-->
+			<div id="footer">
+				<p>广州点盛科技有限公司运营及版权所有&nbsp;&copy;&nbsp;1997-2016 ICP证浙B2-20160106</p>
+			</div>
+		</div>
+		<!--登录注册-->
+		<div id="denglu" class="clear">
+			<div class="dengluzhuce">
+				<div class="dengluzhuce_top clear">
+					<span id="colorColor">登录</span>
+					<span>注册</span>
+					<img src="imgs/00  共用/btn_关闭.png" />
+				</div>
+				<div class="dengluzhuce_content">
+					<span class="jiaojiao"></span>
+					<form action="">
+						<div class="denglu">
+							<div class="denglu_name clear">
+								<span class="left">
+									<img src="imgs/guoqi.png"/>
+									<img src="imgs/07  个人主页/icon_记录时间下拉框.png"/>
+								</span>
+								<input type="text" name="" class="left" id="username" onfocusout="fnOnfocuout(this)" placeholder="手机号" />
+								<span class="left"></span>
+							</div>
+							<p class="denglu_name_eorr"></p>
+							<div class="denglu_pws clear">
+								<input type="password" class="left" name="" id="psw" onfocusout="fnOnfocuout1(this)" placeholder="密码" />
+								<span class="right"></span>
+							</div>
+							<p class="denglu_pws_eorr"></p>
+						</div>
+						<div class="denglu_queding">
+							登录
+						</div>
+					</form>
+					<div class="ziyuwang clear">
+						<div class="ziyuwang_left left"><label><input type="checkbox" name="zidongdenglu" id="zidongdenglu" value="" />自动登录</label></div>
+						<div class="ziyuwang_right right">
+							<a href="" class="noremember">忘记密码</a>
+						</div>
+					</div>
+					<div class="denglu_other clear">
+						<p class="left">其他登录方式：</p>
+						<span class="left"></span>
+					</div>
+				</div>
+				<div class="zhuce">
+					<span class="zhuce_xian"></span>
+					<form action="" method="post">
+						<div class="denglu">
+							<div class="denglu_name clear">
+								<span class="left">
+									<img src="imgs/guoqi.png"/>
+									<img src="imgs/07  个人主页/icon_记录时间下拉框.png"/>
+								</span>
+								<input type="text" name="" class="left" id="username_zhuce" onfocusout="fnOnfocuout4(this)" placeholder="手机号" />
+								<span class="left"></span>
+							</div>
+							<p class="denglu_name_eorr"></p>
+							<div class="denglu_pws clear">
+								<input type="password" class="left" name="" id="psw_zhuce" onfocusout="fnOnfocuout5(this)" placeholder="密码" />
+								<span class="right"></span>
+							</div>
+							<p class="denglu_pws_eorr"></p>
+						</div>
+						<div class="yanzhengma clear">
+							<div class="left">
+								<input type="text" class="left" onfocusout="fnOnfocuout3(this)" placeholder="验证码" />
+								<span class="right"></span>
+							</div>
+							<div class="left">获取验证码</div>
+						</div>
+						<p class="yanzhengma_yanzheng"></p>
+						<div class="zhuce_queding">
+							注册
+						</div>
+						<div class="xieyi">
+							<label><input type="checkbox" />我已阅读并同意<a href="">《用户服务协议》</a></label>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script src="js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/check1.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		var payPassword = $(".alieditContainer"),
+			_this = payPassword.find('i'),
+			k = 0;
+		payPassword.on('focus', "input[name='payPassword_rsainput']", function() {
+			var _this = payPassword.find('i');
+			if(payPassword.attr('data-busy') === '0') {
+				//在第一个密码框中添加光标样式
+				_this.eq(k).addClass("active");
+				payPassword.attr('data-busy', '1');
+			}
+		});
+		payPassword.on('change', "input[name='payPassword_rsainput']", function() {
+			_this.eq(k).removeClass("active");
+			payPassword.attr('data-busy', '0');
+		}).on('blur', "input[name='payPassword_rsainput']", function() {
+			_this.eq(k).removeClass("active");
+			payPassword.attr('data-busy', '0');
+		});
+		//使用keyup事件，绑定键盘上的数字按键和backspace按键
+		payPassword.on('keyup', "input[name='payPassword_rsainput']", function(e) {
+			var e = (e) ? e : window.event;
+				k = this.value.length; //输入框里面的密码长度
+				l = _this.size(); //6
+				for(; l--;) {
+					//输入到第几个密码框，第几个密码框就显示高亮和光标（在输入框内有2个数字密码，第三个密码框要显示高亮和光标，之前的显示黑点后面的显示空白，输入和删除都一样）
+					if(l === k) {
+						_this.eq(l).addClass("active");
+						_this.eq(l).find('b').css('display', 'none');
+					} else {
+						_this.eq(l).removeClass("active");
+						_this.eq(l).find('b').css('display', l < k ? 'block' : 'none');
+					}
+				}
+		});
+
+		var payP = $(".alieditContainer1"),
+			_this1 = payP.find('i'),
+			j = 0;
+		payP.on('focus', "input[name='payPassword_rsainput1']", function() {
+			var _this1 = payP.find('i');
+			if(payP.attr('data-busy') === '0') {
+				_this1.eq(j).addClass("active");
+				payP.attr('data-busy', '1');
+			}
+		});
+		payP.on('change', "input[name='payPassword_rsainput1']", function() {
+			_this1.eq(j).removeClass("active");
+			payP.attr('data-busy', '0');
+		}).on('blur', "input[name='payPassword_rsainput1']", function() {
+			_this1.eq(j).removeClass("active");
+			payP.attr('data-busy', '0');
+		});
+		payP.on('keyup', "input[name='payPassword_rsainput1']", function(e) {
+			var e = (e) ? e : window.event;
+				j = this.value.length; 
+				l = _this1.size(); 
+				for(; l--;) {
+					if(l === j) {
+						_this1.eq(l).addClass("active");
+						_this1.eq(l).find('b').css('display', 'none');
+					} else {
+						_this1.eq(l).removeClass("active");
+						_this1.eq(l).find('b').css('display', l < j ? 'block' : 'none');
+					}
+				}
+		});
+		
+	</script>
+
+</html>

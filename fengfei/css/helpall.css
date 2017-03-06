@@ -1,0 +1,573 @@
+.h-ibar{/*帮助中心详情各标题*/
+				margin-top: 29px;
+				margin-left: 12.55%;
+				max-width: 680px;
+				width: 72.125%;
+				padding-left: 2.857%;
+				min-height: 41px;
+				/*background: red;*/
+				border-bottom: 1px solid rgb(187,187,187);
+				line-height: 43px;
+				font-size: 16px;
+				font-family: "微软雅黑";
+				font-weight:bolder;
+				color: black;
+			}
+
+#helpIntro{
+				max-width: 932px;
+				width: 100%; /*77.6% of body*/
+				
+				background: white;
+				margin-bottom: 44px;
+				/*display: none;*/
+			}
+			.h-ibar span{
+				display: block;
+				float: right;
+				/*font-size: 12px;*/
+				font-weight: normal;
+				margin-right: 1.43%;
+				/*clear: both;*/
+			}
+			.h-box1, .h-boxbz{
+				margin-left: 12.55%;
+				max-width: 700px;
+				width: 75%;
+				font-size: 14px;
+				color: rgb(153,153,153);
+				line-height: 2;
+			}
+			.h-circle{
+				max-width: 140px;
+				min-height: 140px;
+    				border-radius: 50%;
+    				border: 1px solid black;
+			}
+			.h-arrow{
+				max-width: 40px;
+			}
+			.h-tu1{
+				position: relative;
+				max-width: 700px;
+				width: 100%;
+				min-height: 142px;
+				/*background: blue;*/
+				position: relative;
+				overflow: hidden;
+				font-size: 0;
+				-webkit-text-size-adjust:none;
+			}
+			.h-tu1 .h-circle{
+				width: 20%;
+				display: inline-block;
+				font-size: 0;
+				-webkit-text-size-adjust:none;
+				margin-left: 5.71%;
+				margin-top: 0;
+			}
+			.h-jiantou1, .h-jiantou2{
+				display: inline-block;
+				position: absolute;
+				left: 0;
+				max-width: 700px;
+				width: 100%;
+				min-height: 14px;
+				margin-top: 63px;
+			}
+			.h-tu1 .h-arrow, .h-tu2 .h-arrow{
+				max-width: 40px;
+				width: 5.714%;
+				min-height: 14px;
+				margin-left: 20%;
+				display: inline-block;
+				text-align: center;
+			}
+			
+			.h-jiantou1 img, .h-jiantou2 img{
+				margin-left: 20%;
+			}
+			.h-zi1, .h-zi2{
+				max-width: 700px;
+				width: 100%;
+				min-height: 40px;
+				/*background: orange;*/
+				font-size: 0;
+				-webkit-text-size-adjust:none;
+				overflow: hidden;
+			}
+			.h-zi1 div, .h-zi2 div{
+				display: inline-block;
+				background: white;
+				/*background: black;*/
+				max-width: 145px;
+				width: 21.23%;
+				min-height: 40px;
+				text-align: center;
+				line-height: 40px;
+				font-size: 14px;
+				margin-left: 5.12%;
+				/*display: none;*/
+			}
+			.h-tu2{
+				position: relative;
+				max-width: 700px;
+				width: 100%;
+				min-height: 142px;
+				/*background: blue;*/
+				position: relative;
+				overflow: hidden;
+				font-size: 0;
+				-webkit-text-size-adjust:none;
+			}
+			.h-tu2 .h-circle{
+				width: 20%;
+				display: inline-block;
+				font-size: 0;
+				-webkit-text-size-adjust:none;
+				margin-left: 5.71%;
+				margin-top: 0;
+			}
+			
+			li{
+				list-style: none;
+			}
+			#helpIntro a{
+				text-decoration:none;
+				color: black;
+			}
+			
+#helpFAQ {
+				max-width: 932px;
+				width: 100%;
+				height: 1490px;
+				position: absolute;
+				background: white;
+				display: none;
+			}
+			.h-box2{
+				margin-left: 12.55%;
+				margin-top: 31px;
+				max-width: 700px;
+				width: 75%;
+				min-height: 1290px;
+				font-size: 14px;
+				color: rgb(153,153,153);
+				/*background: lightgreen;*/
+				line-height: 2;
+				
+			}
+			.h-box2 span{
+				color: black;
+				font-weight: bolder;
+			}
+			.kefu{
+				margin-left: 12.55%;
+				max-width: 331px;
+				width: 35.5%;
+				height: 42px;
+				/*background: orange;*/
+				font-size: 16px;
+				color: rgb(153,153,153);
+				line-height: 42px;
+			}
+			.kefu .btn{
+				max-height: 160px;
+				width: 48.3%;
+				height: 42px;
+				background: rgb(51,51,51);
+				border-radius: 5px;
+				border: hidden;
+				color: white;
+				font-size: 14px;
+				text-align: center;
+			}
+			
+#agreement{
+				max-width: 932px;
+				width: 100%;
+				/*77.6% of body*/
+				min-height: 4604px;
+				position: absolute;
+				/*margin-left: 22.4%;*/
+				background: white;
+				display: none;
+			}
+			.h-box3{
+				margin-left: 12.55%;
+				margin-top: 31px;
+				max-width: 700px;
+				width: 75%;
+				font-size: 14px;
+				line-height: 30px;
+			}
+			.h-box3 p{
+				 text-indent:2em
+			}
+			.h-box3 span{
+				font-weight: bolder;
+			}
+			.h-box3 a{
+				color: red;
+				text-decoration:none;
+			}
+			.h-box3 li{
+				list-style: none;
+			}
+			
+#baozhangtixi{
+				max-width: 932px;
+				width: 100%;
+				/*77.6% of body*/
+				min-height: 806px;
+				position: absolute;
+				/*margin-left: 22.4%;*/
+				background: white;
+				display: none;
+			}
+			.h-box4{
+				margin-left: 12.55%;
+				margin-top: 31px;
+				max-width: 700px;
+				width: 75%;
+				font-size: 14px;
+				color: rgb(153,153,153);
+			}
+			.h-box4 span{
+				color: rgb(51,51,51);
+				font-weight: bolder;
+			}
+			.h-box4 p{
+				margin-bottom: 31px;
+			}
+			
+#safepay{
+				max-width: 932px;
+				width: 100%;
+				/*77.6% of body*/
+				min-height: 806px;
+				position: absolute;
+				/*margin-left: 22.4%;*/
+				background: white;
+				display: none;
+			}
+			.h-box5{
+				margin-left: 12.55%;
+				margin-top: 31px;
+				max-width: 700px;
+				width: 75%;
+				font-size: 14px;
+				color: rgb(153,153,153);
+				line-height: 2;
+			}
+			.h-box5 p{
+				text-indent:2em
+			}
+			
+#privacy{
+				max-width: 932px;
+				width: 100%;
+				/*77.6% of body*/
+				min-height: 1836px;
+				position: absolute;
+				/*margin-left: 22.4%;*/
+				background: white;
+				display: none;
+			}
+			.h-box6{
+				margin-left: 12.55%;
+				margin-top: 31px;
+				max-width: 700px;
+				width: 75%;
+				font-size: 14px;
+				line-height: 2;
+			}
+			.h-box6 p{
+				text-indent:2em;
+				/*margin-bottom: 45px;*/
+			}
+			.h-box6 a{
+				color: red;
+				text-decoration:none;
+			}
+			
+#delivery{
+				max-width: 932px;
+				width: 100%;
+				/*77.6% of body*/
+				min-height: 806px;
+				position: absolute;
+				/*margin-left: 22.4%;*/
+				background: white;
+				display: none;
+			}
+			.h-box7{
+				margin-left: 12.55%;
+				margin-top: 31px;
+				max-width: 700px;
+				width: 75%;
+				font-size: 14px;
+				color: rgb(153,153,153);
+				line-height: 2;
+			}
+			.h-box7 p{
+				text-indent:2em
+			}
+			
+#checkgood{
+				max-width: 932px;
+				width: 100%;
+				/*77.6% of body*/
+				min-height: 806px;
+				position: absolute;
+				/*margin-left: 22.4%;*/
+				background: white;
+				display: none;
+			}
+			.h-box8{
+				margin-left: 12.55%;
+				margin-top: 31px;
+				max-width: 700px;
+				width: 75%;
+				font-size: 14px;
+				color: rgb(153,153,153);
+				line-height: 2;
+			}
+			.h-box8 p{
+				text-indent:2em;
+				margin-bottom: 32px;
+			}
+			
+#toolong{
+				max-width: 932px;
+				width: 100%;
+				/*77.6% of body*/
+				min-height: 806px;
+				position: absolute;
+				/*margin-left: 22.4%;*/
+				background: white;
+				display: none;
+			}
+			.h-box9{
+				margin-left: 12.55%;
+				margin-top: 31px;
+				max-width: 700px;
+				width: 75%;
+				font-size: 14px;
+				color: rgb(153,153,153);
+				line-height: 2;
+			}
+			.h-box9 p{
+				text-indent:2em;
+			}
+			.h-box9 a{
+				color: red;
+			}
+			
+#about{
+				max-width: 932px;
+				width: 100%;
+				/*77.6% of body*/
+				min-height: 806px;
+				position: absolute;
+				/*margin-left: 22.4%;*/
+				background: white;
+				display: none;
+			}
+			.h-logo{
+				margin-left: 12.55%;
+				max-width: 700px;
+				width: 75%;
+				height: 164px;
+			}
+			.h-logo img{
+				position: absolute;
+				max-width: 263px;
+				width: 28.2%; /*263/932*/
+				height: 70px;
+				margin-top: 47px;
+				margin-left: 23.4%; /*218.5/932*/
+			}
+			.h-box10{
+				margin-left: 12.55%;
+				max-width: 700px;
+				width: 75%;
+				font-size: 14px;
+				color: rgb(153,153,153);
+				line-height: 2;
+			}
+			.h-box10 p{
+				text-indent:2em;
+			}			
+			
+#kefuzx{
+				max-width: 932px;
+				width: 100%;
+				/*77.6% of body*/
+				min-height: 806px;
+				position: absolute;
+				/*margin-left: 22.4%;*/
+				background: white;
+				display: none;
+			}
+			.h-box11{
+				margin-left: 12.55%;
+				margin-top: 31px;
+				max-width: 700px;
+				width: 75%;
+				font-size: 14px;
+				color: rgb(153,153,153);
+				line-height: 2;
+			}
+			.h-box11 p{
+				text-indent:2em;
+			}
+			
+#suggest {
+				max-width: 932px;
+				width: 100%;
+				/*77.6% of body*/
+				min-height: 806px;
+				position: absolute;
+				/*margin-left: 22.4%;*/
+				background: white;
+				display: none;
+			}
+			
+			.h-ibar span {
+				font-size: 14px;
+				color: rgb(153, 153, 153);
+				font-weight: normal;
+			}
+			
+			.h-box12 {
+				margin-left: 12.55%;
+				margin-top: 31px;
+				max-width: 700px;
+				width: 75%;
+				font-size: 14px;
+				color: rgb(153, 153, 153);
+				line-height: 2;
+			}
+			
+			.theme {
+				max-width: 700px;
+				width: 75%;
+				min-height: 41px;
+				/*background: orange;*/
+				font-size: 14px;
+				font-family: "微软雅黑";
+			}
+			
+			.theme span {
+				display: inline-block;
+				margin-left: 33px;
+				line-height: 41px;
+				color: black;
+			}
+			
+			.theme select {
+				margin-left: 10px;
+				width: 201px;
+				height: 41px;
+				font-size: 14px;
+				font-family: "微软雅黑";
+			}
+			
+			.context {
+				margin-top: 30px;
+				max-width: 540px;
+				width: 77%;
+				min-height: 270px;
+				/*background: palevioletred;*/
+			}
+			
+			.context span {
+				position: absolute;
+				display: inline-block;
+				width: 80px;
+				height: 40px;
+				/*background: yellowgreen;*/
+				text-align: center;
+				line-height: 40px;
+				color: black;
+			}
+			
+			.h-textarea {
+				position: absolute;
+				margin-left: 80px;
+				max-width: 445px;
+				width: 63.57%;
+				height: 230px;
+			}
+			
+			.h-ht1 {
+				position: absolute;
+				margin-top: 240px;
+				margin-left: 80px;
+				/*background: blue;*/
+				color: red;
+				display: none;
+			}
+			
+			.yanzm {
+				height: 70px;
+				/*background: green;*/
+			}
+			
+			.yanzm span {
+				position: absolute;
+				display: inline-block;
+				width: 80px;
+				height: 40px;
+				/*background: yellowgreen;*/
+				text-align: center;
+				line-height: 40px;
+				color: black;
+			}
+			
+			#h-ipt {
+				position: absolute;
+				/*margin-top: 240px;*/
+				margin-left: 80px;
+				width: 160px;
+				height: 31px;
+				line-height: 40px;
+			}
+			
+			.yanzm span{
+				position: absolute;
+				margin-left: 0px;
+				width: 80px;
+				height: 40px;
+			}
+			#Txtidcode{
+				width: 160px;
+				height: 40px;
+				margin-left: 80px;
+			}
+			.h-ht2 {
+				position: absolute;
+				margin-left: 80px;
+				color: red;
+				display: none;
+			}
+			
+			.yanzm a {
+				position: absolute;
+				margin-left: 325px;
+				margin-top: 40px;
+				text-decoration: none;
+			}
+			
+			#btn{
+				margin-top: 30px;
+				margin-left: 80px;
+				width: 160px;
+				height: 40px;
+				background: orange;
+				color: white;
+				border: 0;
+				border-radius: 5%;
+				font-size: 18px;
+			}

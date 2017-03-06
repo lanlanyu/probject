@@ -1,0 +1,38 @@
+#wrap{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+.forback_psw2_1{
+	width: 100%;
+	max-width: 1200px;
+	margin: auto;
+}
+.forback_psw2_top{
+	margin:20px auto 10px;
+	height: 36px;
+	width: 548px;
+	background: url(../img/img1.png) 840px -392px;
+}
+.forback_psw2_buzou{
+	margin-left: 220px;
+}
+.forback_psw2_buzou .forback_psw2_buzou_span{
+	color: #333333;
+}
+
+.forback_psw2_buzou span{
+	color: #999999;
+	font-size: 18px;
+	margin: 0px 79px;
+}
+.phone_num_now{
+	margin-top:45px ;
+	text-align: center;
+	color: #999;
+}
+.phone_num_now span{
+	color: black;
+	font-size: 17px;
+}
+

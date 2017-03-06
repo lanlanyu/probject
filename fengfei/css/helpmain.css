@@ -1,0 +1,87 @@
+body{
+				max-width: 1200px;
+				width: 100%;
+				height: 5253px;
+			}
+			#wrap{
+				/*margin-top:157px;*/
+				min-height: 4687px;
+				position: relative;
+				background: rgb(245,248,250);
+				text-align:center;
+			}
+			.frame{
+				/*w1200 h1237*/
+				position: absolute;
+				margin-top: 30px;
+				margin-left:18.75%;
+				width: 62.5%;
+				min-height: 1237px;
+			}
+			.bar{
+				position: absolute;
+				width: 100%;
+				min-height: 11px;
+				background: rgb(240,241,242);
+			}
+			.navl{
+				/*w250 h806*/
+				position: absolute;
+				margin-top: 11px;
+				width: 20.8%;
+				min-height: 806px;
+				background: white;
+			}
+			.bzzx1{
+				/*w220 h100*/
+				position: absolute;
+				margin-top: 11px;
+				margin-left: 4.4%;
+				width: 88%;
+				height: 100px;
+				background: rgb(235,235,235);
+				font: "微软雅黑";
+				font-size: 30px; /*1em = 16px*/
+				color: rgb(153,153,153);
+				text-align: center;
+				line-height: 2;
+				overflow:hidden;
+			}
+			.navbox{
+				/*w240 h676*/
+				position: absolute;
+				margin-top: 130px;
+				width: 96%;
+				min-height: 676px;
+				
+			}
+			.navbox div{
+				min-height: 167px;
+			}
+			.hp{
+				width: 83.33%;
+				min-height: 40px;
+				padding-left: 16.67%;
+				background: rgb(235,235,235);
+				text-align: left;
+				font: "微软雅黑";
+				font-size: 16px;
+				color: rgb(51,51,51);
+				line-height: 40px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               20px;
+				margin-left: 25%;
+				/*height: 126px;*/
+				font: "微软雅黑";
+				font-size: 12px;
+				color: rgb(235,235,235);
+				line-height: 30px;
+				text-align: left;
+				overflow:hidden;
+			}
+			.main{
+				position: absolute;
+				margin-top: 11px;
+				margin-left: 22.4%;
+				width: 77.6%;
+				min-height: 1227px;
+				background: white;
+			}

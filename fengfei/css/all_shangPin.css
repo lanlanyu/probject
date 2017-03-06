@@ -1,0 +1,856 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+li,ul{
+	list-style: none;
+}
+.mia_fl{
+	float: left;
+}
+.mia_fr{
+	float: right;
+}
+.mia_clear:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+html{
+	font-size: 62.5%;
+}
+body{
+	width: 100%;
+	font-size: 1.6rem;
+	background: #f5f8fa;
+}
+#mia_tw,#mia_c,#mia_body,#mia_f,#mia_tkongt{
+	width: 62.5%;
+	margin: auto;	
+}
+#mia_tw{
+	line-height: 270%;
+}
+#mia_title{
+	position: fixed;
+	width: 100%;
+	height: 45px;
+	color: white;
+	z-index: 10;
+	background-color: #283647;
+}
+.mia_tr>li{
+	margin-left: 2rem;
+	float: left;
+	cursor: pointer;
+}
+.mia_tl>span{
+	cursor: pointer;
+	margin-right: 1rem;
+}
+#mia_tkong{
+	padding: 3.5% 0 2% 0;
+	background-color: white;
+}
+#mia_tkong .mia_sjjsx{
+	width: 50%;
+	padding: 50px 0px 0px 0px;
+}
+#mia_tkong .mia_sjjsx li{
+	font-size:2rem;
+	margin-right:2rem;
+	color: #547389;
+}
+#mia_tkong .mia_inspan{
+	height: 35px;
+}
+#mia_tkong .mia_inspan span{
+	height: 35px;
+	line-height: 35px;
+	width: 20%;
+	text-align: center;
+	margin-right: 2%;
+	background-color: #eeebeb;
+}
+#mia_tkong .mia_insimg{
+	width: 35px;
+	height: 35px;
+	background:rgb(173,171,171) url(mia_img/img1.png) -280px -2px;
+}
+#mia_tkong .mia_sqp{
+	margin-top: 40px;
+	border: 1px solid rgb(173,171,171);
+}
+#mia_tkong .mia_sqp input{
+	border: none;
+	width:55%;
+	height: 35px;
+}
+#mia_tkong .mia_ggc {
+	margin:40px 0px 0px 1rem;
+}
+#mia_tkong .mia_ggc p{
+	width: 37px;
+	height: 37px;
+	background:#ffbb33 url(mia_img/img1.png) -410px -2px;
+}
+#mia_tkong .mia_ggc span{
+	padding: 0 10px 0 10px;
+	line-height: 37px;
+	height: 37px;
+	background: rgb(173,171,171);
+}
+#mia_c{
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+#mia_c .mia_tc{
+	color: #1e87cd;
+	cursor: pointer;
+}
+#mia_b{
+	height: 41px;
+	line-height: 41px;
+	background: #ebebeb;
+}
+#mia_bt1,#mia_beijing,#mia_bpai{
+	padding-left: 1.67%;
+	padding-right: 1.67%;
+}
+#mia_bt1 .mia_bts{
+	font-size: 1.7rem;
+}
+#mia_bt1s{
+	color: #f3742f;
+}
+#mia_b #mia_bimg{
+	border-bottom:1px solid #cec8c8;;
+	background-color: white;
+	height: 171px;
+	margin-bottom:5px;
+}
+#mia_b #mia_bimg>li{
+	padding-top: 30px;
+	width: 12.5%;
+	text-align: center;
+	font-size: 1.2rem;
+	text-align: center;
+}
+
+
+
+
+#mia_b #mia_bimg li a{
+	display: block;
+	width: 80px;
+	height: 80px;
+	margin: auto;
+	overflow: hidden;
+	position: relative;
+}
+#mia_b #mia_bimg li img{
+	position: relative;
+	transition: all 0.5s ease;
+}
+#mia_b #mia_bimg a .img1{
+	top: 0px;
+}
+#mia_b #mia_bimg a .img2{
+	top: 0px;
+}
+#mia_b #mia_bimg li:hover a .img1{
+	top: -80px;
+}
+#mia_b #mia_bimg li:hover a .img2{
+	top: -90px;
+}
+#mia_b #mia_bimg li:hover{
+	color: red;
+}
+
+
+
+
+
+
+
+
+#mia_beijing ul img{
+	cursor: pointer;
+}
+#mia_beijing ul p{
+	/*margin-top: 10px;*/
+	cursor: pointer;
+}
+#mia_beijing{
+	background: white;
+}
+#mia_bpai{
+	background-color: white;
+	color:#6f6c6c;
+	padding-bottom: 5px;
+}
+#mia_bpai span{
+	border: 1px solid #cec8c8;
+	padding: 5px;
+	margin-right: 3px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#mia_goods ul{
+	width: 100%;
+}
+#mia_goods ul li{
+	float: left;
+	width: 23.875%;	
+}
+#mia_goods .mia_gr li{
+	margin-right: 1.5%;
+}
+#mia_goods .mia_gr li:nth-child(4n){
+	margin-right: 0;
+}
+#mia_goods li{
+	background: white;
+	height: 400px;
+	margin-top: 40px;	
+}
+#mia_goods li .mia_goods_div{
+	padding-left: 8%;
+	padding-right: 8%;
+	line-height: 28px;
+}
+#mia_goods .mia_goods_phone{
+	height: 210px;	
+	text-align: center;
+}
+#mia_goods .mia_goods_phone img{
+	margin-top: 35px;
+}
+#mia_goods .mia_zongxu{
+	color: #8c8888;
+}
+#mia_goods .mia_progress{
+	position: relative;
+}
+#mia_goods .mia_progress .pro1 img{
+	position: absolute;
+	height: 8px;
+	width: 100%;
+}
+#mia_goods .mia_progress .pro2 img{
+	position: absolute;
+	height: 8px;
+	width: 50%;
+}
+#mia_goods .mia_can{
+	line-height: 25px;
+	margin-top: 15px;
+}
+#mia_goods .mia_can p{
+	color: #808182;
+}
+#mia_goods .mia_jiajian{
+	margin-top: 10px;
+	border: 1px solid #d8d4d4;
+	border-radius: 5px;
+	color: #868080;
+	width: 30%;
+	height: 37px;
+	font-size: 1rem;
+	line-height: 37px;
+}
+#mia_goods .mia_jiajian div{
+	width: 25%;
+}
+#mia_goods .mia_jiajian .mia_shu{
+	width: 75%;
+}
+#mia_goods .mia_jiajian div p{
+	text-align: center;
+	font-size: 1.8rem;
+	line-height: 19px;
+	border-left: 1px solid #d8d4d4;
+}
+#mia_goods .mia_jiajian .mia_jjb{
+	border-bottom: 1px solid #d8d4d4;
+}
+#mia_goods .mia_gou .mia_liji{
+	width: 40%;
+	border: 1px solid #d8d4d4;
+	background: #d8dee2;
+	height: 37px;
+	line-height: 37px;
+	text-align: center;
+	margin-top: 10px;
+	border-radius: 5px;
+	margin-left: 7%;
+}
+#mia_goods .mia_gou .mia_che{
+	width: 15%;
+	margin-top: 10px;
+}
+#mia_goods .mia_gou .mia_che img{
+	height: 37px;
+}
+
+
+
+
+
+/*分类，晒单,参与记录,夺宝页面共写*/
+#mia_sxy,#mia_sdxy,#mia_jlsxy,#mia_dbsxy{
+	margin: auto;
+	margin-top: 30px;
+	text-align: right;
+}
+#mia_jlsxy{
+	position: absolute;
+	bottom: 80px;
+	right: -160px;
+}
+#mia_sxy{
+	width: 60%;
+}
+#mia_sdxy,#mia_jlsxy,#mia_dbsxy{
+	width: 90%;
+}
+#mia_sxy li,#mia_sdxy li,#mia_jlsxy li,#mia_dbsxy li{
+	background: #7f3e2c;
+	margin-left: 1rem;
+	cursor: pointer;
+	border: 1px solid #d8d4d4;
+	padding: 10px;
+	border-radius: 5px;
+}
+#mia_sxy li a{
+	color: white;
+	text-decoration: none;
+}
+#mia_f{
+	width: 100%;
+	background: #232f3e;
+	margin-top: 30px;
+}
+#mia_footer{
+	padding-top: 40px;
+	width: 65%;
+	margin: auto;
+	color: white;
+}
+#mia_footer #mia_ff1{
+	width: 85%;
+	margin: auto;
+}
+#mia_footer #mia_ff1 .mia_ffdiv{
+	width: 33.3%;
+}
+#mia_footer #mia_ff1 .mia_ffthr{
+	margin: 0px 0 36px 10px;
+}
+#mia_footer #mia_ff1 .mia_thr{
+	font-size: 1.8rem;
+	line-height: 30px;
+}
+#mia_footer #mia_ff1 .mia_thp{
+	color: #abafb5;
+}
+#mia_ff2{
+	width: 90%;
+	margin: auto;
+	border-top: 2px solid #586677;
+	padding: 20px;
+	padding-left: 4%;
+	padding-right: 4%;
+}
+#mia_ff2 li{
+	color: #a2a7ad;
+	line-height: 30px;
+}
+#mia_ff2 ul{
+	width: 20%;
+}
+#mia_ff2 .mia_ffour{
+	line-height: 45px;
+	font-size: 1.8rem;
+	color: white;
+}
+#mia_fff{
+	font-size: 1rem;
+	line-height: 30px;
+	margin-left: 10%;
+}
+#mia_fff .mia_flast{
+	color: #c8cdd3;
+	padding-top: 25px;
+}
+
+
+
+
+
+
+
+/*商品详情页*/
+#mia_c .mia_tca{
+	color: #9eb6c7;
+}
+#mia_xiangb1{
+	width: 60.5%;
+	padding: 1%;
+	margin: auto;
+	background: white;
+}
+#mia_xiangb1 .mia_xqfl{
+	width: 35%;
+	margin-right: 5%;
+}
+#mia_xiangb1 .mia_xqfr{
+	width: 60%;
+}
+#mia_xiangb1 .mia_xqflimg img{
+	width: 100%;
+}
+#mia_xiangb1 .mia_xqfltimg{
+	margin: 10px 0px 20px 0px;
+}
+#mia_xiangb1 .mia_xqfltimg li{
+	margin-left: 1.5%;
+	width: 14%;
+}
+#mia_xiangb1 .mia_xqfltimg li img{
+	width: 100%;
+}
+#mia_xiangb1 .mia_xqfr .mia_xqtb1 .p1{
+	font-size: 2rem;
+	font-weight: bolder;
+	line-height: 40px;
+}
+#mia_xiangb1 .mia_xqfr .mia_xqtb1 .p2{
+	line-height: 30px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #c1c0c0;
+}
+#mia_xiangb1 .mia_xqfr .mia_xqtb1 .p3{
+	margin:20px 0px 10px 0px;
+	color: #726f6f;
+}
+#mia_xiangb1 .mia_xqfr .mia_xqpro{
+	position: relative;
+}
+#mia_xiangb1 .mia_xqfr .mia_xqpro .p1{
+	width: 70%;
+	position: absolute;
+}
+#mia_xiangb1 .mia_xqfr .mia_xqpro .p2{
+	width: 35%;
+	position: absolute;
+}
+#mia_xiangb1 .mia_xqfr .mia_xqpro .p2 img,.p1 img{
+	height: 7px;
+	width: 100%;
+}
+#mia_xiangb1 .mia_xqfr .mia_xqcan{
+	margin: 40px 0px 20px 5%;
+	width: 75%;
+}
+#mia_xiangb1 .mia_xqfr .mia_xqcan div{
+	width: 33%;
+}
+#mia_xiangb1 .mia_xqfr .mia_xqcan div p{
+	line-height: 38px;
+	color: #b7b6b6;
+}
+#mia_xiangb1 .mia_xqfr .mia_xqjj{
+	margin: 35px 0px 20px 0px;
+	font-size:1.7rem;
+}
+#mia_xiangb1 .mia_xqfr .mia_xqjj .div{
+	margin-top: -10px;
+	border: 1px solid #999999;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+}
+#mia_xiangb1 .mia_xqfr .mia_xqjj .div .span1,.span3{
+	color: white;
+	padding: 0 10px 0 10px;
+	background: #999999;
+}
+#mia_xiangb1 .mia_xqfr .mia_xqjj .div .span2{
+	padding: 0 13px 0 13px;
+}
+#mia_xiangb1 .mia_xqfr .mia_xqllg p{
+	width: 25%;
+	height: 40px;
+	margin: 0px 20px 0px 0px;
+	text-align: center;
+	color: white;
+}
+#mia_xiangb1 .mia_xqfr .mia_xqllg .p1{
+	line-height: 40px;
+	background: #ffad33;
+	cursor: pointer;
+}
+#mia_xiangb1 .mia_xqfr .mia_xqllg .p2{
+	line-height: 40px;
+	background: #1a5580;
+	cursor: pointer;
+}
+#mia_xiangb1 .mia_xqfr .mia_xqllg .p2 img{
+	vertical-align: middle;
+	margin-top: -6px;
+}
+#mia_xiangb1 .mia_xqfr .mia_xqdl{
+	color:#5b5a5a;
+	line-height: 95px;
+	text-align: center;
+	font-size: 1.7rem;
+	width: 90%;
+	background: #ebebeb;
+	height: 95px;
+	margin:28px 0px 18px 0px;
+}
+#mia_xiangb2{
+	width: 62.5%;
+	margin: 40px auto 0px auto;
+	background: white;
+}
+#mia_xiangb2 .mia_xq2{
+	position: relative;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #d5d6d8;
+}
+#mia_xiangb2 .mia_xq2 p{
+	position:absolute;
+	top: 45px;
+	left: 35%;
+	width: 20px;
+	height: 11px;
+}
+#mia_xiangb2 .mia_xq2 ul{
+	padding-top: 20px;
+	width: 70%;
+	margin: auto;
+	color: #838789;
+	text-align: center;
+}
+#mia_xiangb2 .mia_xq2 ul li{
+	cursor: pointer;
+	width: 20%;
+}
+ .mia_xqqh1img1{
+	width: 80%;
+	margin:40px auto 60px auto;
+}
+ .mia_xqqh1img1 img{
+	width: 100%;
+}
+ .mia_xqqh1ul1{
+	line-height: 40px;
+	width: 70%;
+	margin: auto;
+	padding-bottom: 40px;
+}
+
+/*计算结果*/
+#mia_xqqh2d1{
+	background: #f5f8fa;
+	width: 90%;
+	padding-bottom: 30px;
+	margin: 35px auto 25px auto;
+}
+#mia_xqqh2d1 img{
+	margin-top: -7px;
+	width: 100%;
+}
+#mia_xqqh2d1 .div1{
+	margin-left: 3%;
+	width: 20%;
+}
+#mia_xqqh2d1 ul{
+	margin:4% 0 0 3%;
+	line-height: 50px;
+	width: 72%;
+}
+#mia_xqqh2d2 {
+	padding-bottom:40px;
+}
+#mia_xqqh2d2 table{
+	width: 90%;
+	margin: auto;
+	color: #706d6d;
+	text-align: center;
+	line-height: 43px;
+	border-collapse:collapse;
+}
+#mia_xqqh2d2 table th{
+	color: black;
+	background: #ebebeb;
+}
+#mia_xqqh2d2 table tr{
+	background:#f5f8fa
+}
+#mia_xqqh2d2 table tr>th:nth-child(1){
+	padding-left: 12px;
+}
+#mia_xqqh2d2 table tr>th:nth-child(6){
+	padding-right: 12px;
+}
+#mia_xqqh2d2 table tr>td:nth-child(2){
+	font-weight:bold;
+	font-family: "微软雅黑";
+}
+#mia_xqqh2d2 table tr>td:nth-child(2) span{
+	color: #ff8533;
+}
+#mia_xqqh2d2 table tr>td:nth-child(2)>span:nth-child(1){
+	background:url("mia_img/img1.png") -265px -171px;
+}
+
+/*晒单*/
+#mia_xqqh3{
+	width: 90%;
+	background: white;
+	padding-bottom: 30px;
+	margin: 35px auto 25px auto;
+}
+#mia_xqqh3 .mia_sdtd{
+	margin-bottom: 40px;
+}
+#mia_xqqh3 .mia_d1{
+	width:20%;
+	margin-left: -2%;
+	text-align: center;
+}
+#mia_xqqh3 .mia_d1 .p1{
+	margin: auto;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background: url("mia_img/mia.png") no-repeat;
+	background-size: cover;
+}
+#mia_xqqh3 .mia_d1 .p2{
+	line-height: 45px;
+}
+#mia_xqqh3 .mia_d2{
+	width: 80%;
+	padding-bottom: 20px;
+	border: 1px solid #dad7d7;
+}
+#mia_xqqh3 .mia_d2 .div1{
+	background: #ebebeb;
+	height: 45px;
+	line-height: 45px;
+}
+#mia_xqqh3 .mia_d2 .div1 .p1{
+	font-size: 1.7rem;
+	font-weight: bolder;
+	margin-left: 20px;
+}
+#mia_xqqh3 .mia_d2 .div1 .p2{
+	margin-right: 20px;
+	color: #888282;
+}
+#mia_xqqh3 .mia_sdp{
+	margin: 10px 20px 20px 20px;
+	line-height: 30px;
+	color: #605a5a;
+}
+#mia_xqqh3 .mia_sdimg{
+	margin: 0 20px 0px 20px;
+}
+#mia_xqqh3 .mia_sdimg img{
+	margin-right: 1%;
+	width: 14%;
+	vertical-align: middle;
+}
+
+
+/*参与记录*/
+#mia_xqqh4{
+	width: 80%;
+	background: white;
+	padding-bottom: 30px;
+	margin: 35px auto 25px auto;
+	height: 1000px;
+	/*这里不设置高度无法撑开父级*/
+	position: relative;
+}
+#mia_xqqh4 .mia_jltimer{
+	position: absolute;
+	height: 85%;
+	border-right: 1px solid #c1bcbc;
+	width: 73px;
+}
+#mia_xqqh4 .mia_jlbody{
+	height: 100%;
+	position: absolute;
+	margin-top: 20px;
+}
+#mia_xqqh4 .mia_jlbody table{
+	margin-top: 20px;
+	border: none;
+}
+#mia_xqqh4 .mia_jlbody table tr{
+	line-height: 30px;
+}
+#mia_xqqh4 .mia_jlbody table td{
+	margin-right: 30px;
+}
+#mia_xqqh4 .mia_jlbody tr>td:nth-child(1){
+	color: red;
+	position: relative;
+	left: -20px;
+}
+#mia_xqqh4 .mia_jlbody tr>td:nth-child(2){
+	position: relative;
+	display: block;
+	height: 10px;
+	width: 10px;
+	left: 2px;
+	top: 15px;
+	background: white;
+	border-radius: 100%;
+	border: 1px solid #c1bcbc;
+}
+#mia_xqqh4 .mia_jlbody tr>td:nth-child(3){
+	position:relative;
+	display: block;
+	width: 30px;
+	height: 30px;
+	top: -8px;
+	left: 30px;
+	background: url("mia_img/mia.png");
+	background-size: 100%;
+	border-radius: 50%;
+	margin-right: 50px;
+}
+#mia_xqqh4 .mia_jlbody tr>td:nth-child(4),tr>td:nth-child(5){
+	padding-right: 30px;
+}
+/*往期夺宝*/
+#mia_xqqh5{
+	width: 90%;
+	margin:20px auto 60px auto;
+	padding-bottom: 50px;
+}
+#mia_xqqh5 .mia_wq{
+	padding:15px 0 40px 2%;
+	width: 100%;
+	border-bottom:1px solid #d9d6d6;
+}
+#mia_xqqh5 .mia_wq .mia_wql1{
+	margin:65px 1% 0 2%;
+	width: 10%;
+}
+#mia_xqqh5 .mia_wq .mia_wql2{
+	width: 10%;
+	margin-top: 20px;
+	background-size: 100%;
+	border-radius: 100%;
+}
+#mia_xqqh5 .mia_wq .mia_wql2 img{
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+}
+#mia_xqqh5 .mia_wq .mia_wql3{
+	width: 35%;
+	margin: 20px 0 0 2%; 
+	line-height: 30px;
+}
+#mia_xqqh5 .mia_wq .mia_wql3 .span1{
+	color: #038be5;
+}
+#mia_xqqh5 .mia_wq .mia_wql3 .span2{
+	color: #f2783b;
+}
+#mia_xqqh5 .mia_wq .mia_wql4 .xyh{
+	color: #f2783b;
+}
+#mia_xqqh5 .mia_wq .mia_wql4{
+	width: 25%;
+	margin: 20px 0 0 0; 
+	line-height: 30px;
+}
+#mia_xqqh5 .mia_wq .mia_wql5{
+	width: 10%;
+	margin:65px 0 0 2%;
+}
+/*推荐商品*/
+#mia_tjsp{
+	width: 62.5%;
+	margin: auto;	
+}
+#mia_tjsp .mia_tjspdiv1{
+	border-top: 1px solid #aeb0b1;
+	padding: 10px;
+	margin-top: 35px;
+	line-height: 35px;
+}
+#mia_tjsp .mia_tjspdiv1 .p1{
+	font-size: 1.7rem;
+	color: #82a6be;
+}
+#mia_tjsp .mia_tjspdiv1 .p2{
+	color: #969a9c;
+}
+#mia_tjsp .mia_tjspdiv2{
+	text-align: center;
+	background: white;
+	padding: 20px 1%;
+}
+#mia_tjsp .mia_tjspdiv2 img{
+	margin-left: 10%;
+}
+#mia_tjsp .mia_tjspdiv2 li{
+	padding: 30px 3% 15px 2%;
+	margin:0 0.5%;
+	box-sizing: border-box;
+	width: 19%;
+	border-right: 1px solid #bdbfc0;
+}
+#mia_tjsp .mia_tjspdiv2 li:last-child{
+	border: none;
+}
+#mia_tjsp .mia_tjspdiv2 li>p:nth-child(2){
+	font-weight: bolder;
+	font-size: 1.7rem;
+	margin: 28px 0 15px 0;
+}
+#mia_tjsp .mia_tjspdiv2 li>p:nth-child(3),li>p:nth-child(4){
+	line-height: 24px;
+	color: #8b8f92;
+}
+#mia_tjsp .mia_tjspdiv2 li>p:nth-child(4) span{
+	color: black;
+}
+#mia_tjsp .mia_tjspdiv2 li>p:nth-child(5){
+	margin: 15px 0 0 25%;
+	background: black;
+	color: white;
+	width: 40%;
+	padding: 0 6% 0 6%;
+	height: 35px;
+	line-height: 35px;
+	border-radius: 5px;
+}
+
+
+
+

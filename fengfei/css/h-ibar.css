@@ -1,0 +1,15 @@
+.h-ibar{/*帮助中心详情各标题*/
+				margin-top: 29px;
+				margin-left: 12.55%;
+				max-width: 680px;
+				width: 72.125%;
+				padding-left: 2.857%;
+				min-height: 41px;
+				/*background: red;*/
+				border-bottom: 1px solid rgb(187,187,187);
+				line-height: 43px;
+				font-size: 16px;
+				font-family: "微软雅黑";
+				font-weight:bolder;
+				color: black;
+			}

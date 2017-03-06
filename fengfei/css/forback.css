@@ -1,0 +1,48 @@
+.forback_top{
+	height: 80px;
+	width: 100%;
+	background: #f5f8fa;
+	padding:10px 0 ;
+}
+.forback_top1{
+	max-width: 1200px;
+	width: 100%;
+	margin: auto;
+}
+.forback_top_left_logo{
+	width: 220px;
+	height: 100px;
+	background: url(../img/img1.png) 820px -15px;
+}
+.forback_top_left p{
+	height: 60px;
+	line-height: 60px;
+	border-left:2px solid #e6e6e6;
+	font-size: 28px;
+	color: #999999;
+	margin-top: 10px;
+	padding-left: 20px;
+}
+
+.forback_top_right{
+	margin-top: 35px;
+}
+
+.forback_top_right li{
+	
+	float: left;
+	margin: 0 10px;
+}
+
+.forback_top_right li a{
+	color: #999;
+}
+.forback_bottom{
+	text-align: center;
+	color: #999999;
+	padding-top: 40px;
+	border-top:1px solid #eaebeb;
+	margin-top: 115px;
+	height: 310px;
+	background: #f5f8fa;
+}

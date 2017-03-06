@@ -1,0 +1,1143 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/reset(1).css"/>
+		<link rel="stylesheet" type="text/css" href="css/reset_media.css"/>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/personal_Information.css"/>
+		<style type="text/css">
+			.top{ margin:5px auto; color:#990000; text-align:center;}
+.info select{ border:1px #999 solid; background:#FFFFFF;}
+.info{ margin:5px; text-align:center;}
+.info #show{ color:#3399FF; }
+.bottom{ text-align:right; font-size:12px; color:#CCCCCC; width:1000px;}
+		</style>
+	</head>
+	<body>
+		<div style="position: absolute;width: 100%;">
+			<div class="header" id="top">
+				<div class="header_one clear">
+					<div class="header_one_left left clear">
+						<div class="header_one_left_one">
+							欢迎来到某某夺宝!
+						</div>
+						<div class="header_one_left_two">
+							<div><span id="Login">
+									登录
+								</span>
+								<span id="Register">
+									注册
+								</span>
+							</div>
+							<div style="display: none;">
+								<span>136****8592</span>
+							</div>
+						</div>
+					</div>
+					<div class="header_one_right right clear">
+						<ul>
+							<li>客服</li>
+							<li>APP下载</li>
+							<li>充值</li>
+							<li>我的夺宝</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="toop">
+				<div class="top clear">
+					<div class="top_logo left">
+						<img src="img/logo.png"/>
+					</div>
+					<div class="nav left clear">
+						<ul>
+							<li><a href="index.html">首页</a></li>
+							<li><a href="all_shangPin.html">精选商品</a></li>
+							<li><a href="resultsReveaied.html">结果揭晓</a></li>
+							<li><a href="###">晒单分享</a></li>
+							<li><a href="help_centre.html">新手指南</a></li>
+						</ul>
+					</div>
+					<div class="top_right right clear">
+						<div class="shopcar clear">
+							<span>
+								
+							</span>
+							<div class="car left">
+								购物车
+							</div>
+						</div>
+					</div>
+					<div class="search right clear">
+						<div class="search_text left clear">
+							<input type="text" width="100" name="" id="Ser" class="left" value=""  placeholder="搜索"/>
+							<span class="search_car left">
+								汽车
+							</span>
+							<span class="search_apple left">苹果</span>
+						</div>
+						<div class="search_btn left">
+							<img src="img/search.png"/>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="wrap">
+
+			<div class="personal_Information">
+				<div class="personal_all">
+					<p class="personal_black"></p>
+					<div class="person_all_1">
+						<div class="person_all_top">
+							我的个人主页 > <span class="person_all_gongneng">基本设置</span>
+						</div>
+						<div class="person_all_section">
+							<ul class=" nChange">
+								<li class="li">基本设置</li>
+								<li>我的地址</li>
+								<li>实名认证</li>
+							</ul>
+						</div>
+						<div  class="person_shezhi " style="display: block;">
+							<span class="person_shezhi_jiao"></span>
+							<form action="" >
+								<div class="clear">
+								    <div class="person_shezhi_left left">
+									    <div class="person_shezhi_left_top">
+										      <p id="imgTxSpan"><img src="img/phone.png" id="nnameImg"/></p>
+											  <input type="file" name="" id="setTx" value="" style="display: none;" accept="image/jpeg,image/png,image/jpg"/><br />
+										      <span class="set_touxiang">更换头像</span>
+
+									    </div>
+									    <p><a href="forback_psw1.html">修改登录密码 ></a></p>
+									    <p><a href="phone&idVerify.html">设置支付密码></a></p>
+								   </div>
+								   <div class="person_shezhi_right left clear">
+									    <div>昵&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;称<input type="text" id="npet-name"/></div>
+									    <div>电子邮箱<input type="text" id="nmailbox"/></div>
+									    <div>性&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;别<label for=""><input type="checkbox" checked="" id="nman"/>男</label><label for=""><input type="checkbox" id="nwomen"/>女</label></div>
+	                                 <div class="ndata">
+		                               <li >  
+                                         <select class="sel_year">  
+                                         </select>年  
+                                         <select class="sel_month">  
+                                           </select>月  
+                                         <select class="sel_day">  
+                                          </select>日  
+                                       </li> 									
+	                                 </div>
+	                               </div>
+	                           </div>
+								
+								<div class="person_shezhi_bottom"><span>保存</span><span>取消修改</span></div>
+							</form>
+						</div>
+						<div class="person_address" style="display: none;">
+							<div>我的收获地址(已保存<span class="person_address_num">2</span>个收货地址，还能再保存<span class="person_address_raminNum">2</span>个)</div>
+							<ul id="list" class="person_address_shouhuo">
+								<li>
+									<span>收货人</span>
+									<span>收货地址</span>
+									<span>手机号</span>
+									<span>邮政编码</span>
+									<span>操作</span>
+								</li>
+								<li>
+									<span>收货人最长八个人字</span>
+									<span>详细地址详细地址详细地址详细地址详细地址详细地</span>
+									<span>13631858592</span>
+									<span>529259</span>
+									<span>
+										<p class="address_xiugai" >修改 |</p>
+										<p class="address_del"  >删除</p>
+										<span class="address_shezhi" >默认地址</span>
+									</span>
+								</li>
+								<li>
+									<span>收货人最长八个人字</span>
+									<span>详细地址详细地址详细地址详细地址详细地址详细地</span>
+									<span>13631858592</span>
+									<span>529259</span>
+									<span>
+										<p class="address_xiugai" >修改 |</p>
+										<p class="address_del" >删除</p>
+										<span class="address_shezhi" >设置默认</span>
+									</span>
+								</li>
+							</ul>
+							
+							<p class="xinzeng">新增收获地址(带*为必填项)</p>
+							<div class="new_address">
+								<form action="" id="naddress">
+									
+			<div data-toggle="distpicker" class="narea-add">
+				<span>*所在地区</span>
+				<select data-province="---- 选择省 ----"></select>
+				<select data-city="---- 选择市 ----"></select>
+				
+			</div>
+			<div id="show"></div>
+									
+									
+									<p></p>
+									<div class="clear">
+										<span class="left">*详细地址</span><textarea class="left" cols="30" rows="5" placeholder="比如，xxx县xxx街道xxx号"></textarea>
+									</div>
+									<p></p>
+									<div><span>*手&nbsp;机&nbsp;号</span><input type="text" /></div>
+									<p></p>
+									<div><span>*收&nbsp;货&nbsp;人</span><input type="text" /></div>
+									<p></p>
+									<div class="address_you"><span>邮政编码</span><input type="text" /></div>
+									<label for="male"><input type="checkbox" id="male" checked="checked"/>设为默认地址</label>
+									<div class="address_baocun"><span>保存</span></div>
+								</form>
+								</div>
+							</div>
+						</div>
+						<div class="person_yanzheng" style="display:none">
+							<div class="shenfen_shuoming">
+								<p>为保障您的账户安全，某某医院夺宝承诺讲对您的认证信息加密保管，绝不外泄</p>
+								<p>认证规则</p>
+								<p>1.需填写您的真实姓名和对应的身份证号码</p>
+								<p>2.手持身份证照片上得信息，需和填写的姓名、身份证号码一一对应</p>
+								<p>3.认证后的信息不可更改，请谨慎填写</p>
+							</div>
+							<form action="">
+								<div class="shengfen_text">*手&nbsp;机&nbsp;号  <input type="text" id="txt1" /></div>
+								<p class="phone_erre"></p>
+								<div class="yanzhengma_shenfen">*验&nbsp;证&nbsp;码  <input type="text" id="txt2" /><span id="huoqu_yanzhengma">获取验证码</span></div>
+								<p class="yanzhengma_erre"></p>
+								<div class="shengfen_text">*真实姓名<input type="text" id="txt3"/></div>
+								<p class="name_erre"></p>
+								<div class="shengfen_text">*身份证号<input type="text" id="txt5"/></div>
+								<p class="shengfen_erre"></p>
+								<div class="shangchuan_tupian"><span>*上传照片</span>
+									<ul id="nSent">
+										<li><span></span><p>身份证正面</p><input type="file" name="" id="nimg_zhengmian" value="" accept="image/jpg,image/png,image/jpeg" style="display: none;"/></li>
+										
+										<li><span></span><p>身份证反面</p><input type="file" name="" id="nimg_fanmian" value="" accept="image/jpg,image/png,image/jpeg" style="display: none;"/></li>
+										<li><span></span><p>手持身份证</p><input type="file" name="" id="nimg_shouchi" value="" accept="image/jpg,image/png,image/jpeg" style="display: none;"/></li>
+									</ul>
+									<p>请按照如下要求上传3张身份证照片</p>
+									<ul class="shili">
+										<li><p>示例</p><span></span></li>
+										<li><p>示例</p><span></span></li>
+										<li><p>示例</p><span></span></li>
+									</ul>
+									
+									<p>1.图示例方式双手持身份证，手指不可遮挡身份证信息;</p>
+									<p>2.照片需要免冠，建议未化妆，五官清晰可见;</p>
+									<p>3.照片内容真实有效，不得做任何修改;</p>
+									<p>4.支持jpg、jpeg、png格式，大小不超过5MB</p>
+								</div>
+								<div style="text-align: center;">
+									<span class="queren_shangchuan">确认上传</span>
+								</div>
+							</form>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="FOOT">
+				<div class="foot">
+					<div class="foot_top">
+						<ul class="clear">
+							<li class="left clear">
+								<img src="img/11.png" class="left"/>
+								<div>
+									<p>品质保障</p>
+									<p>精选优质商品</p>
+								</div>
+							</li>
+							<li class="left clear">
+								<img src="img/22.png" class="left"/>
+								<div>
+									<p>公平公正</p>
+									<p>结果公开透明</p>
+								</div>
+							</li>
+							<li class="left clear">
+								<img src="img/33.png" class="left"/>
+								<div>
+									<p>免费配送</p>
+									<p>快速包邮到家</p>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="foot_mid clear">
+						<div>
+							<p><a href="###">新书指南</a></p>
+							<ul>
+								<li><a href="###">夺宝规则</a></li>
+								<li><a href="###">常见问题</a></li>
+								<li><a href="###">服务协议</a></li>
+							</ul>
+						</div>
+						<div>
+							<p><a href="###">夺宝保障</a></p>
+							<ul>
+								<li><a href="###">某某夺宝保障体系</a></li>
+								<li><a href="###">安全支付</a></li>
+								<li><a href="###">隐私声明</a></li>
+							</ul>
+						</div>
+						<div>
+							<p><a href="###">商品配送</a></p>
+							<ul>
+								<li><a href="###">配送费用</a></li>
+								<li><a href="###">验货与签收</a></li>
+								<li><a href="###">长时间未到商品</a></li>
+							</ul>
+						</div>
+						<div>
+							<p><a href="###">关于我们</a></p>
+							<ul>
+								<li><a href="###">关于点盛</a></li>
+								<li><a href="###">客服中心</a></li>
+								<li><a href="###">建议反馈</a></li>
+							</ul>
+						</div>
+						<div>
+							<p><img src=""/></p>
+							<span id="">
+								下载APP
+							</span>
+						</div>
+					</div>
+					<div class="foot_bottom clear">
+						<img src="img/logo.png"/>
+						<div class="left">
+							<p>广州点盛科技有限公司运营及版权所有 © 1997-2016 ICP证浙B2-20160106</p>
+							<ul class="clear">
+								<li><a href="###">关于点盛</a></li>
+								<li><a href="###">隐私政策</a></li>
+								<li><a href="###">服务条款</a></li>
+								<li><a href="###">联系我们</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		
+		</div>
+			
+			<div id="denglu" class="clear">
+			<div class="dengluzhuce">
+				
+				<div class="dengluzhuce_top clear">
+					<span id="colorColor">登录</span>
+					<span>注册</span>
+					<img src="img/close.png"/>
+				</div>
+				<div class="dengluzhuce_content">
+					<span class="jiaojiao"></span>
+					<form action="">
+					<div class="denglu">
+						<div class="denglu_name clear">
+							<span class="left">
+								<img src="img/guoqi.png"/>
+							</span>
+							<input type="text" name="" class="left" id="username" onfocusout="fnOnfocuout(this)" placeholder="手机号"/>
+							<span class="left"></span>
+						</div>
+						<p class="denglu_name_eorr"></p>
+						<div class="denglu_pws clear">
+							<input type="password" class="left" name="" id="psw" onfocusout="fnOnfocuout1(this)"  placeholder="密码"/>
+							<span class="right"></span>
+						</div>
+						<p class="denglu_pws_eorr"></p>
+					</div>
+					<div class="denglu_queding">
+						登录
+					</div>
+					</form>
+					<div class="ziyuwang clear">
+						<div class="ziyuwang_left left"><label><input type="checkbox" name="zidongdenglu" id="zidongdenglu" value="" />自动登录</label></div>
+						<div class="ziyuwang_right right"><a href="forback_psw1.html">忘记密码</a></div>
+					</div>
+					<div class="denglu_other clear">
+						<p class="left">其他登录方式：</p>
+						<span class="left"></span>
+					</div>
+				</div>
+				<div class="zhuce">
+					<span class="zhuce_xian"></span>
+					<form action="" method="post">
+						<div class="denglu">
+						<div class="denglu_name clear">
+							<span class="left">
+								<img src="img/guoqi.png"/>
+							</span>
+							<input type="text" name="" class="left" id="username_zhuce" onfocusout="fnOnfocuout4(this)" placeholder="手机号"/>
+							<span class="left"></span>
+						</div>
+						<p class="denglu_name_eorr"></p>
+						<div class="denglu_pws clear">
+							<input type="password" class="left" name="" id="psw_zhuce" onfocusout="fnOnfocuout5(this)"  placeholder="密码"/>
+							<span class="right"></span>
+						</div>
+						<p class="denglu_pws_eorr"></p>
+					</div>
+					<div class="yanzhengma clear">
+						<div class="left"><input type="text" class="left" onfocusout="fnOnfocuout3(this)" placeholder="验证码"/><span class="right"></span></div>
+						<div class="left">获取验证码</div>
+					</div>
+					<p class="yanzhengma_yanzheng"></p>
+					<div class="zhuce_queding">
+						注册
+					</div>
+					<div class="xieyi"><label><input type="checkbox" />我已阅读并同意<a href="###">《用户服务协议》</a></label></div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div id="zhuce_success">
+			<div>
+				<img src="img/close.png"/>
+				<p>注册成功！</p>
+				<p>去登录</p>
+			</div>
+		</div>
+	
+		</div>
+		<div id="address_xiugai" style="display: none;">
+			<div class="person_address1">
+				<p class="xinzeng">修改收货地址(带*为必填项)</p>
+							<div class="new_address">
+								<form action="">
+									<div>*所在地区<div class="info">
+											<div>
+												<select id="s_province" name="s_province"></select>  
+												<select id="s_city" name="s_city" ></select>  
+												<select id="s_county" name="s_county"></select>
+
+											</div>
+											<div id="show"></div>
+									</div></div>
+									<p></p>
+									<div class="clear">
+										<span class="left">*详细地址</span><textarea class="left" cols="30" rows="5" placeholder="比如，xxx县xxx街道xxx号"></textarea>
+									</div>
+									<p></p>
+									<div><span>*手&nbsp;机&nbsp;号</span><input type="text" /></div>
+									<p></p>
+									<div><span>*收&nbsp;货&nbsp;人</span><input type="text" /></div>
+									<p></p>
+									<div class="address_you"><span>邮政编码</span><input type="text" /></div>
+									<label for="male1"><input type="checkbox" id="male1"/>设为默认地址</label>
+									<div class="address_baocun"><span>保存</span><span id="">取消修改</span></div>
+								</form>
+							</div>
+					</div>
+		</div>
+	
+	
+
+
+		<div class="nreceive" style="display: none;">
+			<span class="nclose">
+				
+			</span>
+			<p id="new-address">修改收货地址(带*为必填项)</p>
+             <!--通过插件来完成地区的选择-->
+             <div class="ncenter">
+             	
+             
+			<div data-toggle="distpicker" class="narea-add">
+				<span>*所在地区</span>
+				<select data-province="---- 选择省 ----"></select>
+				<select data-city="---- 选择市 ----"></select>
+				<select data-district="---- 选择区 ----"></select>
+			</div>
+			<span id="nprompt-add-area">
+				<!--当没有选择地区的时候,发警告-->
+			</span>
+			<p id="address-detailed" class="clear">
+				<span class="left">*详细地址</span>
+				<textarea name="" rows="4" cols="" class="left"></textarea><br /><br /><br /><br /><br />
+				<span id="nprompt-add-detailed">
+					<!--没写详细信息的时候-->
+				</span>
+				
+			</p>
+			<p id="n-tel">
+				<span>*手机号</span>
+				<input type="text" name="" id="" value="" placeholder="请输入手机号" /><br />
+				<span id="n-tel-detailed">
+					<!--输入手机号-->
+				</span>
+			</p>
+			<p id="nName-add">
+				<span>*收货人</span>
+				<input type="text" name="" id="" value="" />
+				<span id="nName-add-detailed">
+					<!--输入收货人-->
+				</span>
+			</p>
+			<p id="npostcode">
+				<span>邮政编码</span>
+				<input type="text" />
+			</p>
+
+			<input type="checkbox" name="" id="nCheck" value="" checked="checked"/><label for="nCheck">设为默认地址</label>
+			<br />
+			<input type="button" name="" id="add-btnS" value="保存" />
+			<input type="button" name="" id="add-btnC" value="取消" />
+			</div>
+		</div>
+
+     	<div class="receive-add" style="display: none;">
+			<span class="nclose">
+				   <!--关闭按钮-->		
+			</span>
+			<span class="add-warn">
+		 	    <!--警告的雪碧图-->
+		    </span>
+			<span>
+		   	      确认删除?
+		   </span>
+			<p class="nprompt">
+				这将会删除您的收获地址!
+			</p>
+			<input type="button" name="" id="btn1" value="取消" />
+			<input type="button" name="" id="btn2" value="确认" />
+
+		</div>
+
+
+
+
+
+	</body>
+	<script src="js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/distpicker.data.js"></script>
+	<script src="js/request.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/check.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/distpicker.js"></script>
+	<script src="js/main.js"></script>
+	
+	<script src="js/data.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+	 
+  //选择男或女
+//    console.log($("#nman").attr("checked"))
+   function changeSex(){
+  
+   $("#nman").on("click",function(){
+   	      if($("#nman").prop("checked")){
+
+	$("#nwomen").removeAttr("checked")  
+}
+
+   })
+$("#nwomen").on("click",function(){
+   	     if($("#nwomen").prop("checked")){
+	$("#nman").removeAttr("checked")  
+}
+   })
+
+
+ }
+   //出生日期
+   $(function () {  
+// 出生年月插件  
+$.ms_DatePicker({  
+YearSelector: ".sel_year",  
+MonthSelector: ".sel_month",  
+DaySelector: ".sel_day"  
+});  
+});  
+ 
+     
+    //  点击切换页面
+     var jiaoLeft,jiaoLeft1,jiaoLeft2;
+
+var personall=document.getElementsByClassName("personal_all")[0]
+var personall1=document.getElementsByClassName("person_all_1")[0]
+
+//   jiaoLeft=personall1.clientWidth*0.26;
+//   jiaoLeft1=personall1.clientWidth*0.35;
+//   jiaoLeft2=personall.clientWidth*0.6;
+//   console.log(jiaoLeft)
+          $(".nChange li").each(function(i){
+//        	 jiaoLeft=$(".nChange li").eq(i).position().left+$(".nChange li").eq(i).width();
+
+          	 $(this).on("click",function(){
+                  $(".nChange li").each(function(n){
+                  	     $(".nChange li").eq(n).css({
+                  	     	color:"lightgray"
+                  	     })
+                  })
+
+          	 	$(this).css({
+          	 		color:"black"
+          	 	})
+          	 	 var index=$(this).index();
+          	 	 if(index==0){
+         	 	 	
+          	$(".person_shezhi").attr("style","display:block")
+          	$(".person_address").attr("style","display:none")
+          	$(".person_yanzheng").attr("style","display:none")
+          	 	          $(".person_shezhi_jiao").css({
+          	 	left:jiaoLeft
+          	 }) 
+          	 	 }
+          	 	 if(index==1){
+           var jiao= $("	<span class='person_shezhi_jiao'></span>")
+            $(".person_address").append(jiao);          	 	 	          $(".person_shezhi_jiao").css({
+          	 	left:jiaoLeft1
+          	 }) 
+//        	 console.log($(".nChange li").eq(1).position().left+$(".nChange li").eq(1).width())
+          	$(".person_shezhi").attr("style","display:none")
+          	$(".person_address").attr("style","display:block")
+          	$(".person_yanzheng").attr("style","display:none")
+          	 	 }          	 	 
+          	 	 if(index==2){
+           var jiao= $("	<span class='person_shezhi_jiao'></span>")
+         	 	$(".person_yanzheng").append(jiao)
+         	  $(".person_shezhi_jiao").css({
+          	 	left:jiaoLeft2
+          	 }) 	
+          	$(".person_shezhi").attr("style","display:none")
+          	$(".person_address").attr("style","display:none")
+          	$(".person_yanzheng").attr("style","display:block")
+          	 	 }          	 	 
+        	 	
+          	 })	 
+          })
+          
+  
+             	//点击取消按钮
+          	 $(".person_shezhi_bottom span").eq(1).on("click",function(){
+//        	 	console.log("555")
+                window.location="page7endhtml.html"
+          	 	
+          	 })  
+            	 //点击保存按钮
+          	 	$(".ndata select").eq(0).on("change",function(){
+//        	 		console.log($(".ndata select").eq(0).val())
+          	 	})            	 
+          	 $(".person_shezhi_bottom span").eq(0).on("click",function(){
+//        	 	console.log("11")
+          	 	//person_shezhi_right
+
+               if($(".ndata select").eq(0).val()==0||$(".ndata select").eq(1).val()==0||$(".ndata select").eq(2).val()==0||$("#nmailbox").val()==""||$("#npet-name").val()==""){
+              alert("请输入内容") 	
+               	return
+               }else{
+               	alert("保存成功")
+               	//ajax传输数据到后台,将储存的数据放到后台
+               	window.location="page7endhtml.html"
+               	
+               }
+                }) 
+ //点击更换头像   事件模拟
+
+   var settxS=document.getElementsByClassName("set_touxiang")[0];
+//     console.log(settxS)
+       var setTx=document.getElementById("setTx");
+       var imgTxW=imgTxSpan.clientWidth;
+       var imgTxH=imgTxSpan.clientWidth;
+         settxS.onclick=function(){
+         	
+         	
+         	setTx.click();
+         	
+         	
+         }
+          
+          setTx.onchange=function(){
+          	   var imgTx=new Image();
+          	   var src = URL.createObjectURL(setTx.files[0]);
+          	   imgTx.src=src;
+          	   imgTx.width=imgTxW;
+          	   imgTx.height=imgTxH
+          	   
+          	   imgTx.onload=function(){
+          	   	  URL.revokeObjectURL(src)
+          	   }
+//        	   imgTxSpan.style.innerHTML="";
+                $("#imgTxSpan").empty();
+                $("#imgTxSpan").append(imgTx)
+//        	   imgTxSpan.appendChild(imgTx)
+//        	   imgTx.attr("id","nnameImg")
+          }
+ 
+ 
+          	 	
+          	
+          	 
+//           我的地址页面的点击事件
+//          保存按钮的点击事件
+
+
+            $(".address_baocun").on("click",function(){
+//          	   console.log($("#naddress textarea").val())
+            	     if($(".narea-add select").eq(0).val()==""||$(".narea-add select").eq(1).val()==""||$("#naddress textarea").val()==""||$("#naddress input").eq(0).val()==""||$("#naddress input").eq(1).val()==""){
+            	     	return;
+            	     }else{
+
+//                console.log($(".person_address_shouhuo li").size())
+                  if($(".person_address_shouhuo li").size()>4){
+                  	 alert("你的收获地址已达上限,不能保存")
+                  }else{
+//          	     	链接到后台,储存到数据库
+                  //返回到本页面的ul的li里面
+                  //直接当做已经发到后台,然后传回来
+                  var naddressAdd;
+                    
+//               console.log($("#male").prop("checked"))
+                     if($("#male").prop("checked")){
+                     	   naddressAdd="默认地址"
+                  $(".address_shezhi").each(function(i){
+                  	   $(".address_shezhi").eq(i).html("设置默认")  
+                  	     
+                  })                     	   
+                     }else{
+                     	 naddressAdd="设置默认"
+                     }                
+                  
+                  
+                  
+                  var lis=$("<li></li>")
+//                console.log($("#naddress input").eq(1).val())
+                   
+                  lis.html("<span>"+$("#naddress input").eq(1).val()+"</span><span>"+$("#naddress textarea").val()+"</span><span>"+$("#naddress input").eq(0).val()+"</span><span>"+$("#naddress input").eq(2).val()+"</span><span><p class='address_xiugai'>修改 |</p><p class='address_del'>删除</p><span class='address_shezhi'>"+naddressAdd+"</span></span>")
+
+
+                 
+
+                   $(".person_address_shouhuo li").eq(0).after(lis)
+                   $("#naddress textarea").val("");
+                   $("#naddress input").eq(0).val("");
+                   $("#naddress input").eq(1).val("");
+                   $("#naddress input").eq(2).val("");
+                   
+                  }
+            	     	
+            	     	
+            	     }
+            	    
+            	    
+            })
+            
+// 设置默认的点击事件
+        function  morenaddress(){
+        	
+      
+        $(".address_shezhi").each(function(i){
+        	    $(".address_shezhi").eq(i).on("click",function(){
+        	    	       $(".address_shezhi").each(function(k){
+        	    	       	   
+        	    	       	     $(".address_shezhi").eq(k).html("设置默认")  
+        	    	       })
+        	    	       if($(this).html()=="默认地址"){
+        	    	       	 return
+        	    	       }else{
+        	    	       	    $(this).html("默认地址")
+        	    	       }
+        	    })
+        })
+       }
+         function move(){
+         	
+         	changeSex()
+         	morenaddress()
+         	
+//       	填入多少条地址
+         	 var nSize=$("#list li").size()-1
+//       	 console.log($("#list li").size())
+         	 $(".person_address_num").html(nSize);
+         	 $(".person_address_raminNum").html(4-nSize);
+         	 
+             nRemove() 
+             nchange()
+              nexist()
+              jiaoLeft=personall1.clientWidth*0.26;
+              jiaoLeft1=personall1.clientWidth*0.35;
+              jiaoLeft2=personall.clientWidth*0.6;
+         	 window.requestAnimationFrame(move)
+         }
+         move()
+  
+  
+  //修改按钮的点击事件
+           var liDel1;
+           function nchange(){
+           	
+          
+         $(".address_xiugai").each(function(i){
+         	   
+         	  $(".address_xiugai").eq(i).on("click",function(){
+         	  	 
+         	  	liDel1=$(this).parent().parent();
+         	  	   $(".nreceive").attr("style","display:block")
+         	  	   div.css({
+         	  	   	display:"block"
+         	  	   })
+         	  	   
+         	  })
+         	  
+         	  //点击关闭按钮
+            	  $(".nreceive .nclose").on("click",function(){
+//          	  	 console.log("5555555")
+            	$(".nreceive").attr("style","display:none")
+             	  	     div.css({
+            	  	     	display:"none"
+            	  	     })           	 
+            	  })
+            	  //点击取消按钮
+            	  $("#add-btnC").on("click",function(){
+             	$(".nreceive").attr("style","display:none")
+             	  	     div.css({
+            	  	     	display:"none"
+            	  	     })            	  	      
+            	  })
+            	  
+            	  //点击确定按钮
+          //点击保存按钮add-btnS
+   $("#add-btnS").on("click",function(){
+   	//选择地区
+       $(".narea-add select").on("change",function(){
+//              	 console.log($(".narea-add select").eq(1).val()); 
+//警告,选择地区
+        if($(".narea-add select").eq(0).val()==""||$(".narea-add select").eq(1).val()==""){
+        	 $("#nprompt-add-area").html("请选择地区")
+        }else{
+        	 $("#nprompt-add-area").html("");
+        }
+                	  })
+                	  //警告,输入地址
+               	   if($(".nreceive textarea").val()==""){
+               	   	   $("#nprompt-add-detailed").html("请输入详细地址")
+               	   	  
+               	   }else{
+               	   	   $("#nprompt-add-detailed").html("")
+               	   }
+$(".nreceive textarea").blur(function(){
+	                 	   if($(".nreceive textarea").val()==""){
+               	   	   $("#nprompt-add-detailed").html("请输入详细地址")
+               	   	  
+               	   }else{
+               	   	   $("#nprompt-add-detailed").html("")
+               	   }
+})
+               	  //输入手机号
+   	               
+   	               if($("#n-tel input").val()==""){
+               	  $("#n-tel-detailed").html("请输入手机号")		
+               	  	}else{
+               	  	  $("#n-tel-detailed").html("")	
+               	  	}
+        $("#n-tel input").blur(function(){
+             
+//       console.log($("#n-tel input").val())
+               	  	if($("#n-tel input").val()==""){
+               	  $("#n-tel-detailed").html("请输入手机号")		
+               	  	}else{
+               	  	  $("#n-tel-detailed").html("")	
+               	  	}
+               	  })
+        //收货人为空则警告
+                	   if($("#nName-add input").val()==""){
+        	   	$("#nName-add-detailed").html("请填写收货人")
+        	   }else{
+        	   	$("#nName-add-detailed").html("")
+        	   }
+        $("#nName-add input").blur(function(){
+        	   if($("#nName-add input").val()==""){
+        	   	$("#nName-add-detailed").html("请填写收货人")
+        	   }else{
+        	   	$("#nName-add-detailed").html("")
+        	   }
+        })
+       //   判断保存地址
+       if($("#nName-add input").val()==""||$("#n-tel input").val()==""||$(".nreceive textarea").val()==""||$(".narea-add select").eq(0).val()==""||$(".narea-add select").eq(1).val()==""){
+       	 return
+       }else{
+       	 //将数据传入后台,后台返回,再铺到ul里面
+//     	 var lis=$("<li></li>");
+       	 
+     liDel1.html("<span>"+$("#nName-add input").val()+"</span><span>"+$(".narea-add select").eq(0).val()+$(".narea-add select").eq(1).val()+$(".nreceive textarea").val()+"</span><span>"+$("#n-tel input").val()+"</span><span>"+$("#naddress input").eq(2).val()+"</span><span><p class='address_xiugai'>修改 |</p><p class='address_del'>删除</p><span class='address_shezhi'>默认地址</span></span>")
+       	 
+//     	 lis.html($(".narea-add select").eq(0).val()+$(".narea-add select").eq(1).val()+$(".narea-add select").eq(2).val()+$(".nreceive textarea").val()+$("#n-tel input").val()+$("#nName-add input").val());
+//     	 $("#ulCreate").append(lis);
+       	 div.html("设置成功")
+         $(".nreceive").attr("style","display:none");
+//    window.location="page7alter.html"
+         div.css({
+         	display:"none"
+         })
+   	 
+       }
+             })       	 
+ 
+ 
+ 
+ 
+         })
+ 
+	  } 
+  
+           nchange();	 
+         	 //删除按钮的点击事件
+         	 var next;
+            var liDel;
+         	     function nRemove(){
+         	     	
+         	    
+         	            $(".address_del").each(function(i){
+            	  $(".address_del").eq(i).on("click",function(){
+//          	  	   next=i;
+            	  	   next =$(this).next();
+//          	  	    console.log(next) 
+            	  	 liDel=$(this).parent().parent();
+//          	  	     $("#address_add").attr("style","display:block")
+            	  	     div.css({
+            	  	     	display:"block"
+            	  	     })
+              $(".receive-add").attr("style","display:block")             	  	     
+            	   })
+//         
+//          	
+//          	
+            	  //点击关闭按钮
+            	  $(".receive-add .nclose").on("click",function(){
+            	$(".receive-add").attr("style","display:none")
+             	  	     div.css({
+            	  	     	display:"none"
+            	  	     })           	 
+            	  })
+            	  //点击取消按钮
+            	  $("#btn1").on("click",function(){
+             	$(".receive-add").attr("style","display:none")
+             	  	     div.css({
+            	  	     	display:"none"
+            	  	     })            	  	      
+            	  })
+            	  //点击确认按钮
+            	  $("#btn2").on("click",function(){
+//          	  	  与后台交互在后台上删除掉一个地址
+//                 在这里模拟直接删除 ul li 里面相对应的li的信息
+//                  if()
+//                console.log(next) 
+              	$(".receive-add").attr("style","display:none")
+             	  	     div.css({
+            	  	     	display:"none"
+            	  	     })            	  	      
+                                  
+            	  	liDel.remove()      	  	
+            	  })
+            })
+          }
+
+              	 //创造蒙层函数
+		      var div=  $("<div id='wo'></div>")
+                var w=$(window).width();
+//              var h=$(window).outerHeight();
+                var h=document.body.scrollHeight;
+//              console.log(h)
+		 function makeD(){
+               div.css({
+               	position: "absolute",
+               	width: w,
+               	height: h,
+               	background: "black",
+               	zIndex:2,
+               	opacity:0.8,
+               	display:"none"
+               	
+               })
+                	   $("body").before(div)
+		 }
+		
+		makeD();     	     
+         	     
+// 实名认证界面的点击事件
+
+//获取验证码的点击事件
+          var timer =null;
+          var nNum=60;
+         $("#huoqu_yanzhengma").on("click",function(){
+         	 $("#huoqu_yanzhengma").html(nNum+"秒");
+         	 if($(".shengfen_text input").val()==""){
+         	 	 return
+         	 }else{
+         	 	 clearInterval(timer)
+         	 	 timer=setInterval(function(){
+         	 	 	  nNum--
+         	 	 	  $("#huoqu_yanzhengma").html(nNum+"秒");
+         	 	 	  if(nNum<0){
+         	 	 	  	nNum=0;
+         	 	 	  	clearInterval(timer);
+         	 	 	  	$("#huoqu_yanzhengma").html("重新发送")
+         	 	 	  }
+         	 	 	  
+         	 	 	  
+         	 	 },1000)	
+         	 }
+         	
+         })
+         //  确认上传的按钮
+         
+         $(".queren_shangchuan").on("click",function(){
+//       	   如果几个必填的地方为空就return
+//            console.log($("#nSent li").children()[1].tagName)
+             if($("#txt1").val()==""||$("#txt2").val()==""||$("#txt3").val()==""||$("#txt4").val()==""||$("#nSent li").children()[0].tagName!="IMG"||$("#nSent li").children()[1].tagName!="IMG"||$("#nSent li").children()[2].tagName!="IMG"){
+         	    	    return;
+         	    }else{
+//       	    	  console.log("00000")
+                  alert("上传成功,等待审核")
+                  //链接数据库,将数据传输到后台
+                  window.location="personal_Information.html"
+         	    	  
+         	    }
+         	 
+         })
+         // 判断 各个input的值是否存在exist
+        var json={code:0}
+          function nexist(){
+          	    //手机号码
+          	  $("#txt1").change(function(){
+          	  	  if($("#txt1").val()==""){
+          	  	  	$(".phone_erre").html("请输入手机号")
+          	  	  }else if(!/^\d+$/.test($("#txt1").val())){
+          	  	  	 $(".phone_erre").html("请输入手机号")
+          	  	  	 $("#txt1").val("")
+          	  	  }else{
+          	  	  	$(".phone_erre").html("")
+          	  	  }
+          	  })
+//        	  验证码
+          	  $("#txt2").change(function(){
+          	  	//验证码要进行匹配,如果匹配则可以提交,如不匹配,则出警示框        
+          	  	
+//        	  	   if(json.code==0){
+////        	  	   	匹配
+//        	  	   }
+          	  	  if($("#txt2").val()==""){
+          	  	  	$(".yanzhengma_erre").html("请输入验证码")
+          	  	  	
+          	  	  }else if(!/^\d+$/.test($("#txt2").val())||json.code!=0){
+          	  	  	 
+          	  	  	 $(".yanzhengma_erre").html("请输入正确的验证码")  
+          	  	  	 $("#txt2").val("")
+          	  	  }else{
+          	  	  	$(".yanzhengma_erre").html("")
+          	  	  }
+          	  })
+          	  //真实姓名
+           	  $("#txt3").change(function(){
+//         	  	console.log(5555)
+//                console.log($("#txt3").val().length)
+          	  	  if($("#txt3").val()==""){
+          	  	  	
+          	  	  	
+          	  	  	$(".name_erre").html("请输入姓名")
+          	  	  	
+          	  	  }else if($("#txt3").val().length>8){
+          	  	  	 
+          	  	  	 $(".name_erre").html("不能超过八个字") 
+          	  	  	 $("#txt3").val("")
+          	  	  }else{
+          	  	  	$(".name_erre").html("")
+          	  	  }
+          	  })
+           	  //身份证号
+           	   $("#txt5").change(function(){
+//                  console.log(000000000000000)
+          	  	  if($("#txt5").val()==""){
+          	  	  	$(".shengfen_erre").html("请输入身份证号码")
+          	  	  
+          	  	  }else if(!/^\d\d{15}\d|[A-Za-z]$/.test($("#txt5").val())){
+          	  	  	 
+          	  	  	 $(".shengfen_erre").html("请输入正确地身份证号码")  
+          	  	  	 $("#txt5").val("")
+          	  	  	  
+          	  	  }else{
+          	  	  	$(".shengfen_erre").html("")
+          	  	  }
+          	  })
+           	  
+          	  
+          }
+          
+         
+//       上传相片的点击事件 事件模拟
+           var aSpan=document.getElementById("nSent").getElementsByTagName("span");
+           var aLi=document.getElementById("nSent").getElementsByTagName("li")
+           shangchuanImg()
+            function shangchuanImg(){
+           //正面
+           aSpan[0].onclick=function(){
+           	      nimg_zhengmian.click();
+           }
+           nimg_zhengmian.onchange=function(){
+//         	    nimg_zhengmian.files
+                 var img =new Image();
+                 img.style.width=aSpan[0].parentElement.clientWidth+"px";
+                 img.style.height=aSpan[0].parentElement.clientHeight+"px";
+                 img.style.verticalAlign="middle"
+                 var src=URL.createObjectURL(nimg_zhengmian.files[0]);
+                 img.src=src;
+                 img.onload=function(){
+                 	URL.revokeObjectURL(src)
+                 }
+              
+                 
+                 aLi[0].innerHTML="";
+//               aLi[0].style.marginTop="-50px";
+                 aLi[0].appendChild(img)
+           }
+           //反面
+            aSpan[1].onclick=function(){
+           	      nimg_fanmian.click();
+           }
+           nimg_fanmian.onchange=function(){
+//         	    nimg_zhengmian.files
+                 var img1 =new Image();
+                 img1.style.width=aLi[0].clientWidth+"px";
+                 img1.style.height=aLi[0].clientHeight+"px";
+                 img1.style.verticalAlign="middle"
+                 var src1=URL.createObjectURL(nimg_fanmian.files[0]);
+                 img1.src=src1;
+                 img1.onload=function(){
+                 	URL.revokeObjectURL(src1)
+                 }
+               
+                 
+                 aLi[1].innerHTML="";
+//               aLi[0].style.marginTop="-50px";
+                 aLi[1].appendChild(img1)
+           }  
+           //手持正面照
+            aSpan[2].onclick=function(){
+           	      nimg_shouchi.click();
+           }
+           nimg_shouchi.onchange=function(){
+//         	    nimg_zhengmian.files
+                 var img2 =new Image();
+                 img2.style.width=aLi[0].clientWidth+"px";
+                 img2.style.height=aLi[0].clientHeight+"px";
+                 img2.style.verticalAlign="middle"
+                 var src2=URL.createObjectURL(nimg_shouchi.files[0]);
+                 img2.src=src2;
+                 img2.onload=function(){
+                 	URL.revokeObjectURL(src2)
+                 }
+                 
+                 
+                 aLi[2].innerHTML="";
+//               aLi[0].style.marginTop="-50px";
+                 aLi[2].appendChild(img2)
+           }            
+            }
+</script>
+</html>

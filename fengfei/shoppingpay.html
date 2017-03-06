@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/reset(1).css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/shoppingpay.css"/>
+	</head>
+
+	<body>
+		<div id="wrap">
+			<!--header-->
+			<div class="header">
+				<div class="header_one clear">
+					<div class="header_one_left left clear">
+						<div class="header_one_left_one">
+							欢迎来到某某夺宝!
+						</div>
+						<div class="header_one_left_two">
+							<span id="Login">
+								登录
+							</span>
+							<span id="Register">
+								注册
+							</span>
+						</div>
+					</div>
+					<div class="header_one_right right clear">
+						<ul>
+							<li>客服</li>
+							<li>APP下载</li>
+							<li>充值</li>
+							<li>我的夺宝</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!--content-->
+			<div id="content">
+				<div class="section clear">
+					<img src="imgs/00  共用/icon_Logo.png" class="left icon_Logo" />
+					<div class="left icon_pay">
+						<img src="imgs/04  商品支付 - 02 去支付/icon_支付步骤2.png" />
+						<ul class="clear">
+							<li class="left">提交订单</li>
+							<li class="left">支付订单</li>
+							<li class="left">等待揭晓</li>
+							<li class="left">揭晓幸运号</li>
+							<li class="left">发放商品</li>
+						</ul>
+					</div>
+				</div>
+				<div class="section1">
+					<table class="gwc_tb1">
+						<tr>
+							<td class="tb1_td1">&nbsp;</td>
+							<td class="tb1_td2">期号</td>
+							<td class="tb1_td3">单价（金币/人次）</td>
+							<td class="tb1_td4">原参与人次</td>
+							<td class="tb1_td5">实际参与人次</td>
+							<td class="tb1_td6">小计（金币）</td>
+						</tr>
+					</table>
+					<table class="gwc_tb2">
+						<tr>
+							<td class="tb2_td1 clear">
+								<a href="#" class="left one"><img src="imgs/phone.png" /></a>
+								<a href="#" class="left two">商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称</a>
+							</td>
+							<td class="tb1_td2">123456789</td>
+							<td class="tb1_td3">123456</td>
+							<td class="tb1_td4">10</td>
+							<td class="tb1_td5">0</td>
+							<td class="tb1_td6">0</td>
+						</tr>
+						<tr>
+							<td class="tb2_td1 clear">
+								<a href="#" class="left one"><img src="imgs/phone.png" /></a>
+								<a href="#" class="left two">商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称</a>
+							</td>
+							<td class="tb1_td2">123456789</td>
+							<td class="tb2_td3">123456</td>
+							<td class="tb2_td4">10</td>
+							<td class="tb2_td5">0</td>
+							<td class="tb2_td6">0</td>
+						</tr>
+						<tr>
+							<td class="tb2_td1 clear">
+								<a href="#" class="left one"><img src="imgs/phone.png" /></a>
+								<a href="#" class="left two">商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称</a>
+							</td>
+							<td class="tb1_td2">123456789</td>
+							<td class="tb2_td3">123456</td>
+							<td class="tb2_td4">10</td>
+							<td class="tb2_td5">0</td>
+							<td class="tb2_td6">0</td>
+						</tr>
+					</table>
+					<div class="gwc_tb31">
+						<a href="shoppinglist.html" class="come">返回清单修改</a>
+						<p><span id="count">3</span> 件商品，总计：</p>
+						<p>
+							<span id="zong">123456</span>金币
+						</p>
+						<input type="button" id="yw_pay" value="确认支付" />
+					</div>
+				</div>
+				<div class="section2">
+					<div class="yw_result">您已成功支付部分商品，其余商品已卖完或已下架，您可返回清单重新购买未支付商品！</div>
+					<table class="gwc_tb1">
+						<tr>
+							<td class="tb1_td1">
+								<img src="imgs/pay.png" />
+								<p>未支付商品（可参与下一期）</p>
+							</td>
+							<td class="tb1_td2">期号</td>
+							<td class="tb1_td3">单价（金币/人次）</td>
+							<td class="tb1_td4">原参与人次</td>
+							<td class="tb1_td5">实际参与人次</td>
+							<td class="tb1_td6">小计（金币）</td>
+						</tr>
+					</table>
+					<table class="gwc_tb2">
+						<tr>
+							<td class="tb2_td1 clear">
+								<a href="#" class="left one"><img src="imgs/phone.png" /></a>
+								<a href="#" class="left two">商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称</a>
+							</td>
+							<td class="tb1_td2">123456789</td>
+							<td class="tb1_td3">123456</td>
+							<td class="tb1_td4">10</td>
+							<td class="tb1_td5">0</td>
+							<td class="tb1_td6">0</td>
+						</tr>
+						<tr>
+							<td class="tb2_td1 clear">
+								<a href="#" class="left one"><img src="imgs/phone.png" /></a>
+								<a href="#" class="left two">商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称</a>
+							</td>
+							<td class="tb1_td2">123456789</td>
+							<td class="tb2_td3">123456</td>
+							<td class="tb2_td4">10</td>
+							<td class="tb2_td5">0</td>
+							<td class="tb2_td6">0</td>
+						</tr>
+					</table>
+					<table class="gwc_tb1">
+						<tr>
+							<td class="tb3_td1">
+								<img src="imgs/04  商品支付 - 02 去支付/icon_已下架商品.png" />
+								<p>已下架商品</p>
+							</td>
+						</tr>
+					</table>
+					<table class="gwc_tb2">
+						<tr>
+							<td class="tb2_td1 clear">
+								<a href="#" class="left one"><img src="imgs/phone.png" /></a>
+								<a href="#" class="left two">商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称</a>
+							</td>
+							<td class="tb1_td2">123456789</td>
+							<td class="tb1_td3">123456</td>
+							<td class="tb1_td4">10</td>
+							<td class="tb1_td5">0</td>
+							<td class="tb1_td6">0</td>
+						</tr>
+						<tr>
+							<td class="tb2_td1 clear">
+								<a href="#" class="left one"><img src="imgs/phone.png" /></a>
+								<a href="#" class="left two">商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称</a>
+							</td>
+							<td class="tb1_td2">123456789</td>
+							<td class="tb2_td3">123456</td>
+							<td class="tb2_td4">10</td>
+							<td class="tb2_td5">0</td>
+							<td class="tb2_td6">0</td>
+						</tr>
+					</table>
+					<table class="gwc_tb1">
+						<tr>
+							<td class="tb4_td1">
+								<img src="imgs/04  商品支付 - 02 去支付/icon_已支付商品.png" />
+								<p>已支付商品</p>
+							</td>
+						</tr>
+					</table>
+					<table class="gwc_tb2">
+						<tr>
+							<td class="tb2_td1 clear">
+								<a href="#" class="left one"><img src="imgs/phone.png" /></a>
+								<a href="#" class="left two">商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称</a>
+							</td>
+							<td class="tb1_td2">123456789</td>
+							<td class="tb1_td3">123456</td>
+							<td class="tb1_td4">10</td>
+							<td class="tb1_td5">0</td>
+							<td class="tb1_td6">0</td>
+						</tr>
+						<tr>
+							<td class="tb2_td1 clear">
+								<a href="#" class="left one"><img src="imgs/phone.png" /></a>
+								<a href="#" class="left two">商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称</a>
+							</td>
+							<td class="tb1_td2">123456789</td>
+							<td class="tb2_td3">123456</td>
+							<td class="tb2_td4">10</td>
+							<td class="tb2_td5">0</td>
+							<td class="tb2_td6">0</td>
+						</tr>
+					</table>
+					<div class="gwc_tb32">
+						<p>实际支付：</p>
+						<p>
+							<span>123456</span>金币
+						</p>
+						<input type="button" id="yw_back" value="返回购买清单" />
+						<input type="button" id="yw_search" value="查看夺宝记录" />
+					</div>
+				</div>
+				<div class="section4">
+					<div class="yw_result">您已成功支付部分商品，其余的本期商品已卖完，您可返回清单重新购买未支付商品！</div>
+					<table class="gwc_tb1">
+						<tr>
+							<td class="tb1_td1">
+								<img src="imgs/pay.png" />
+								<p>未支付商品（可参与下一期）</p>
+							</td>
+							<td class="tb1_td2">期号</td>
+							<td class="tb1_td3">单价（金币/人次）</td>
+							<td class="tb1_td4">原参与人次</td>
+							<td class="tb1_td5">实际参与人次</td>
+							<td class="tb1_td6">小计（金币）</td>
+						</tr>
+					</table>
+					<table class="gwc_tb2">
+						<tr>
+							<td class="tb2_td1 clear">
+								<a href="#" class="left one"><img src="imgs/phone.png" /></a>
+								<a href="#" class="left two">商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称</a>
+							</td>
+							<td class="tb1_td2">123456789</td>
+							<td class="tb1_td3">123456</td>
+							<td class="tb1_td4">10</td>
+							<td class="tb1_td5">0</td>
+							<td class="tb1_td6">0</td>
+						</tr>
+						<tr>
+							<td class="tb2_td1 clear">
+								<a href="#" class="left one"><img src="imgs/phone.png" /></a>
+								<a href="#" class="left two">商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称</a>
+							</td>
+							<td class="tb1_td2">123456789</td>
+							<td class="tb2_td3">123456</td>
+							<td class="tb2_td4">10</td>
+							<td class="tb2_td5">0</td>
+							<td class="tb2_td6">0</td>
+						</tr>
+					</table>
+					<table class="gwc_tb1">
+						<tr>
+							<td class="tb4_td1">
+								<img src="imgs/04  商品支付 - 02 去支付/icon_已支付商品.png" />
+								<p>已支付商品</p>
+							</td>
+						</tr>
+					</table>
+					<table class="gwc_tb2">
+						<tr>
+							<td class="tb2_td1 clear">
+								<a href="#" class="left one"><img src="imgs/phone.png" /></a>
+								<a href="#" class="left two">商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称</a>
+							</td>
+							<td class="tb1_td2">123456789</td>
+							<td class="tb1_td3">123456</td>
+							<td class="tb1_td4">10</td>
+							<td class="tb1_td5">0</td>
+							<td class="tb1_td6">0</td>
+						</tr>
+						<tr>
+							<td class="tb2_td1 clear">
+								<a href="#" class="left one"><img src="imgs/phone.png" /></a>
+								<a href="#" class="left two">商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称</a>
+							</td>
+							<td class="tb1_td2">123456789</td>
+							<td class="tb2_td3">123456</td>
+							<td class="tb2_td4">10</td>
+							<td class="tb2_td5">0</td>
+							<td class="tb2_td6">0</td>
+						</tr>
+					</table>
+					<div class="gwc_tb32">
+						<p>实际支付：</p>
+						<p>
+							<span>123456</span>金币
+						</p>
+						<input type="button" id="yw_back" value="返回购买清单" />
+						<input type="button" id="yw_search" value="查看夺宝记录" />
+					</div>
+				</div>
+				<div class="section5">
+					<div class="yw_result">您已成功支付部分商品，其余商品由于下架已无法购买！</div>
+					<table class="gwc_tb1">
+						<tr>
+							<td class="tb1_td1">
+								<img src="imgs/04  商品支付 - 02 去支付/icon_已下架商品.png" />
+								<p>已下架商品</p>
+							</td>
+							<td class="tb1_td2">期号</td>
+							<td class="tb1_td3">单价（金币/人次）</td>
+							<td class="tb1_td4">原参与人次</td>
+							<td class="tb1_td5">实际参与人次</td>
+							<td class="tb1_td6">小计（金币）</td>
+						</tr>
+					</table>
+					<table class="gwc_tb2">
+						<tr>
+							<td class="tb2_td1 clear">
+								<a href="#" class="left one"><img src="imgs/phone.png" /></a>
+								<a href="#" class="left two">商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称</a>
+							</td>
+							<td class="tb1_td2">123456789</td>
+							<td class="tb1_td3">123456</td>
+							<td class="tb1_td4">10</td>
+							<td class="tb1_td5">0</td>
+							<td class="tb1_td6">0</td>
+						</tr>
+						<tr>
+							<td class="tb2_td1 clear">
+								<a href="#" class="left one"><img src="imgs/phone.png" /></a>
+								<a href="#" class="left two">商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称</a>
+							</td>
+							<td class="tb1_td2">123456789</td>
+							<td class="tb2_td3">123456</td>
+							<td class="tb2_td4">10</td>
+							<td class="tb2_td5">0</td>
+							<td class="tb2_td6">0</td>
+						</tr>
+					</table>
+					<table class="gwc_tb1">
+						<tr>
+							<td class="tb4_td1">
+								<img src="imgs/04  商品支付 - 02 去支付/icon_已支付商品.png" />
+								<p>已支付商品</p>
+							</td>
+						</tr>
+					</table>
+					<table class="gwc_tb2">
+						<tr>
+							<td class="tb2_td1 clear">
+								<a href="#" class="left one"><img src="imgs/phone.png" /></a>
+								<a href="#" class="left two">商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称</a>
+							</td>
+							<td class="tb1_td2">123456789</td>
+							<td class="tb1_td3">123456</td>
+							<td class="tb1_td4">10</td>
+							<td class="tb1_td5">0</td>
+							<td class="tb1_td6">0</td>
+						</tr>
+						<tr>
+							<td class="tb2_td1 clear">
+								<a href="#" class="left one"><img src="imgs/phone.png" /></a>
+								<a href="#" class="left two">商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称</a>
+							</td>
+							<td class="tb1_td2">123456789</td>
+							<td class="tb2_td3">123456</td>
+							<td class="tb2_td4">10</td>
+							<td class="tb2_td5">0</td>
+							<td class="tb2_td6">0</td>
+						</tr>
+					</table>
+					<div class="gwc_tb32">
+						<p>实际支付：</p>
+						<p>
+							<span>123456</span>金币
+						</p>
+						<input type="button" id="yw_back" value="返回购买清单" />
+						<input type="button" id="yw_search" value="查看夺宝记录" />
+					</div>
+				</div>
+				<div class="section6">
+					<div class="yw_result">您本期所购买的部分商品已卖完，您可返回清单重新购买未支付商品，其余商品由于下架已无法购买！</div>
+					<table class="gwc_tb1">
+						<tr>
+							<td class="tb1_td1">
+								<img src="imgs/pay.png" />
+								<p>未支付商品（可参与下一期）</p>
+							</td>
+							<td class="tb1_td2">期号</td>
+							<td class="tb1_td3">单价（金币/人次）</td>
+							<td class="tb1_td4">原参与人次</td>
+							<td class="tb1_td5">实际参与人次</td>
+							<td class="tb1_td6">小计（金币）</td>
+						</tr>
+					</table>
+					<table class="gwc_tb2">
+						<tr>
+							<td class="tb2_td1 clear">
+								<a href="#" class="left one"><img src="imgs/phone.png" /></a>
+								<a href="#" class="left two">商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称</a>
+							</td>
+							<td class="tb1_td2">123456789</td>
+							<td class="tb1_td3">123456</td>
+							<td class="tb1_td4">10</td>
+							<td class="tb1_td5">0</td>
+							<td class="tb1_td6">0</td>
+						</tr>
+						<tr>
+							<td class="tb2_td1 clear">
+								<a href="#" class="left one"><img src="imgs/phone.png" /></a>
+								<a href="#" class="left two">商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称</a>
+							</td>
+							<td class="tb1_td2">123456789</td>
+							<td class="tb2_td3">123456</td>
+							<td class="tb2_td4">10</td>
+							<td class="tb2_td5">0</td>
+							<td class="tb2_td6">0</td>
+						</tr>
+					</table>
+					<table class="gwc_tb1">
+						<tr>
+							<td class="tb3_td1">
+								<img src="imgs/04  商品支付 - 02 去支付/icon_已下架商品.png" />
+								<p>已下架商品</p>
+							</td>
+						</tr>
+					</table>
+					<table class="gwc_tb2">
+						<tr>
+							<td class="tb2_td1 clear">
+								<a href="#" class="left one"><img src="imgs/phone.png" /></a>
+								<a href="#" class="left two">商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称</a>
+							</td>
+							<td class="tb1_td2">123456789</td>
+							<td class="tb1_td3">123456</td>
+							<td class="tb1_td4">10</td>
+							<td class="tb1_td5">0</td>
+							<td class="tb1_td6">0</td>
+						</tr>
+						<tr>
+							<td class="tb2_td1 clear">
+								<a href="#" class="left one"><img src="imgs/phone.png" /></a>
+								<a href="#" class="left two">商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称</a>
+							</td>
+							<td class="tb1_td2">123456789</td>
+							<td class="tb2_td3">123456</td>
+							<td class="tb2_td4">10</td>
+							<td class="tb2_td5">0</td>
+							<td class="tb2_td6">0</td>
+						</tr>
+					</table>
+					<div class="gwc_tb32">
+						<p>实际支付：</p>
+						<p>
+							<span>123456</span>金币
+						</p>
+						<input type="button" id="yw_back" value="返回购买清单" />
+						<input type="button" id="yw_see" value="看看其他商品" />
+					</div>
+				</div>
+				<div class="section7">
+					<div class="yw_result">您已成功支付！</div>
+					<table class="gwc_tb1">
+						<tr>
+							<td class="tb1_td1">
+								<img src="imgs/04  商品支付 - 02 去支付/icon_已支付商品.png" />
+								<p>已支付商品</p>
+							</td>
+							<td class="tb1_td2">期号</td>
+							<td class="tb1_td3">单价（金币/人次）</td>
+							<td class="tb1_td4">原参与人次</td>
+							<td class="tb1_td5">实际参与人次</td>
+							<td class="tb1_td6">小计（金币）</td>
+						</tr>
+					</table>
+					<table class="gwc_tb2">
+						<tr>
+							<td class="tb2_td1 clear">
+								<a href="#" class="left one"><img src="imgs/phone.png" /></a>
+								<a href="#" class="left two">商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称</a>
+							</td>
+							<td class="tb1_td2">123456789</td>
+							<td class="tb1_td3">123456</td>
+							<td class="tb1_td4">10</td>
+							<td class="tb1_td5">0</td>
+							<td class="tb1_td6">0</td>
+						</tr>
+						<tr>
+							<td class="tb2_td1 clear">
+								<a href="#" class="left one"><img src="imgs/phone.png" /></a>
+								<a href="#" class="left two">商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称</a>
+							</td>
+							<td class="tb1_td2">123456789</td>
+							<td class="tb2_td3">123456</td>
+							<td class="tb2_td4">10</td>
+							<td class="tb2_td5">0</td>
+							<td class="tb2_td6">0</td>
+						</tr>
+					</table>
+					<div class="gwc_tb32">
+						<p>实际支付：</p>
+						<p>
+							<span>123456</span>金币
+						</p>
+						<input type="button" id="yw_back" value="返回购买清单" />
+						<input type="button" id="yw_search" value="查看夺宝记录" />
+					</div>
+				</div>
+				<div class="section8">
+					<div class="yw_result">您本期所购买的商品已卖完，您可返回清单重新购买未支付商品！</div>
+					<table class="gwc_tb1">
+						<tr>
+							<td class="tb1_td1">
+								<img src="imgs/pay.png" />
+								<p>未支付商品（可参与下一期）</p>
+							</td>
+							<td class="tb1_td2">期号</td>
+							<td class="tb1_td3">单价（金币/人次）</td>
+							<td class="tb1_td4">原参与人次</td>
+							<td class="tb1_td5">实际参与人次</td>
+							<td class="tb1_td6">小计（金币）</td>
+						</tr>
+					</table>
+					<table class="gwc_tb2">
+						<tr>
+							<td class="tb2_td1 clear">
+								<a href="#" class="left one"><img src="imgs/phone.png" /></a>
+								<a href="#" class="left two">商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称</a>
+							</td>
+							<td class="tb1_td2">123456789</td>
+							<td class="tb1_td3">123456</td>
+							<td class="tb1_td4">10</td>
+							<td class="tb1_td5">0</td>
+							<td class="tb1_td6">0</td>
+						</tr>
+						<tr>
+							<td class="tb2_td1 clear">
+								<a href="#" class="left one"><img src="imgs/phone.png" /></a>
+								<a href="#" class="left two">商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称</a>
+							</td>
+							<td class="tb1_td2">123456789</td>
+							<td class="tb2_td3">123456</td>
+							<td class="tb2_td4">10</td>
+							<td class="tb2_td5">0</td>
+							<td class="tb2_td6">0</td>
+						</tr>
+					</table>
+					<div class="gwc_tb32">
+						<p>实际支付：</p>
+						<p>
+							<span>123456</span>金币
+						</p>
+						<input type="button" id="yw_back" value="返回购买清单" />
+						<input type="button" id="yw_see" value="看看其他商品" />
+					</div>
+				</div>
+				<div class="section9">
+					<div class="yw_result">十分抱歉，您所购买的商品均已下架！</div>
+					<table class="gwc_tb1">
+						<tr>
+							<td class="tb1_td1">
+								<img src="imgs/04  商品支付 - 02 去支付/icon_已下架商品.png" />
+								<p>已下架商品</p>
+							</td>
+							<td class="tb1_td2">期号</td>
+							<td class="tb1_td3">单价（金币/人次）</td>
+							<td class="tb1_td4">原参与人次</td>
+							<td class="tb1_td5">实际参与人次</td>
+							<td class="tb1_td6">小计（金币）</td>
+						</tr>
+					</table>
+					<table class="gwc_tb2">
+						<tr>
+							<td class="tb2_td1 clear">
+								<a href="#" class="left one"><img src="imgs/phone.png" /></a>
+								<a href="#" class="left two">商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称</a>
+							</td>
+							<td class="tb1_td2">123456789</td>
+							<td class="tb1_td3">123456</td>
+							<td class="tb1_td4">10</td>
+							<td class="tb1_td5">0</td>
+							<td class="tb1_td6">0</td>
+						</tr>
+						<tr>
+							<td class="tb2_td1 clear">
+								<a href="#" class="left one"><img src="imgs/phone.png" /></a>
+								<a href="#" class="left two">商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称</a>
+							</td>
+							<td class="tb1_td2">123456789</td>
+							<td class="tb2_td3">123456</td>
+							<td class="tb2_td4">10</td>
+							<td class="tb2_td5">0</td>
+							<td class="tb2_td6">0</td>
+						</tr>
+					</table>
+					<div class="gwc_tb32">
+						<p>实际支付：</p>
+						<p>
+							<span>123456</span>金币
+						</p>
+						<input type="button" id="yw_back" value="返回购买清单" />
+						<input type="button" id="yw_see" value="看看其他商品" />
+					</div>
+				</div>
+				<div class="section3">
+					<span>推荐商品</span>
+					<a href="#" class="right">查看更多商品></a>
+					<ul class="clear">
+						<li class="left clear">
+							<div class="shop_l">
+								<img src="imgs/phone.png" class="yw_phone" />
+								<p class="yw_one">商品名称居中</p>
+								<div class="yw_two">总需人次：<span>123456</span></div>
+								<div class="yw_three">剩余人次：<span>123456</span></div>
+								<a href="#"><input type="button" value="查看详情" class="yw_search" /> </a>
+							</div>
+							<img src="imgs/line.png" class="line right" />
+						</li>
+						<li class="left clear">
+							<div class="shop_l">
+								<img src="imgs/phone.png" class="yw_phone" />
+								<p class="yw_one">商品名称居中</p>
+								<div class="yw_two">总需人次：<span>123456</span></div>
+								<div class="yw_three">剩余人次：<span>123456</span></div>
+								<a href="#"><input type="button" value="查看详情" class="yw_search" /> </a>
+							</div>
+							<img src="imgs/line.png" class="line right" />
+						</li>
+						<li class="left clear">
+							<div class="shop_l">
+								<img src="imgs/phone.png" class="yw_phone" />
+								<p class="yw_one">商品名称居中</p>
+								<div class="yw_two">总需人次：<span>123456</span></div>
+								<div class="yw_three">剩余人次：<span>123456</span></div>
+								<a href="#"><input type="button" value="查看详情" class="yw_search" /> </a>
+							</div>
+							<img src="imgs/line.png" class="line right" />
+						</li>
+						<li class="left clear">
+							<div class="shop_l">
+								<img src="imgs/phone.png" class="yw_phone" />
+								<p class="yw_one">商品名称居中</p>
+								<div class="yw_two">总需人次：<span>123456</span></div>
+								<div class="yw_three">剩余人次：<span>123456</span></div>
+								<a href="#"><input type="button" value="查看详情" class="yw_search" /> </a>
+							</div>
+							<img src="imgs/line.png" class="line right" />
+						</li>
+						<li class="left clear">
+							<div class="shop_l">
+								<img src="imgs/phone.png" class="yw_phone" />
+								<p class="yw_one">商品名称居中</p>
+								<div class="yw_two">总需人次：<span>123456</span></div>
+								<div class="yw_three">剩余人次：<span>123456</span></div>
+								<a href="#"><input type="button" value="查看详情" class="yw_search" /> </a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!--footer-->
+			<div id="footer">
+				<div class="foot">
+					<div class="foot_top">
+						<ul class="clear">
+							<li class="left clear">
+								<img src="imgs/00  共用/icon_尾部_品质保障.png" class="left" />
+								<div>
+									<p>品质保障</p>
+									<p>精选优质商品</p>
+								</div>
+							</li>
+							<li class="left clear">
+								<img src="imgs/00  共用/icon_尾部_公平公正.png" class="left" />
+								<div>
+									<p>公平公正</p>
+									<p>结果公开透明</p>
+								</div>
+							</li>
+							<li class="left clear">
+								<img src="imgs/00  共用/icon_尾部_免费配送.png" class="left" />
+								<div>
+									<p>免费配送</p>
+									<p>快速包邮到家</p>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="foot_mid clear">
+						<div>
+							<p>
+								<a href="">新书指南</a>
+							</p>
+							<ul>
+								<li>
+									<a href="">夺宝规则</a>
+								</li>
+								<li>
+									<a href="">常见问题</a>
+								</li>
+								<li>
+									<a href="">服务协议</a>
+								</li>
+							</ul>
+						</div>
+						<div>
+							<p>
+								<a href="">夺宝保障</a>
+							</p>
+							<ul>
+								<li>
+									<a href="">某某夺宝保障体系</a>
+								</li>
+								<li>
+									<a href="">安全支付</a>
+								</li>
+								<li>
+									<a href="">隐私声明</a>
+								</li>
+							</ul>
+						</div>
+						<div>
+							<p>
+								<a href="">商品配送</a>
+							</p>
+							<ul>
+								<li>
+									<a href="">配送费用</a>
+								</li>
+								<li>
+									<a href="">验货与签收</a>
+								</li>
+								<li>
+									<a href="">长时间未到商品</a>
+								</li>
+							</ul>
+						</div>
+						<div>
+							<p>
+								<a href="">关于我们</a>
+							</p>
+							<ul>
+								<li>
+									<a href="">关于点盛</a>
+								</li>
+								<li>
+									<a href="">客服中心</a>
+								</li>
+								<li>
+									<a href="">建议反馈</a>
+								</li>
+							</ul>
+						</div>
+						<div>
+							<p><img src="" /></p>
+							<span id="">
+							下载APP
+						</span>
+						</div>
+					</div>
+					<div class="foot_bottom clear">
+						<img src="imgs/logo.png" />
+						<div class="left">
+							<p>广州点盛科技有限公司运营及版权所有 © 1997-2016 ICP证浙B2-20160106</p>
+							<ul class="clear">
+								<li>
+									<a href="">关于点盛</a>
+								</li>
+								<li>
+									<a href="">隐私政策</a>
+								</li>
+								<li>
+									<a href="">服务条款</a>
+								</li>
+								<li>
+									<a href="">联系我们</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="ball">
+			<div class="ball_box1">
+				<img src="imgs/00  共用/btn_关闭.png" class="yw_close">
+				<p>请输入支付密码</p>
+				<div class="money">
+					应付：<span>123456</span><span>金币</span>
+				</div>
+				<div class="alieditContainer" data-busy="0">
+					<input minlength="6" maxlength="6" tabindex="1" name="payPassword_rsainput" class="i-text" oncontextmenu="return false" onpaste="return false" oncopy="return false" oncut="return false" autocomplete="off" type="password">
+					<div class="sixDigitPassword" tabindex="0">
+						<i><b></b></i>
+						<i><b></b></i>
+						<i><b></b></i>
+						<i><b></b></i>
+						<i><b></b></i>
+						<i><b></b></i>
+					</div>
+				</div>
+				<a href="#">忘记支付密码</a>
+				<input type="button" value="暂不支付" class="no_pay" />
+			</div>
+			<div class="ball_box2">
+				<img src="imgs/加载动画.png" />
+				<p>正在支付，请勿关闭窗口！</p>
+			</div>
+			<div class="ball_box3">
+				<img src="imgs/00  共用/btn_关闭.png" class="yw_close">
+				<div class="Kbox">
+					<img src="imgs/00  共用/icon_警告.png" />
+					<span>余额不足！</span>
+				</div>
+				<p>您账号的余额不足，请前往充值中心！</p>
+				<input type="button" value="取消" class="yw_del" />
+				<input type="button" value="去充值" class="yw_get" />
+			</div>
+			<div class="ball_box4">
+				<img src="imgs/00  共用/btn_关闭.png" class="yw_close">
+				<div class="Kbox">
+					<img src="imgs/00  共用/icon_红叉.png" />
+					<span>支付密码错误！</span>
+				</div>
+				<p>您还有<span>4</span>次重新输入支付密码的机会！</p>
+				<input type="button" value="忘记密码" class="yw_nor" />
+				<input type="button" value="重新输入" class="yw_restart" />
+			</div>
+			<div class="ball_box5">
+				<img src="imgs/00  共用/btn_关闭.png" class="yw_close">
+				<div class="Kbox">
+					<img src="imgs/00  共用/icon_红叉.png" />
+					<span>是否放弃支付！</span>
+				</div>
+				<input type="button" value="是" class="yw_yes" />
+				<input type="button" value="否" class="yw_no" />
+			</div>
+		</div>
+	</body>
+	<script src="js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/shoppingpay.js" type="text/javascript" charset="utf-8"></script>
+
+</html>

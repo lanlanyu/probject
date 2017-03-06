@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/reset(1).css"/>
+		<link rel="stylesheet" type="text/css" href="css/page7Chongzhi.css"/>
+	</head>
+	<body>
+		<div id="wrap">
+			<p class="p1">
+					<a href="">我的个人主页</a>
+					<span>
+						>
+					</span>
+					<a href="">晒单分享</a>
+				</p>
+				<div id="chongzhi_coin">
+					<h2>充值金币</h2>
+					<div id="coin_num">
+					 <div class="coinNum clear">
+					 	<p class="left coinNum1">
+					 		金币数量
+					 	</p>
+					 	<p class="left coinNum2">
+					 	   <span>5金币</span>
+					 	   <span>10金币</span>
+					 	   <span>20金币</span>
+					 	   <span>30金币</span>
+					 	   <span>50金币</span>
+					 	   <span>100金币</span>
+					 	   <span>200金币</span>
+					 	   <span>400金币</span>
+					 	</p>	
+					</div>
+					 	
+<input type="text" id="chongzhi_input" placeholder="请输入金额" />
+     <span id="nwarn">
+        	
+     </span>
+					 
+					 <p class="chongzhi_wayY">
+					 	充值方式
+					 	<a href="" id="chongzhi_way">
+					 		
+					 	</a>
+					 	<span>目前只能通过Paypal进行充值</span>
+					 </p>
+					 <p class="chongzhi_allY">
+					 	应付金额
+					 	<span id="chongzhi_all">
+					 		
+					 	</span>
+					  </p>
+					 	<!--<br />-->
+					 	<input type="button" name="" id="chongzhi_sure" value="确认充值" /><span id="chongzhi_confirm">您需要进行实名认证才能进行充值!<a href="personal_Information.html" >去实名认证></a></span>
+					
+					</div>
+					
+					
+					
+					
+				</div>
+				
+		</div>
+		
+	</body>
+	<script type="text/javascript">
+		var chongzhi_input=document.getElementById("chongzhi_input");
+		var chongzhi_coin = document.getElementById("chongzhi_coin");
+		var chongzhi_all = document.getElementById("chongzhi_all");
+		var chongzhi_sure = document.getElementById("chongzhi_sure");
+        var spans=document.getElementsByClassName("coinNum")[0].getElementsByTagName("span");
+        
+	//帧动画时时获取value值
+	move()
+	function move(){
+		var str =chongzhi_input.value; 
+		 if(/^\d+$/.test(str)){
+//		 	 console.log("1111")
+               nwarn.innerHTML="";
+		 	 if(str%40!=0){
+		 	 	nwarn.innerHTML="输入的金币必须是40的倍数"
+		 	 }
+		 	 chongzhi_input.onchange=function(){
+		 	 	 if(str%40!=0){
+		 	 	nwarn.innerHTML="输入的金币必须是40的倍数"
+		 	 	alert("请输入40的倍数")
+		 	 	chongzhi_input.value="";
+		 	 	chongzhi_all.innerHTML="";
+		 	 	
+		 	 	
+		 	 } 
+		 	 }
+		 	 
+		 	 
+		 }else if(str==""){
+		 	
+		 }else{
+//		 	return
+             chongzhi_input.value="";
+             nwarn.innerHTML="请输入数字"
+             
+//		 	alert("请输入数字")
+		 }
+
+			if(chongzhi_input.value!=""){
+//		 	 		chongzhi_all.innerHTML="$"+text1
+                   chongzhi_all.innerHTML="$"+chongzhi_input.value
+ 		 	 	 for(var k=0;k<spans.length;k++){
+                  spans[k].style.background="white";
+		 	 	 }                  
+		 	 	}else{
+//		 	 		console.log(1111)
+		 	 	
+		  //金币的点击事件
+		   for(var i=0;i<spans.length;i++){
+//	 	   spans[i].style.background="white"
+		 	 spans[i].onclick = function(){
+		 	 	 for(var k=0;k<spans.length;k++){
+                  spans[k].style.background="white";
+		 	 	 }
+		 	 	this.style.background="orange";
+	 	 	   	var text1=parseInt(this.innerHTML);
+		 	 		chongzhi_all.innerHTML="$"+text1
+		 	 }
+		 }
+		 	 		
+
+		 	 	}
+		 	 	
+		 	 	
+		 	var aVal=parseInt(chongzhi_all.innerHTML.replace("$",""))||0;
+		//确认充值点击事件
+		chongzhi_sure.onclick=function(){
+			//判断 后台ajax检测是否已经进行实名认证发送json格式返回值
+			//如果返回的是没有认证,则return掉,alert(必须进行实名认证才能进行充值)
+//			else就进行充值
+              
+              console.log(aVal)
+           if(aVal!=0){
+             	alert("充值成功")
+           }else{
+           	alert("请填写金额")
+           }
+//           充值成功
+            
+            
+		}
+	 	
+//		chongzhi_all.innerHTML=
+		window.requestAnimationFrame(move)
+	}
+	
+		
+
+
+		
+		
+		
+	</script>
+</html>

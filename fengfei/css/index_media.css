@@ -1,0 +1,206 @@
+@media only screen and (min-width: 1020px) and (max-width: 1220px) {
+
+.Carousel_All{
+	margin: auto;
+	width: 100%;	
+	max-width: 1000px;
+}
+.commodityAll{
+	padding: 19px 44px;
+}
+.meua li a{
+	margin-top: 0;
+}
+.meua li{
+	padding:12px 0 10px 26px;
+	width: 134px;
+	
+}
+.lun{
+		width: 999999px;
+		height: 419.59px;
+		position: relative;
+	}
+.lunbotu{
+	max-height: 419.59px;
+	height: 100%;
+	max-width:690px;
+	width: 100%;
+}
+.lun img{
+	width: 690px;
+}
+
+.Carousel_right{
+	max-width: 150px;
+	max-height: 419.59px;
+	height: 100%;
+	width: 100%;
+}
+
+
+.Carousel_right_top{
+	padding: 26% 0% 0% 0%;
+}
+.Carousel_right_top img{
+	width: 125px;
+}
+
+.win li{
+	padding: 30px 0px 30px 6px;
+}
+.bed_name{
+	margin-left: 4px;
+}
+.hotShangpin_left{
+	max-width: 850px;
+}
+.hotShangpin_left_top ul, .hotShangpin_left_bottom ul{
+	margin: 0;
+	width: 850px;
+}
+.hotShangpin_left_top  li,.hotShangpin_left_bottom li{
+	max-width: 200px;
+	padding: 36px 6px 30px 6px;
+}
+
+.hotShangpin_right{
+	
+	max-width: 150px;
+}
+
+.duobaochuanqi{
+	padding:20px 0px;
+	display: block;
+	text-align: center;
+}
+.hotShangpin_right img{
+	width: 30px;
+	height: 30px;
+}
+
+.hotShangpin_right li{
+	padding: 30px 0px 9px;
+}
+
+.hotShangpin_right li div:nth-child(2) div {
+	margin-top: 1px;
+}
+
+.hotShangpin_right li div:nth-child(2) div p:nth-child(2){
+	margin-top: 1px;
+}
+
+.hotShangpin,.content,.phone,.computer,.meishi,.shuma,.dianqi,.girl,.chaoliu,.xinpin,.shaidan{
+	width: 100%;
+	max-width: 1000px;
+	margin: auto;
+	background: #f5f8fa;
+}
+
+.phone_phone li,.computer_computer li,.shuma_shuma li,.dianqi_dianqi li,.girl_girl li,.chaoliu_chaoliu li,.meishi_meishi li{
+	 padding: 36px 5px 30px 5px;
+	 width: 190px;
+}
+
+.xinpin_xinpin li{
+	 width: 190px;
+}
+.xinpin_img{
+	width: 200px;
+}
+.shaidan_shaidan li div:nth-child(2){
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.shaidan_shaidan li div:nth-child(2){
+	width: 360px;
+}
+
+}
+@media only screen and (max-width:1019px) {
+.Carousel_All{
+	margin: auto;
+	width: 800px;
+	}
+	.commodityAll{
+	padding: 12px 20px;
+}
+.meua li a{
+	margin-top: 0;
+}
+.meua li{
+	padding:5px 0 10px 12px;
+	width: 100px;
+	
+}
+
+.lun{
+		width: 999999px;
+		height: 350px;
+		position: relative;
+	}
+.lunbotu{
+	height:350px;
+	width:550px;
+	
+}
+.lun img{
+	width: 550px;
+	height:350px;
+}
+.Carousel_right{
+	width: 125px;
+	height: 350px;
+	
+}
+.Carousel_right_top{
+	padding: 4% 3% 0% 3%;
+}
+.hotShangpin,.content,.phone,.computer,.meishi,.shuma,.dianqi,.girl,.chaoliu,.xinpin,.shaidan{
+	
+	width: 800px;
+	margin: auto;
+	background: #f5f8fa;
+}
+.win li{
+	padding: 30px 20px 30px 25px
+}
+.win li:nth-child(even) div{
+	border: 0;
+}
+.bed_name{
+	margin-left: 115px;
+}
+
+.hotShangpin_left_top li, .hotShangpin_left_bottom li{
+	width: 175px;
+}
+.hotShangpin_right{
+	display: none;
+}
+.phone_phone li, .computer_computer li, .shuma_shuma li, .dianqi_dianqi li, .girl_girl li, .chaoliu_chaoliu li, .meishi_meishi li{
+	width: 133px;
+}
+.hotShangpin_left_top_img img{
+	width: 100px;
+	height: 100px;
+}
+.xinpin_xinpin li{
+	width: 150px;
+}
+.xinpin_img{
+	width: 100px;
+	height: 100px;
+	padding: 32px;
+}
+.xinpin_img img{
+	width: 100px;
+	height: 100px;
+	
+}
+.shaidan_shaidan li div:nth-child(2){
+	width: 630px;
+}
+}

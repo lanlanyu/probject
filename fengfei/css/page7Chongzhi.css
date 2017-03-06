@@ -1,0 +1,132 @@
+body{
+	width: 100%;
+}
+#wrap{
+	border-top: 5px solid lightgray;
+	border-bottom: 1px solid lightgray;
+	width: 73.56%;
+	margin:0 auto;
+	padding: 30px 0 20px 0;
+	background: white;
+	max-width: 1100px;
+	min-width: 800px;
+	
+	
+}
+.p1{
+	
+	font-size: 14px;
+	line-height: 20px;
+}
+#chongzhi-coin{
+	width: 80%;
+}
+h2{
+	/*width: 100%;*/
+	
+	text-align: center;
+	line-height: 50px;
+	
+}
+#coin_num{
+	width: 80%;
+	border-top: 1px solid lightgray;
+	margin: 10px auto;
+	
+}
+
+/*.coinNum{
+	margin-top: 20px;
+	margin-left:20%;
+	height: 200px;
+	width: 100%;
+	background: deepskyblue;
+}*/
+.coinNum{
+	margin-top: 20px;
+	margin-bottom: 10px;
+	
+	/*background: red;*/
+	/*height: 200px;*/
+}
+.coinNum1{
+	/*margin-left: 10%;*/
+	width: 15%;
+	text-align: right;
+	margin-top: 15px;
+}
+.coinNum2{
+	color: lightgray;
+	margin-left: 5%;
+	width:78.5%;
+	/*background: yellow;*/
+}
+.coinNum2 span{
+	display: inline-block;
+	width: 24%;
+	text-align: center;
+	line-height: 30px;
+	border: 1px solid lightgray;
+	margin: 10px 0 3px;
+}
+#chongzhi_input{
+	width: 36%;
+	height: 25px;
+	margin-left: 20%;
+	margin-bottom: 50px;
+	text-align: center;
+	color: lightgray;
+	cursor: pointer;
+}
+.chongzhi_wayY,.chongzhi_allY{
+	margin-left: 8%;
+	margin-bottom: 30px;
+}
+.chongzhi_wayY span{
+	margin-left: 3%;
+	color: lightgray;
+}
+#chongzhi_way{
+	display: inline-block;
+	margin-left: 5%;
+	background: url(../img/img1.png) no-repeat;
+	height:25px;
+	width:78px;
+	background-position:-455px -220px;
+	vertical-align: middle;
+	border: 1px solid lightgray;
+	
+	
+}
+#chongzhi_all{
+	display: inline-block;
+	text-align: center;
+	width: 20%;
+	height: 30px;
+	/*background: red;*/
+	vertical-align: middle;
+	margin-left: 5%;
+	line-height: 30px;
+}
+#chongzhi_sure{
+	width: 20%;
+	height: 35px;
+	background: orange;
+	border: none;
+	margin-left: 20%;
+	color: white;
+	cursor: pointer;
+}
+#chongzhi_confirm{
+	margin-left: 5%;
+	color: lightgray;
+	
+}
+#chongzhi_confirm a{
+	margin-left: 10%;
+	color: orange;
+}
+#nwarn{
+	margin-left: 3%;
+	color: red;
+}

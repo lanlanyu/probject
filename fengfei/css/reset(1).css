@@ -1,0 +1,355 @@
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+dl,
+dd,
+ul,
+ol,
+form,
+input,
+textarea,
+th,
+td,
+select {
+	margin: 0;
+	padding: 0;
+}
+
+em {
+	font-style: normal;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	border: none;
+	vertical-align: top;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+input,
+textarea {
+	outline: none;
+}
+
+textarea {
+	resize: none;
+	overflow: auto;
+}
+
+body {
+	font-size: 12px;
+	font-family: arial;
+}
+
+.clear:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+
+/*顶部*/
+
+.header {
+	width: 100%;
+	min-width: 1000px;
+	background: #283647;
+	max-height: 25px;
+	height: 100%;
+}
+
+.toop {
+	width: 100%;
+	min-width: 1000px;
+	background: white;
+}
+
+.header_one {
+	padding: 5px 0 10px 0;
+	margin: auto;
+	max-width: 1200px;
+	width: 100%;
+}
+
+.header_one_left {
+	max-width: 220px;
+	width: 100%;
+}
+
+.header_one_left_one {
+	float: left;
+	display: inline-block;
+	color: #a9afb5;
+	font-weight: bolder;
+}
+
+.header_one_left_two {
+	float: left;
+	margin-left: 6%;
+}
+
+#Login,
+#Register,
+.header_one_right li {
+	cursor: pointer;
+	color: white;
+	font-weight: bolder;
+}
+
+.header_one_right {
+	width: 100%;
+	max-width: 218px;
+}
+
+.header_one_right li {
+	margin-left: 6%;
+	float: right
+}
+
+.top {
+	margin: auto;
+	background: white;
+	width: 100%;
+	max-width: 1200px;
+	height: 100%;
+	max-height: 118px;
+}
+
+.top_logo img {
+	background: url(../img/logo.png);
+	max-height: 118px;
+	height: 100%;
+	width: 100%;
+	max-width: 220px;
+}
+
+.nav {
+	max-width: 400px;
+	width: 100%;
+}
+
+.nav li {
+	float: left;
+	margin-left: 3.333%;
+}
+
+.nav li a {
+	font-size: 18px;
+	font-weight: bolder;
+	color: #738999;
+	line-height: 118px;
+	cursor: pointer;
+}
+
+.nav li:first-child a {
+	color: #ffa600;
+}
+
+.top_right {
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+.top_right .shopcar {
+	margin-top: 40%;
+	height: 100%;
+	max-height: 40px;
+	background: #ebebeb;
+}
+
+.top_right img {
+	width: 100%;
+	height: 100%;
+	max-height: 40px;
+	max-width: 40px;
+	float: left;
+}
+
+.car {
+	padding: 0 2px 0 2px;
+	color: #738999;
+	margin-top: 25%;
+}
+
+.search {
+	border-radius: 5px;
+	margin-top: 2.65%;
+	margin-right: 1%;
+	padding: 2px;
+	max-width: 250px;
+	width: 100%;
+	max-height: 40px;
+	height: 100%;
+	background: #ebebeb;
+}
+
+.search_text {
+	max-width: 208px;
+	width: 100%;
+	background: white;
+}
+
+.search_text span {
+	margin-top: 3%;
+	color: #aeaeae;
+	padding: 2.5%;
+	background: #e6e6e6;
+}
+
+.search_car {
+	cursor: pointer;
+}
+
+.search_apple {
+	cursor: pointer;
+	margin-left: 2.5%;
+}
+
+#Ser {
+	border: 0;
+	padding-left: 3%;
+	height: 36px;
+}
+
+.search_btn {
+	cursor: pointer;
+}
+
+.search_btn img {
+	margin-top: 1px;
+}
+
+
+/*  底部*/
+
+.foot {
+	width: 100%;
+	max-width: 1050px;
+	margin: auto;
+	background: #232f3e;
+	padding: 10px 75px;
+	z-index: 10;
+}
+
+.foot_top ul {
+	border-bottom: #4f5965 1px solid;
+}
+
+.foot_top li {
+	padding: 3% 7%;
+	width: 15%;
+}
+
+.foot_top li:nth-child(2) {
+	margin: 0 6%;
+}
+
+.foot_top p {
+	text-align: center;
+	color: white;
+}
+
+.foot_top p:nth-child(1) {
+	font-size: 20px;
+	margin-top: 3%;
+}
+
+.foot_top p:nth-child(2) {
+	color: #a7acb2;
+}
+
+.foot_mid {
+	padding: 1% 2%;
+}
+
+.foot_mid div {
+	float: left;
+	margin-right: 12.5%;
+}
+
+.foot_mid div p {
+	font-size: 18px;
+	margin-bottom: 15%;
+}
+
+.foot_mid div p a {
+	color: white;
+}
+
+.foot_mid div a {
+	color: #a7acb2;
+}
+
+.foot_mid li {
+	margin-bottom: 4%;
+}
+
+.foot_mid div:last-child {
+	padding: 0.5%;
+	background: white;
+	margin-right: 0;
+	text-align: center;
+}
+
+.foot_mid div:last-child p {
+	height: 70px;
+	width: 70px;
+	margin: 0;
+	background: black;
+}
+
+.foot_bottom {
+	margin-left: 17%;
+}
+
+.foot_bottom div {
+	margin-left: 2%;
+}
+
+.foot_bottom img {
+	float: left;
+	max-width: 220px;
+	max-height: 100px;
+	width: 100%;
+	height: 100%;
+}
+
+.foot_bottom p {
+	margin-top: 8%;
+	font-size: 12px;
+	color: #a7acb2;
+}
+
+.foot_bottom ul {
+	margin-top: 2%;
+}
+
+.foot_bottom li {
+	float: left;
+	margin-right: 5%;
+}
+
+.foot_bottom a {
+	color: #a7acb2;
+}

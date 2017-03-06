@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/nShare.css" />
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+	</head>
+
+	<body>
+
+		<div id="wrap">
+			<div id="wrap1">
+				<p class="p1">
+					<a href="">我的个人主页</a>
+					<span>
+						>
+					</span>
+					<a href="">晒单分享</a>
+				</p>
+				<div class="clear">
+					<img src="img/phone.png" / class="left">
+					<div class="left clear nright ">
+						<p id="nshare1" class="clear">
+							<span id="span1" class="left">
+				 		晒单分享
+				 		</span>
+							<input type="button" value="确认发布" id="button1" class="right" />
+							<input type="button" value="取消晒单" id="button2" class="right">
+						</p>
+						<ul class="ul1 left">
+							<li>第****期</li>
+							<li>商品名称</li>
+							<li>总需人数:***</li>
+							<li>参与人数:***</li>
+
+						</ul>
+						<ul class="ul2 left">
+							<li>幸运号:*****</li>
+							<li><span>
+                         		揭晓时间:0000-00-00
+                         	</span><span>
+                         	00:00:00
+                         	</span></li>
+							<li><span>
+                         		夺宝时间:0000-00-00
+                         	</span><span>
+                         	00:00:00
+                         	</span></li>
+							</li>
+						</ul>
+					</div>
+
+				</div>
+				<div id="nposition">
+					<div id="naw">
+
+					</div>
+
+				</div>
+
+				<textarea name="" rows="10" cols="" placeholder="请在此输入您的晒单文字,多多益善哦!"></textarea>
+
+				<p style="margin-top: 10px;">添加照片<span>(至少一张,最多不超过6张)</span></p>
+
+				<div id="nFileImgs">
+
+					<div id="nL">
+
+						<input type="file" name="" id="nfile" value="点击添加图片" multiple="multiple" accept="image/jpg,image/png" />
+
+						<!--imitate模拟-->
+						<!--javascript:void(0)阻止页面跳转-->
+						<a href="javascript:void(0);" id="nimitate">点击上传图片</a>
+						<span id="nNuM">
+				     	
+				     </span>
+
+						<p>或将图片拖到这里,单次最多可选6张</p>
+					</div>
+					<ul id="nulImg">
+						<li>
+							<!--<p class="right"></p>-->
+						</li>
+						<li>
+							<!--<p class="right"></p>-->
+						</li>
+						<li>
+							<!--<p class="right"></p>-->
+						</li>
+						<li>
+							<!--<p class="right"></p>-->
+						</li>
+						<li>
+							<!--<p class="right"></p>-->
+						</li>
+						<li>
+							<!--<p class="right"></p>-->
+						</li>
+					</ul>
+				</div>
+
+			</div>
+			
+				<!--弹框-->
+				<!--确认发布-->
+				<div id="nIssue" style="display: none;">
+					<span class="nclose">
+				   		
+				   	</span>
+					<span class="nbackImg">
+				   	 	
+				   	 </span>
+
+					<span>确认发布晒单?</span>
+					<p class="nprompt">发布后将不能更改晒单内容</p>
+					<input type="button" name="" id="btn1" value="取消" />
+					<input type="button" name="" id="btn2" value="确认" />
+
+				</div>
+				<!--取消发布-->
+				<div id="ncancel" style="display: none;">
+					<span class="nclose">
+				   		
+				   	</span>
+					<span class="nbackImg">
+				   	 	
+				   	 </span>
+
+					<span>是否取消晒单?</span>
+					<p class="nprompt">取消晒单将不会保存您编辑的内容</p>
+					<input type="button" name="" id="btn3" value="否" />
+					<input type="button" name="" id="btn4" value="是" />
+
+				</div>
+
+				<div id="nissues" style="display: none;">
+					<span class="nclose">
+				   		
+				   	</span>
+					<span class="nbackImg">
+				   	 	
+				   	 </span>
+
+					<span>您已发布晒单?</span>
+					<p class="nprompt">您已发布该商品的晒单,不能重新发布!</p>
+					<input type="button" name="" id="btn5" value="知道了" />
+
+
+				</div>
+
+		</div>
+	</body>
+	<script type="text/javascript">
+		//按钮背景颜色的改变
+		var btn1 = document.getElementById("btn1");
+		var btn2 = document.getElementById("btn2");
+		var btn3 = document.getElementById("btn3");
+		var btn4 = document.getElementById("btn4");
+		var button1 = document.getElementById("button1");
+		var button2 = document.getElementById("button2");
+		button1.onclick = function() {
+			button1.style.background = "orange"
+			button2.style.background = "white"
+		}
+		button2.onclick = function() {
+			button2.style.background = "orange"
+			button1.style.background = "white"
+			window.location="page7endhtml.html"
+		}
+		btn1.onclick = function() {
+			btn1.style.background = "orange"
+			btn2.style.background = "white"
+		}
+		btn2.onclick = function() {
+			btn2.style.background = "orange"
+			btn1.style.background = "white"
+		}
+		btn3.onclick = function() {
+			btn3.style.background = "orange"
+			btn4.style.background = "white"
+		}
+		btn4.onclick = function() {
+			btn4.style.background = "orange"
+			btn3.style.background = "white"
+		}
+//		btn5.onclick = function() {
+//			btn5.style.background = "orange"
+//			
+//		}
+
+		//事件模拟
+		var nimitate = document.getElementById("nimitate");
+		var nfile = document.getElementById("nfile");
+		var nNuM = document.getElementById("nNuM");
+		var nulImg = document.getElementById("nulImg");
+		var aLi = nulImg.getElementsByTagName("li");
+		console.log(aLi.length)
+		var nlength = 0;
+		var nflength = 0
+		nimitate.onclick = function() {
+			nfile.click();
+		}
+		nfile.onchange = function(e) {
+			nflength += nfile.files.length;
+			if (nflength > 6) {
+				alert("最多只能选择6张图片");
+				nflength -= nfile.files.length
+				nfile.value = "";
+				return
+			} else {
+				
+				if (URL) {
+					if (nfile.files.length < 6) {
+						nlength = nfile.files.length
+							//                			console.log(nfile.files.length)
+					} else {
+						nlength = aLi.length
+					}
+					for (var i = 0; i < nlength; i++) {
+						//                			console.log(i+","+nflength)
+						var img = new Image();
+						var src = URL.createObjectURL(nfile.files[i]);
+						img.src = src;
+						img.onload = function() {
+							URL.revokeObjectURL(src);
+						}
+						for (var k = 0; k < aLi.length; k++) {
+							if (aLi[k].children.length == 0) {
+								
+								var oP=document.createElement("p");
+								oP.setAttribute("class", "right")
+//								console.log(oP);
+								aLi[k].appendChild(oP);
+								aLi[k].appendChild(img);
+//								aLi[k].getElementsByTagName("p")[0].style.backgroundImage = "url(img/img1.png)"
+								break;
+							}
+						}
+					}
+				}
+			}
+		var nulImg = document.getElementById("nulImg");
+		var aP=nulImg.getElementsByTagName("p");
+		var aImg = nulImg.getElementsByTagName("img");
+		console.log(aImg)
+		console.log(aP.length);	
+		for(var i=0;i<aP.length;i++){
+			aP[i].onclick=function(){
+//                  aLi[i-1].innerHTML="";
+                    this.parentNode.innerHTML="";
+//				   console.log(aLi[i-1])
+                    nflength--;
+                    if(nflength<0){
+                    	  nflength=0;
+                    }
+//				   console.log(nflength);
+				   i--;
+				  
+				
+			}
+			
+		}
+		function move(){
+			nNuM.innerHTML = "共上传" + nflength + "张图片";	
+			window.requestAnimationFrame(move)
+		}
+		 move()
+		}
+		var txt = document.getElementsByTagName("textarea")[0];
+		var nissues=document.getElementById("nissues");
+
+		
+		//点击事件
+//		var json={阿贾克斯返回值}
+		button1.onclick=function(){
+
+			if(txt.value==""|| nfile.files.length==0){
+				alert("请输入分享文字和最少一张图片")
+				return
+			}else{
+
+//               创造蒙层
+var div = document.createElement("div");
+ function creatD(){
+ 	                 
+                 div.style.height=document.body.clientHeight+"px";
+ div.style.width=document.body.clientWidth+"px";
+// console.log(document.body.clientHeight)
+ div.style.background="black";
+ div.style.opacity=0.7;
+ div.style.position="absolute";
+  div.style.top=0;
+   div.style.left=0;
+ document.body.appendChild(div);
+ }
+
+//后台判断返回的数据,是否已经发不过,如果发不过了,就弹发不过了的弹框
+//			if(json code )的值进行判断该弹哪个框
+              
+                //1未发布过得,弹发布框 
+
+                if(json.code==0){
+                	console.log(0000000)
+                	creatD()
+				nIssue.style.display="block";
+				 nIssue.style.opacity=1;
+				 //确认发布的点击事件
+				 //关闭窗口
+              
+               var nclose=nIssue.getElementsByClassName("nclose")[0];
+               nclose.onclick=function(){
+//             	 console.log("5555555")
+               	 nIssue.style.display="none"
+               	 div.style.display="none"
+               }
+				//取消点击事件
+				btn1.onclick=function(){
+//					console.log(666)
+               	 nIssue.style.display="none"
+               	 div.style.display="none"
+               	 txt.value="";
+               	 for(var i=0;i<aLi.length;i++){
+               	 	aLi[i].innerHTML="";
+               	 	nflength=0;
+               	 }
+               	}
+               	 //确认点击事件
+               	 btn2.onclick=function(){
+               	 	//发布成功
+               	 	//跳转到php文件链接数据库,将数据传到后台
+               	 	alert("发布成功");
+               	 	//阿贾克斯请求发布
+                    window.location="page7endhtml.html"
+               	 }
+ }
+				 else if(json.code==1){
+				 //2弹发布过的弹框
+				 nissues.style.display="block";
+				 creatD()
+				 nissues.style.opacity=1;
+				 var nclose1=nissues.getElementsByClassName("nclose")[0];
+               nclose1.onclick=function(){
+//             	 console.log("5555555")
+               	 nissues.style.display="none"
+               	 div.style.display="none"
+               }	
+//				//知道了点击事件
+				btn5.onclick=function(){
+//					console.log(666)
+                 div.style.display="none"
+               	 nissues.style.display="none"
+               	 
+               	 txt.value="";
+               	 for(var i=0;i<aLi.length;i++){
+               	 	aLi[i].innerHTML="";
+               	 	nflength=0;
+               	 }    
+              }	 
+			}	 
+			}
+		}
+		
+		var  json={code:"1"}
+	</script>
+
+</html>
